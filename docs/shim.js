@@ -20,7 +20,7 @@
     start: () => {
       render();
       ids.forEach((id) => {
-        fetch('data/' + id + '.json', {cache: 'no-store'})
+        fetch((document.documentElement.dataset.base || '') + 'data/' + id + '.json', {cache: 'no-store'})
           .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
           .then((j) => { store[id] = {status: 'ok', data: j.rows || []}; })
           .catch(() => { store[id] = {status: 'error', data: []}; })

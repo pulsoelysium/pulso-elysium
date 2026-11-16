@@ -1,93 +1,94 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pulso Elysium: salud de la red y flujo de capital</title>
-<meta name="description" content="Analítica independiente de Elysium, la L2 de Kinetiq sobre Hyperliquid: ingresos del secuenciador, capital ocioso, retiros y estado del rollup.">
+<title>Pulso Elysium: network health and capital flow on Elysium</title>
+<meta name="description" content="Independent analytics for Elysium, Kinetiq's Layer 2 on Hyperliquid: sequencer revenue, idle capital, withdrawals and rollup status.">
 <link rel="stylesheet" href="estilo.css">
+<link rel="alternate" hreflang="es" href="es/">
 </head>
 <body>
 <div id="dash-root">
 <div class="pe">
   <header id="resumen">
-    <h1 class="pe-title">Pulso Elysium</h1>
-    <p class="pe-lead" data-read lang="es">El <b data-draw="val" data-source="resumen" data-field="ultimo_dia_cerrado" data-row="0" data-fmt="day">—</b>, último día cerrado, el secuenciador ingresó <b data-draw="val" data-source="resumen" data-field="ingresos_ultimo_dia_usd" data-row="0" data-fmt="usd">—</b>: un cambio de <b data-draw="val" data-source="resumen" data-field="cambio_ingresos_pct" data-row="0" data-fmt="spct">—</b> frente al día anterior y de <b data-draw="val" data-source="resumen" data-field="caida_desde_pico_pct" data-row="0" data-fmt="spct">—</b> frente al máximo del <b data-draw="val" data-source="resumen" data-field="dia_pico" data-row="0" data-fmt="day">—</b>. De los <b data-draw="val" data-source="resumen" data-field="capital_puenteado_usd" data-row="0" data-fmt="usdM">—</b> que entraron por el bridge, el <b data-draw="val" data-source="resumen" data-field="pct_en_protocolos" data-row="0" data-fmt="pct">—</b> está depositado en protocolos.</p>
-    <p class="pe-muted">Datos leídos de la red el <span data-draw="val" data-source="resumen" data-field="actualizado_utc" data-row="0" data-fmt="text">—</span> UTC. Se actualiza sola cada hora.</p>
+    <div class="pe-top"><h1 class="pe-title">Pulso Elysium</h1><a class="pe-lang" href="es/" lang="es">Español</a></div>
+    <p class="pe-lead" data-read lang="en">On <b data-draw="val" data-source="resumen" data-field="ultimo_dia_cerrado" data-row="0" data-fmt="day">—</b>, the last closed day, the sequencer earned <b data-draw="val" data-source="resumen" data-field="ingresos_ultimo_dia_usd" data-row="0" data-fmt="usd">—</b>: a change of <b data-draw="val" data-source="resumen" data-field="cambio_ingresos_pct" data-row="0" data-fmt="spct">—</b> from the day before and of <b data-draw="val" data-source="resumen" data-field="caida_desde_pico_pct" data-row="0" data-fmt="spct">—</b> from the peak on <b data-draw="val" data-source="resumen" data-field="dia_pico" data-row="0" data-fmt="day">—</b>. Of the <b data-draw="val" data-source="resumen" data-field="capital_puenteado_usd" data-row="0" data-fmt="usdM">—</b> that came in through the bridge, <b data-draw="val" data-source="resumen" data-field="pct_en_protocolos" data-row="0" data-fmt="pct">—</b> is deposited in protocols.</p>
+    <p class="pe-muted">Data read from the chain on <span data-draw="val" data-source="resumen" data-field="actualizado_utc" data-row="0" data-fmt="text">—</span> UTC. Updates automatically every hour.</p>
   </header>
 
   <div class="pe-tiles">
     <div class="pe-card" id="tile-ingresos">
-      <p class="pe-label">Ingresos del secuenciador · último día cerrado</p>
+      <p class="pe-label">Sequencer revenue · last closed day</p>
       <p class="pe-big" data-draw="val" data-source="resumen" data-field="ingresos_ultimo_dia_usd" data-row="0" data-fmt="usd">—</p>
-      <p class="pe-muted"><span data-draw="val" data-source="resumen" data-field="cambio_ingresos_pct" data-row="0" data-fmt="spct" data-good="up">—</span> frente al día anterior</p>
+      <p class="pe-muted"><span data-draw="val" data-source="resumen" data-field="cambio_ingresos_pct" data-row="0" data-fmt="spct" data-good="up">—</span> from the day before</p>
     </div>
     <div class="pe-card" id="tile-capital">
-      <p class="pe-label">Capital que entró por el bridge · HYPE y USDC</p>
+      <p class="pe-label">Capital bridged in · HYPE and USDC</p>
       <p class="pe-big" data-draw="val" data-source="resumen" data-field="capital_puenteado_usd" data-row="0" data-fmt="usdM">—</p>
-      <p class="pe-muted"><span data-draw="val" data-source="resumen" data-field="hype_en_bridge" data-row="0" data-fmt="hype">—</span> y <span data-draw="val" data-source="resumen" data-field="usdc_en_red" data-row="0" data-fmt="usdM">—</span> en USDC</p>
+      <p class="pe-muted"><span data-draw="val" data-source="resumen" data-field="hype_en_bridge" data-row="0" data-fmt="hype">—</span> and <span data-draw="val" data-source="resumen" data-field="usdc_en_red" data-row="0" data-fmt="usdM">—</span> in USDC</p>
     </div>
     <div class="pe-card" id="tile-uso">
-      <p class="pe-label">Parte del capital puesta en protocolos · hoy</p>
+      <p class="pe-label">Share of capital deployed in protocols · today</p>
       <p class="pe-big" data-draw="val" data-source="resumen" data-field="pct_en_protocolos" data-row="0" data-fmt="pct">—</p>
-      <p class="pe-muted">TVL de <span data-draw="val" data-source="resumen" data-field="tvl_usd" data-row="0" data-fmt="usdM">—</span> según DefiLlama</p>
+      <p class="pe-muted">TVL of <span data-draw="val" data-source="resumen" data-field="tvl_usd" data-row="0" data-fmt="usdM">—</span> per DefiLlama</p>
     </div>
     <div class="pe-card" id="tile-retiros">
-      <p class="pe-label">HYPE retirado hacia HyperEVM · desde el 9/11</p>
+      <p class="pe-label">HYPE withdrawn to HyperEVM · since Nov 9</p>
       <p class="pe-big" data-draw="val" data-source="resumen" data-field="retiros_hype_desde_mainnet" data-row="0" data-fmt="num">—</p>
-      <p class="pe-muted">en <span data-draw="val" data-source="resumen" data-field="retiros_cantidad_desde_mainnet" data-row="0" data-fmt="num">—</span> retiros</p>
+      <p class="pe-muted">in <span data-draw="val" data-source="resumen" data-field="retiros_cantidad_desde_mainnet" data-row="0" data-fmt="num">—</span> withdrawals</p>
     </div>
   </div>
 
   <section class="pe-sec" id="ingresos">
-    <h2 class="pe-h2">Cuánto cobra la red por día</h2>
-    <p class="pe-muted">Ingresos del secuenciador: lo que pagan los usuarios en gas y se acumula en la cuenta de comisiones de la red. Se mide como la variación diaria del saldo de esa cuenta, valuada al precio de HYPE de cada día.</p>
+    <h2 class="pe-h2">What the network earns per day</h2>
+    <p class="pe-muted">Sequencer revenue: the gas users pay, which accumulates in the network fee account. Measured as the daily change in that account's balance, valued at each day's HYPE price.</p>
     <div class="pe-chart" data-draw="chart-ingresos" data-source="diario"></div>
-    <div class="pe-legend"><span><i class="pe-sw" data-c="0"></i>Día cerrado (UTC)</span><span><i class="pe-sw pe-sw-muted"></i>Día en curso</span></div>
+    <div class="pe-legend"><span><i class="pe-sw" data-c="0"></i>Closed day (UTC)</span><span><i class="pe-sw pe-sw-muted"></i>Day in progress</span></div>
   </section>
 
   <section class="pe-sec" id="capital">
-    <h2 class="pe-h2">Cuánto capital trabaja y cuánto espera</h2>
-    <p class="pe-muted">De cada 100 dólares que entraron por el bridge, la parte coloreada está depositada en protocolos. El resto, <span data-draw="val" data-source="resumen" data-field="capital_ocioso_usd" data-row="0" data-fmt="usdM">—</span>, está en billeteras o en contratos que DefiLlama no cuenta como TVL.</p>
-    <div class="pe-split" data-draw="split" data-source="resumen" role="img" aria-label="Parte del capital puenteado que está en protocolos"></div>
+    <h2 class="pe-h2">How much capital is working and how much is waiting</h2>
+    <p class="pe-muted">Of every 100 dollars bridged in, the colored part is deposited in protocols. The rest, <span data-draw="val" data-source="resumen" data-field="capital_ocioso_usd" data-row="0" data-fmt="usdM">—</span>, sits in wallets or in contracts DefiLlama does not count as TVL.</p>
+    <div class="pe-split" data-draw="split" data-source="resumen" role="img" aria-label="Share of bridged capital that is in protocols"></div>
     <div class="pe-chart" data-draw="chart-capital" data-source="diario"></div>
-    <div class="pe-legend"><span><i class="pe-sw" data-c="0"></i>USDC en la red</span><span><i class="pe-sw" data-c="1"></i>TVL en protocolos (DefiLlama)</span></div>
-    <p class="pe-muted">Del HYPE en el bridge, el <span data-draw="val" data-source="resumen" data-field="pct_hype_envuelto" data-row="0" data-fmt="pct">—</span> está envuelto como WHYPE (<span data-draw="val" data-source="resumen" data-field="whype_en_red" data-row="0" data-fmt="hype">—</span>), el formato que usan la mayoría de los protocolos.</p>
+    <div class="pe-legend"><span><i class="pe-sw" data-c="0"></i>USDC on the network</span><span><i class="pe-sw" data-c="1"></i>TVL in protocols (DefiLlama)</span></div>
+    <p class="pe-muted">Of the HYPE in the bridge, <span data-draw="val" data-source="resumen" data-field="pct_hype_envuelto" data-row="0" data-fmt="pct">—</span> is wrapped as WHYPE (<span data-draw="val" data-source="resumen" data-field="whype_en_red" data-row="0" data-fmt="hype">—</span>), the form most protocols use.</p>
   </section>
 
   <section class="pe-sec" id="retiros">
-    <h2 class="pe-h2">Cuánto HYPE sale por día</h2>
-    <p class="pe-muted">HYPE nativo cuyo retiro hacia HyperEVM se inició cada día. No incluye retiros de otros tokens. El último día cerrado salieron <span data-draw="val" data-source="resumen" data-field="retiros_ultimo_dia_hype" data-row="0" data-fmt="hype">—</span>.</p>
+    <h2 class="pe-h2">How much HYPE leaves per day</h2>
+    <p class="pe-muted">Native HYPE whose withdrawal to HyperEVM was initiated each day. Withdrawals of other tokens are not included. On the last closed day, <span data-draw="val" data-source="resumen" data-field="retiros_ultimo_dia_hype" data-row="0" data-fmt="hype">—</span> left.</p>
     <div class="pe-chart" data-draw="chart-retiros" data-source="diario"></div>
   </section>
 
   <section class="pe-sec" id="recompras">
-    <h2 class="pe-h2">Recompras de KNTQ contra desbloqueos</h2>
-    <p class="pe-lead" data-read lang="es">Al ritmo de los últimos tres días cerrados (<b data-draw="val" data-source="resumen" data-field="ritmo_diario_usd" data-row="0" data-fmt="usd">—</b> por día), la mitad destinada a recompras sumaría <b data-draw="val" data-source="resumen" data-field="recompra_mensual_estimada_usd" data-row="0" data-fmt="usd">—</b> al mes. El desbloqueo mensual de <b data-draw="val" data-source="resumen" data-field="desbloqueo_mensual_kntq" data-row="0" data-fmt="num">—</b> KNTQ vale <b data-draw="val" data-source="resumen" data-field="desbloqueo_mensual_usd" data-row="0" data-fmt="usd">—</b> al precio actual: las recompras cubrirían el <b data-draw="val" data-source="resumen" data-field="cobertura_recompra_pct" data-row="0" data-fmt="pct">—</b>.</p>
-    <p class="pe-muted">Es una estimación. El calendario de desbloqueos (primer tramo el 27/11) viene de fuentes de terceros sin verificar en la cadena, y todavía no ubicamos la dirección desde la que Kinetiq ejecuta las recompras.</p>
-    <h2 class="pe-h2">Reparto anunciado de lo acumulado</h2>
-    <p class="pe-muted">La cuenta de comisiones acumula <span data-draw="val" data-source="resumen" data-field="ingresos_acum_hype" data-row="0" data-fmt="hype">—</span> (<span data-draw="val" data-source="resumen" data-field="ingresos_acum_usd" data-row="0" data-fmt="usd">—</span> al precio de cada día) y no registra ninguna salida. Así se repartirían según los porcentajes que anunció Kinetiq.</p>
+    <h2 class="pe-h2">KNTQ buybacks versus unlocks</h2>
+    <p class="pe-lead" data-read lang="en">At the pace of the last three closed days (<b data-draw="val" data-source="resumen" data-field="ritmo_diario_usd" data-row="0" data-fmt="usd">—</b> per day), the half earmarked for buybacks would add up to <b data-draw="val" data-source="resumen" data-field="recompra_mensual_estimada_usd" data-row="0" data-fmt="usd">—</b> a month. The monthly unlock of <b data-draw="val" data-source="resumen" data-field="desbloqueo_mensual_kntq" data-row="0" data-fmt="num">—</b> KNTQ is worth <b data-draw="val" data-source="resumen" data-field="desbloqueo_mensual_usd" data-row="0" data-fmt="usd">—</b> at the current price: buybacks would cover <b data-draw="val" data-source="resumen" data-field="cobertura_recompra_pct" data-row="0" data-fmt="pct">—</b> of it.</p>
+    <p class="pe-muted">This is an estimate. The unlock schedule (first tranche on Nov 27) comes from third-party sources not verified on-chain, and we have not yet located the address Kinetiq uses to execute buybacks.</p>
+    <h2 class="pe-h2">Announced split of accumulated revenue</h2>
+    <p class="pe-muted">The fee account holds <span data-draw="val" data-source="resumen" data-field="ingresos_acum_hype" data-row="0" data-fmt="hype">—</span> (<span data-draw="val" data-source="resumen" data-field="ingresos_acum_usd" data-row="0" data-fmt="usd">—</span> at each day's price) and shows no outflows so far. This is how it would be split under the percentages Kinetiq announced.</p>
     <div class="pe-wrap"><table class="pe-table" data-source="reparto" data-row-key="destino">
-      <thead><tr><th data-field="destino">Destino</th><th data-field="porcentaje" class="pe-num">Parte</th><th data-field="hype" class="pe-num">HYPE</th><th data-field="usd" class="pe-num">Dólares</th></tr></thead>
+      <thead><tr><th data-field="destino">Destination</th><th data-field="porcentaje" class="pe-num">Share</th><th data-field="hype" class="pe-num">HYPE</th><th data-field="usd" class="pe-num">US dollars</th></tr></thead>
       <tbody data-draw="reparto-body"></tbody>
     </table></div>
   </section>
 
   <section class="pe-sec" id="rollup">
-    <h2 class="pe-h2">Quién controla el rollup hoy</h2>
-    <p class="pe-muted">Valores leídos directamente de los contratos de Elysium en HyperEVM.</p>
+    <h2 class="pe-h2">Who controls the rollup today</h2>
+    <p class="pe-muted">Values read directly from Elysium's contracts on HyperEVM.</p>
     <div class="pe-wrap"><table class="pe-table" data-source="rollup" data-row-key="aspecto">
-      <thead><tr><th data-field="aspecto">Aspecto</th><th data-field="valor">Valor</th><th data-field="estado">Evaluación</th><th data-field="lectura">Función consultada</th></tr></thead>
+      <thead><tr><th data-field="aspecto">Item</th><th data-field="valor">Value</th><th data-field="estado">Assessment</th><th data-field="lectura">Function called</th></tr></thead>
       <tbody data-draw="rollup-body"></tbody>
     </table></div>
   </section>
 
   <details class="pe-notes">
-    <summary>Cómo se calcula cada número y qué queda afuera</summary>
-    <p>Capital que entró por el bridge: HYPE en custodia del contrato Bridge en HyperEVM, al precio actual, más el USDC emitido en Elysium. No incluye kHYPE, UBTC, UETH ni otros tokens puenteados, así que el total real es algo mayor y la parte en protocolos algo menor.</p>
-    <p>El saldo de HYPE en el bridge solo se puede leer al momento, porque el RPC público de HyperEVM no guarda historial. Su serie diaria empieza con la primera ejecución del indexador.</p>
-    <p>TVL y precios vienen de DefiLlama. Los días se cierran a las 00:00 UTC. Los datos anteriores al 9/11 corresponden al período de mainnet privada.</p>
-    <p>Pulso Elysium es un proyecto independiente, sin relación con Kinetiq ni Hyperliquid. No es asesoramiento financiero.</p>
+    <summary>How each number is calculated and what is left out</summary>
+    <p>Capital bridged in: HYPE held by the Bridge contract on HyperEVM, at the current price, plus USDC issued on Elysium. It excludes kHYPE, UBTC, UETH and other bridged tokens, so the real total is somewhat higher and the share in protocols somewhat lower.</p>
+    <p>The bridge's HYPE balance can only be read at the present moment, because HyperEVM's public RPC keeps no history. Its daily series starts with the indexer's first run.</p>
+    <p>TVL and prices come from DefiLlama. Days close at 00:00 UTC. Data before Nov 9 belongs to the private mainnet period.</p>
+    <p>Pulso Elysium is an independent project, not affiliated with Kinetiq or Hyperliquid. Not financial advice.</p>
   </details>
 </div>
 </div>
