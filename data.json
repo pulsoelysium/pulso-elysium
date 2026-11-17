@@ -204,11 +204,11 @@
    "whype_supply": 59533.09910137114
   },
   "2026-11-17": {
-   "block": 7606463,
+   "block": 7615654,
    "closed": false,
-   "fees_cum_hype": 1849.455540404895,
-   "usdc_supply": 5287636.86259,
-   "whype_supply": 62224.08947413808
+   "fees_cum_hype": 1851.014024393203,
+   "usdc_supply": 5287574.567653,
+   "whype_supply": 62604.47433944463
   }
  },
  "snapshots": [
@@ -1006,10 +1006,63 @@
      "vol_24h": 129586
     }
    ]
+  },
+  {
+   "ts": 1794945682,
+   "block": 7615654,
+   "fee_account": "0x6cbb552855ce5eb70af49b76a8048be8e3799a05",
+   "gas_gwei": 0.50005,
+   "block_time_s": 0.3662,
+   "bridge_hype": 363983.2545536861,
+   "rollup": {
+    "validators": 1,
+    "whitelist_enabled": true,
+    "confirm_period_blocks": 86400,
+    "paused": false,
+    "batches": 990
+   },
+   "hype_usd": 67.692061895,
+   "kntq_usd": 0.22290514555355118,
+   "tvl_usd": 7810327.135160662,
+   "dex_24h_usd": 20060788.77,
+   "dex_by_protocol": [
+    {
+     "name": "Uniswap V4",
+     "vol_24h": 8791869
+    },
+    {
+     "name": "Metric V1",
+     "vol_24h": 4606055
+    },
+    {
+     "name": "Aero Slipstream",
+     "vol_24h": 2501617
+    },
+    {
+     "name": "Ramses CL V2",
+     "vol_24h": 981687
+    },
+    {
+     "name": "Montra",
+     "vol_24h": 861787
+    },
+    {
+     "name": "nest AVR",
+     "vol_24h": 670723
+    },
+    {
+     "name": "Ascend Launchpad",
+     "vol_24h": 595852
+    },
+    {
+     "name": "Ramses DLMM",
+     "vol_24h": 136631
+    }
+   ]
   }
  ],
  "withdrawals": {
-  "last_block": 7606463,
+  "last_block": 7615654,
   "by_day": {
    "2026-10-21": {
     "count": 3,
@@ -1120,8 +1173,8 @@
     "hype": 13273.425041363656
    },
    "2026-11-17": {
-    "count": 244,
-    "hype": 5991.71907330825
+    "count": 253,
+    "hype": 6061.710630598664
    }
   }
  },
@@ -1178,7 +1231,7 @@
    "2026-11-14": 8691236,
    "2026-11-15": 6881702,
    "2026-11-16": 7131570,
-   "2026-11-17": 7533495
+   "2026-11-17": 7760013
   },
   "llama_app_fees_by_day": {
    "2026-10-24": 760,
@@ -1205,11 +1258,11 @@
    "2026-11-14": 123513.34000000001,
    "2026-11-15": 81238.16,
    "2026-11-16": 118240.3,
-   "2026-11-17": 81463.21
+   "2026-11-17": 82339.73999999999
   }
  },
  "meta": {
-  "updated_ts": 1794942076,
+  "updated_ts": 1794945682,
   "genesis_day": "2026-10-19",
   "public_mainnet_day": "2026-11-09",
   "kntq_unlock": {
