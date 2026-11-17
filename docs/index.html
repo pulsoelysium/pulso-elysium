@@ -5,97 +5,144 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pulso Elysium: network health and capital flow on Elysium</title>
 <meta name="description" content="Independent analytics for Elysium, Kinetiq's Layer 2 on Hyperliquid: sequencer revenue, idle capital, withdrawals and rollup status.">
-<link rel="stylesheet" href="estilo.css">
-<link rel="alternate" hreflang="es" href="es/">
+<meta property="og:title" content="Pulso Elysium">
+<meta property="og:description" content="Independent analytics for Elysium, Kinetiq's Layer 2 on Hyperliquid: sequencer revenue, idle capital, withdrawals and rollup status.">
+<meta property="og:url" content="https://pulsoelysium.github.io/pulso-elysium/">
+<meta name="theme-color" content="#0c1624">
+<link rel="alternate" hreflang="es" href="https://pulsoelysium.github.io/pulso-elysium/es/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2064%2064%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22lg%22%20x1%3D%220%22%20x2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%236ea8e6%22/%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%236ea8e6%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f0a35c%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2229%22%20fill%3D%22%2313233a%22%20stroke%3D%22%232a4466%22%20stroke-width%3D%222%22/%3E%3Cpolyline%20points%3D%2211%2C33%2022%2C33%2026%2C26%2030%2C42%2035%2C19%2040%2C37%2043%2C33%2050%2C33%22%20fill%3D%22none%22%20stroke%3D%22url%28%23lg%29%22%20stroke-width%3D%223.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3Ccircle%20cx%3D%2253%22%20cy%3D%2233%22%20r%3D%222.6%22%20fill%3D%22%23f0a35c%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Instrument+Serif&display=swap">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="dash-root">
-<div class="pe">
-  <header id="resumen">
-    <div class="pe-top"><h1 class="pe-title">Pulso Elysium</h1><a class="pe-lang" href="es/" lang="es">Español</a></div>
-    <p class="pe-lead" data-read lang="en">On <b data-draw="val" data-source="resumen" data-field="ultimo_dia_cerrado" data-row="0" data-fmt="day">—</b>, the last closed day, the sequencer earned <b data-draw="val" data-source="resumen" data-field="ingresos_ultimo_dia_usd" data-row="0" data-fmt="usd">—</b>: a change of <b data-draw="val" data-source="resumen" data-field="cambio_ingresos_pct" data-row="0" data-fmt="spct">—</b> from the day before and of <b data-draw="val" data-source="resumen" data-field="caida_desde_pico_pct" data-row="0" data-fmt="spct">—</b> from the peak on <b data-draw="val" data-source="resumen" data-field="dia_pico" data-row="0" data-fmt="day">—</b>. Of the <b data-draw="val" data-source="resumen" data-field="capital_puenteado_usd" data-row="0" data-fmt="usdM">—</b> that came in through the bridge, <b data-draw="val" data-source="resumen" data-field="pct_en_protocolos" data-row="0" data-fmt="pct">—</b> is deposited in protocols.</p>
-    <p class="pe-muted">Data read from the chain on <span data-draw="val" data-source="resumen" data-field="actualizado_utc" data-row="0" data-fmt="text">—</span> UTC. Updates automatically every hour.</p>
-  </header>
+<div class="lang-hint" hidden lang="es"><div class="wrap"><span>Esta página también está en español. <a href="es/">Ver en español</a></span><button type="button" aria-label="Close">✕</button></div></div>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="" aria-label="Pulso Elysium"><svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#6ea8e6"/><stop offset=".55" stop-color="#6ea8e6"/><stop offset="1" stop-color="#f0a35c"/></linearGradient></defs><circle cx="32" cy="32" r="29" fill="#13233a" stroke="#2a4466" stroke-width="2"/><polyline points="11,33 22,33 26,26 30,42 35,19 40,37 43,33 50,33" fill="none" stroke="url(#lg)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="53" cy="33" r="2.6" fill="#f0a35c"/></svg><b translate="no">Pulso Elysium</b></a>
+    <div class="top-right">
+      <span class="fresh"><i aria-hidden="true"></i><span>Loading data</span></span>
+      <a class="lang" href="es/" hreflang="es" lang="es">Español</a>
+    </div>
+  </div>
+</header>
 
-  <div class="pe-tiles">
-    <div class="pe-card" id="tile-ingresos">
-      <p class="pe-label">Sequencer revenue · last closed day</p>
-      <p class="pe-big" data-draw="val" data-source="resumen" data-field="ingresos_ultimo_dia_usd" data-row="0" data-fmt="usd">—</p>
-      <p class="pe-muted"><span data-draw="val" data-source="resumen" data-field="cambio_ingresos_pct" data-row="0" data-fmt="spct" data-good="up">—</span> from the day before</p>
+<main class="wrap">
+  <div class="hero">
+    <h1 id="hero-title">Reading the chain…</h1>
+    <p class="sub" id="hero-sub"></p>
+    <div class="trace" id="trace"></div>
+    <p class="caption">Daily sequencer revenue in US dollars, closed UTC days. Days before Nov 9 belong to the private mainnet.</p>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi">
+      <h3>Sequencer revenue, last closed day</h3>
+      <p class="v" data-k="ingresos_ultimo_dia_usd" data-f="usd">—</p>
+      <p><span id="kpi-change">—</span> from the day before</p>
     </div>
-    <div class="pe-card" id="tile-capital">
-      <p class="pe-label">Capital bridged in · HYPE and USDC</p>
-      <p class="pe-big" data-draw="val" data-source="resumen" data-field="capital_puenteado_usd" data-row="0" data-fmt="usdM">—</p>
-      <p class="pe-muted"><span data-draw="val" data-source="resumen" data-field="hype_en_bridge" data-row="0" data-fmt="hype">—</span> and <span data-draw="val" data-source="resumen" data-field="usdc_en_red" data-row="0" data-fmt="usdM">—</span> in USDC</p>
+    <div class="kpi">
+      <h3>Capital bridged in</h3>
+      <p class="v" data-k="capital_puenteado_usd" data-f="usdC">—</p>
+      <p><span data-k="hype_en_bridge" data-f="hype">—</span> and <span data-k="usdc_en_red" data-f="usdC">—</span> in USDC</p>
     </div>
-    <div class="pe-card" id="tile-uso">
-      <p class="pe-label">Share of capital deployed in protocols · today</p>
-      <p class="pe-big" data-draw="val" data-source="resumen" data-field="pct_en_protocolos" data-row="0" data-fmt="pct">—</p>
-      <p class="pe-muted">TVL of <span data-draw="val" data-source="resumen" data-field="tvl_usd" data-row="0" data-fmt="usdM">—</span> per DefiLlama</p>
+    <div class="kpi">
+      <h3>Share deposited in protocols</h3>
+      <p class="v" data-k="pct_en_protocolos" data-f="pct">—</p>
+      <p>TVL of <span data-k="tvl_usd" data-f="usdC">—</span> per DefiLlama</p>
     </div>
-    <div class="pe-card" id="tile-retiros">
-      <p class="pe-label">HYPE withdrawn to HyperEVM · since Nov 9</p>
-      <p class="pe-big" data-draw="val" data-source="resumen" data-field="retiros_hype_desde_mainnet" data-row="0" data-fmt="num">—</p>
-      <p class="pe-muted">in <span data-draw="val" data-source="resumen" data-field="retiros_cantidad_desde_mainnet" data-row="0" data-fmt="num">—</span> withdrawals</p>
+    <div class="kpi">
+      <h3>HYPE withdrawn since Nov 9</h3>
+      <p class="v" data-k="retiros_hype_desde_mainnet" data-f="num">—</p>
+      <p>in <span data-k="retiros_cantidad_desde_mainnet" data-f="num">—</span> withdrawals</p>
     </div>
   </div>
 
-  <section class="pe-sec" id="ingresos">
-    <h2 class="pe-h2">What the network earns per day</h2>
-    <p class="pe-muted">Sequencer revenue: the gas users pay, which accumulates in the network fee account. Measured as the daily change in that account's balance, valued at each day's HYPE price.</p>
-    <div class="pe-chart" data-draw="chart-ingresos" data-source="diario"></div>
-    <div class="pe-legend"><span><i class="pe-sw" data-c="0"></i>Closed day (UTC)</span><span><i class="pe-sw pe-sw-muted"></i>Day in progress</span></div>
+  <section id="capital">
+    <h2>Where the bridged capital is</h2>
+    <p class="lead">Capital has arrived on Elysium, but most of it is not yet deposited in any protocol DefiLlama tracks.</p>
+    <div class="split">
+      <div class="split-bar" role="img" aria-label="Share of bridged capital deposited in protocols"><div id="split-fill"></div></div>
+      <div class="split-keys">
+        <span><i style="background:var(--s1)"></i>In protocols: <strong data-k="tvl_usd" data-f="usdC">—</strong></span>
+        <span><i style="background:#24364f"></i>In wallets or untracked contracts: <strong data-k="capital_ocioso_usd" data-f="usdC">—</strong></span>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <h3>USDC on Elysium and TVL</h3>
+        <p class="d">Daily, in US dollars.</p>
+        <div class="chart" id="ch-capital"></div>
+        <div class="legend"><span><i style="background:var(--s1)"></i>USDC on Elysium</span><span><i style="background:var(--s2)"></i>TVL in protocols (DefiLlama)</span></div>
+      </div>
+      <div class="panel">
+        <h3>HYPE held by the bridge</h3>
+        <p class="d">Hourly, read from the Bridge contract on HyperEVM.</p>
+        <div class="chart" id="ch-bridge"></div>
+      </div>
+    </div>
   </section>
 
-  <section class="pe-sec" id="capital">
-    <h2 class="pe-h2">How much capital is working and how much is waiting</h2>
-    <p class="pe-muted">Of every 100 dollars bridged in, the colored part is deposited in protocols. The rest, <span data-draw="val" data-source="resumen" data-field="capital_ocioso_usd" data-row="0" data-fmt="usdM">—</span>, sits in wallets or in contracts DefiLlama does not count as TVL.</p>
-    <div class="pe-split" data-draw="split" data-source="resumen" role="img" aria-label="Share of bridged capital that is in protocols"></div>
-    <div class="pe-chart" data-draw="chart-capital" data-source="diario"></div>
-    <div class="pe-legend"><span><i class="pe-sw" data-c="0"></i>USDC on the network</span><span><i class="pe-sw" data-c="1"></i>TVL in protocols (DefiLlama)</span></div>
-    <p class="pe-muted">Of the HYPE in the bridge, <span data-draw="val" data-source="resumen" data-field="pct_hype_envuelto" data-row="0" data-fmt="pct">—</span> is wrapped as WHYPE (<span data-draw="val" data-source="resumen" data-field="whype_en_red" data-row="0" data-fmt="hype">—</span>), the form most protocols use.</p>
+  <section id="withdrawals">
+    <h2>HYPE leaving for HyperEVM</h2>
+    <p class="lead">Native HYPE whose withdrawal to HyperEVM was started each day. On the last closed day, <strong data-k="retiros_ultimo_dia_hype" data-f="hype">—</strong> left.</p>
+    <div class="panel" style="margin-top:24px">
+      <div class="chart short" id="ch-withdrawals"></div>
+      <p class="caption">Withdrawals of other tokens are not included. Grey bar: day in progress.</p>
+    </div>
   </section>
 
-  <section class="pe-sec" id="retiros">
-    <h2 class="pe-h2">How much HYPE leaves per day</h2>
-    <p class="pe-muted">Native HYPE whose withdrawal to HyperEVM was initiated each day. Withdrawals of other tokens are not included. On the last closed day, <span data-draw="val" data-source="resumen" data-field="retiros_ultimo_dia_hype" data-row="0" data-fmt="hype">—</span> left.</p>
-    <div class="pe-chart" data-draw="chart-retiros" data-source="diario"></div>
+  <section id="buybacks">
+    <h2>Buybacks versus unlocks</h2>
+    <p class="lead">Half of sequencer revenue is earmarked to buy back KNTQ. At the pace of the last three closed days, that covers <strong data-k="cobertura_recompra_pct" data-f="pct">—</strong> of the monthly unlock.</p>
+    <div class="versus">
+      <div class="vs-row">
+        <h3>Estimated monthly buybacks</h3>
+        <div class="vs-track"><div class="vs-bar" id="vs-buy" style="background:var(--s1)"></div><span class="vs-val" data-k="recompra_mensual_estimada_usd" data-f="usdC">—</span></div>
+      </div>
+      <div class="vs-row">
+        <h3>Monthly unlock of <span data-k="desbloqueo_mensual_kntq" data-f="numC">—</span> KNTQ</h3>
+        <div class="vs-track"><div class="vs-bar" id="vs-unlock" style="background:var(--s2)"></div><span class="vs-val" data-k="desbloqueo_mensual_usd" data-f="usdC">—</span></div>
+      </div>
+    </div>
+    <p class="note">Estimate. The unlock schedule (first tranche Nov 27) comes from third-party sources not verified on-chain, and the address Kinetiq uses for buybacks has not been located yet.</p>
+    <div class="panel" style="margin-top:28px">
+      <h3>Announced split of the revenue collected so far</h3>
+      <p class="d">The network fee account holds <span data-k="ingresos_acum_hype" data-f="hype">—</span> (<span data-k="ingresos_acum_usd" data-f="usd">—</span>) and shows no outflows yet.</p>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Destination</th><th class="r">Share</th><th class="r">HYPE</th><th class="r">US dollars</th></tr></thead>
+        <tbody id="tbl-reparto"></tbody>
+      </table></div>
+    </div>
   </section>
 
-  <section class="pe-sec" id="recompras">
-    <h2 class="pe-h2">KNTQ buybacks versus unlocks</h2>
-    <p class="pe-lead" data-read lang="en">At the pace of the last three closed days (<b data-draw="val" data-source="resumen" data-field="ritmo_diario_usd" data-row="0" data-fmt="usd">—</b> per day), the half earmarked for buybacks would add up to <b data-draw="val" data-source="resumen" data-field="recompra_mensual_estimada_usd" data-row="0" data-fmt="usd">—</b> a month. The monthly unlock of <b data-draw="val" data-source="resumen" data-field="desbloqueo_mensual_kntq" data-row="0" data-fmt="num">—</b> KNTQ is worth <b data-draw="val" data-source="resumen" data-field="desbloqueo_mensual_usd" data-row="0" data-fmt="usd">—</b> at the current price: buybacks would cover <b data-draw="val" data-source="resumen" data-field="cobertura_recompra_pct" data-row="0" data-fmt="pct">—</b> of it.</p>
-    <p class="pe-muted">This is an estimate. The unlock schedule (first tranche on Nov 27) comes from third-party sources not verified on-chain, and we have not yet located the address Kinetiq uses to execute buybacks.</p>
-    <h2 class="pe-h2">Announced split of accumulated revenue</h2>
-    <p class="pe-muted">The fee account holds <span data-draw="val" data-source="resumen" data-field="ingresos_acum_hype" data-row="0" data-fmt="hype">—</span> (<span data-draw="val" data-source="resumen" data-field="ingresos_acum_usd" data-row="0" data-fmt="usd">—</span> at each day's price) and shows no outflows so far. This is how it would be split under the percentages Kinetiq announced.</p>
-    <div class="pe-wrap"><table class="pe-table" data-source="reparto" data-row-key="destino">
-      <thead><tr><th data-field="destino">Destination</th><th data-field="porcentaje" class="pe-num">Share</th><th data-field="hype" class="pe-num">HYPE</th><th data-field="usd" class="pe-num">US dollars</th></tr></thead>
-      <tbody data-draw="reparto-body"></tbody>
+  <section id="rollup">
+    <h2>Who controls the rollup</h2>
+    <p class="lead">Values read directly from Elysium's contracts on HyperEVM. A single permissioned validator is normal for a young chain and worth watching as it decentralizes.</p>
+    <div class="tbl-wrap" style="margin-top:20px"><table>
+      <thead><tr><th>Item</th><th>Value</th><th>Assessment</th><th>Function read</th></tr></thead>
+      <tbody id="tbl-rollup"></tbody>
     </table></div>
   </section>
+</main>
 
-  <section class="pe-sec" id="rollup">
-    <h2 class="pe-h2">Who controls the rollup today</h2>
-    <p class="pe-muted">Values read directly from Elysium's contracts on HyperEVM.</p>
-    <div class="pe-wrap"><table class="pe-table" data-source="rollup" data-row-key="aspecto">
-      <thead><tr><th data-field="aspecto">Item</th><th data-field="valor">Value</th><th data-field="estado">Assessment</th><th data-field="lectura">Function called</th></tr></thead>
-      <tbody data-draw="rollup-body"></tbody>
-    </table></div>
-  </section>
+<footer>
+  <div class="wrap">
+    <details>
+      <summary>How each number is calculated</summary>
+      <p>Sequencer revenue is the daily change in the balance of the network fee account, valued at each day's HYPE price. Days close at 00:00 UTC.</p>
+      <p>Capital bridged in is the HYPE held by the Bridge contract on HyperEVM, at the current price, plus the USDC issued on Elysium. It excludes kHYPE, UBTC, UETH and other bridged tokens, so the real total is somewhat higher and the share in protocols somewhat lower.</p>
+      <p>TVL and prices come from DefiLlama. Chain data comes from the public Elysium and HyperEVM RPCs. The code is open on GitHub.</p>
+    </details>
+    <div class="foot-row">
+      <span>Independent project, not affiliated with Kinetiq or Hyperliquid. Not financial advice.</span>
+      <nav><a href="https://x.com/pulsoelysium" rel="noopener">X @pulsoelysium</a><a href="https://github.com/pulsoelysium/pulso-elysium" rel="noopener">Code</a></nav>
+    </div>
+  </div>
+</footer>
 
-  <details class="pe-notes">
-    <summary>How each number is calculated and what is left out</summary>
-    <p>Capital bridged in: HYPE held by the Bridge contract on HyperEVM, at the current price, plus USDC issued on Elysium. It excludes kHYPE, UBTC, UETH and other bridged tokens, so the real total is somewhat higher and the share in protocols somewhat lower.</p>
-    <p>The bridge's HYPE balance can only be read at the present moment, because HyperEVM's public RPC keeps no history. Its daily series starts with the indexer's first run.</p>
-    <p>TVL and prices come from DefiLlama. Days close at 00:00 UTC. Data before Nov 9 belongs to the private mainnet period.</p>
-    <p>Pulso Elysium is an independent project, not affiliated with Kinetiq or Hyperliquid. Not financial advice.</p>
-  </details>
-  <p class="pe-muted pe-foot">Follow on X: <a href="https://x.com/pulsoelysium" rel="noopener">@pulsoelysium</a></p>
-</div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-<script src="shim.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 <script src="app.js"></script>
-<script>dash.start();</script>
 </body>
 </html>

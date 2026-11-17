@@ -91,4 +91,9 @@ rol = [
  {"aspecto": "Lotes publicados en HyperEVM", "valor": str(r.get("batches")), "estado": "info", "lectura": "SequencerInbox.batchCount()"},
 ]
 json.dump({"rows": rol, "meta": src}, open(os.path.join(out, "rollup.json"), "w"), ensure_ascii=False)
+
+# ---- serie horaria del HYPE en el bridge (fotos del indexador)
+hor = [{"ts": sn["ts"], "hora_utc": datetime.fromtimestamp(sn["ts"], timezone.utc).strftime("%Y-%m-%d %H:%M"),
+        "hype_en_bridge": round(sn["bridge_hype"], 1)} for sn in s["snapshots"] if sn.get("bridge_hype") is not None]
+json.dump({"rows": hor, "meta": src}, open(os.path.join(out, "horario.json"), "w"), ensure_ascii=False)
 print(len(daily), "dias;", resumen["actualizado_utc"])

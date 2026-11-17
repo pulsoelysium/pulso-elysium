@@ -33,9 +33,11 @@ con la dirección de un proveedor como Alchemy o Chainstack.
 ## Archivos
 
 - indexer.py: lee el RPC de Elysium, el RPC de HyperEVM y la API de DefiLlama.
-- build_datasets.py: arma las tablas en docs/data/.
+- build_datasets.py: arma las tablas en docs/data/ (diario, resumen, reparto, rollup y la serie horaria del bridge).
+- build_pages.py: genera docs/index.html (inglés) y docs/es/index.html (español) desde una sola plantilla.
+  Los textos de las dos versiones están en el diccionario S; después de cambiarlos, ejecutarlo de nuevo.
 - data.json: base con las series diarias y las fotos horarias.
-- docs/: sitio público (index.html, estilo.css, app.js, shim.js, data/).
+- docs/: sitio público (index.html, es/index.html, style.css, app.js, data/).
 
 ## Límites conocidos
 
