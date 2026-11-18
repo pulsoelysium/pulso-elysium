@@ -77,20 +77,52 @@ rep = [{"destino": nombres[k], "porcentaje": int(v * 100), "hype": round(resumen
         "usd": round(cum_usd * v, 0)} for k, v in meta["revenue_split"].items()]
 json.dump({"rows": rep, "meta": src}, open(os.path.join(out, "reparto.json"), "w"), ensure_ascii=False)
 
-# ---- estado del rollup leido de los contratos en HyperEVM
+# ---- riesgos de la red: supuestos de confianza leidos de los contratos en HyperEVM
 r = snap.get("rollup", {})
-rol = [
- {"aspecto": "Validadores", "valor": str(r.get("validators")), "estado": "riesgo" if r.get("validators", 0) <= 1 else "ok",
-  "lectura": "Rollup.getValidators()"},
- {"aspecto": "Validación abierta a cualquiera", "valor": "No" if r.get("whitelist_enabled") else "Sí",
-  "estado": "riesgo" if r.get("whitelist_enabled") else "ok", "lectura": "Rollup.validatorWhitelistDisabled()"},
- {"aspecto": "Período de desafío de retiros (bloques de HyperEVM)", "valor": str(r.get("confirm_period_blocks")),
-  "estado": "info", "lectura": "Rollup.confirmPeriodBlocks()"},
- {"aspecto": "Rollup en pausa", "valor": "Sí" if r.get("paused") else "No", "estado": "riesgo" if r.get("paused") else "ok",
-  "lectura": "Rollup.paused()"},
- {"aspecto": "Lotes publicados en HyperEVM", "valor": str(r.get("batches")), "estado": "info", "lectura": "SequencerInbox.batchCount()"},
+blk = r.get("confirm_period_blocks") or 0
+horas = round(blk / 3600, 1)  # HyperEVM produce ~1 bloque por segundo
+val = r.get("validators")
+thr = r.get("upgrade_threshold"); own = r.get("upgrade_owners")
+multi = f"{thr} de {own} firmas" if r.get("upgrade_multisig") and thr and own else ("multisig" if r.get("upgrade_multisig") else "sin confirmar")
+riesgos = [
+ {"id": "secuenciador", "aspecto": "Ordenamiento (secuenciador)", "valor": "1 secuenciador",
+  "nivel": "medio", "lectura": "Kinetiq / Conduit",
+  "detalle": "Una sola entidad ordena todas las transacciones. Si se cae, la red se frena; podría demorar o censurar transacciones, y no hay protección contra MEV (Timeboost todavía no está activo)."},
+ {"id": "validacion", "aspecto": "Validación del estado", "valor": (str(val) + " validador" + ("" if val == 1 else "es")) if val is not None else "sin dato",
+  "nivel": "alto" if (val or 0) <= 1 or r.get("whitelist_enabled") else "ok", "lectura": "Rollup.getValidators() · validatorWhitelistDisabled()",
+  "detalle": "Los validadores son los que pueden impugnar un estado falso de la red. Hoy hay un único validador y la lista está cerrada: la seguridad de los retiros depende de que ese operador sea honesto y no lo comprometan."},
+ {"id": "datos", "aspecto": "Disponibilidad de datos", "valor": "Comité (AnyTrust)",
+  "nivel": "medio", "lectura": "Documentación de Kinetiq",
+  "detalle": "Un comité guarda los datos de las transacciones fuera de HyperEVM. Si el comité no firma, la red vuelve a publicar los datos completos en HyperEVM. Hay que confiar en ese comité."},
+ {"id": "actualizaciones", "aspecto": "Actualización de los contratos", "valor": multi,
+  "nivel": "medio", "lectura": "UpgradeExecutor · Safe " + "0xc030…61d0",
+  "detalle": "El rollup, el bridge y el secuenciador se pueden actualizar. El permiso lo tiene un multisig que exige " + multi + "; no hay un plazo de espera en la cadena, así que un cambio se aplica apenas se junten las firmas."},
+ {"id": "retiros", "aspecto": "Plazo de desafío de retiros", "valor": (f"~{horas:g} h" if blk else "sin dato"),
+  "nivel": "info", "lectura": "Rollup.confirmPeriodBlocks()",
+  "detalle": f"Un retiro de HYPE hacia HyperEVM iniciado ahora puede completarse recién dentro de unas {horas:g} horas ({blk:,} bloques). Es el tiempo durante el cual un validador puede impugnarlo.".replace(",", ".")},
+ {"id": "pausa", "aspecto": "Estado operativo", "valor": "En pausa" if r.get("paused") else "Operativo",
+  "nivel": "alto" if r.get("paused") else "ok", "lectura": "Rollup.paused()",
+  "detalle": "Indica si el rollup está detenido en este momento. Operativo es lo normal."},
 ]
-json.dump({"rows": rol, "meta": src}, open(os.path.join(out, "rollup.json"), "w"), ensure_ascii=False)
+multi_en = f"{thr} of {own} signatures" if r.get("upgrade_multisig") and thr and own else ("multisig" if r.get("upgrade_multisig") else "unconfirmed")
+EN_RISK = {
+ "secuenciador": ("Transaction ordering (sequencer)", "1 sequencer",
+   "A single party orders every transaction. If it goes down the chain stops; it could delay or censor transactions, and there is no MEV protection yet (Timeboost is not live)."),
+ "validacion": ("State validation", (f"{val} validator" + ("" if val == 1 else "s")) if val is not None else "no data",
+   "Validators are the ones who can challenge a false chain state. Today there is a single validator and the list is closed: the safety of withdrawals depends on that operator being honest and not compromised."),
+ "datos": ("Data availability", "Committee (AnyTrust)",
+   "A committee stores transaction data off HyperEVM. If it does not sign, the chain falls back to posting full data on HyperEVM. You have to trust that committee."),
+ "actualizaciones": ("Contract upgrades", multi_en,
+   "The rollup, bridge and sequencer contracts can be upgraded. The permission is held by a multisig that requires " + multi_en + "; there is no on-chain delay, so a change takes effect as soon as the signatures are collected."),
+ "retiros": ("Withdrawal challenge period", (f"~{horas:g} h" if blk else "no data"),
+   (f"A HYPE withdrawal to HyperEVM started now can only complete in about {horas:g} hours (" + f"{blk:,}".replace(",", ".") + " blocks). That is the window in which a validator can challenge it.")),
+ "pausa": ("Operating status", "Paused" if r.get("paused") else "Operational",
+   "Whether the rollup is halted right now. Operational is normal."),
+}
+for _x in riesgos:
+    _x["aspecto_en"], _x["valor_en"], _x["detalle_en"] = EN_RISK[_x["id"]]
+    _x["lectura_en"] = "Kinetiq docs" if _x["id"] == "datos" else _x["lectura"]
+json.dump({"rows": riesgos, "meta": src}, open(os.path.join(out, "riesgos.json"), "w"), ensure_ascii=False)
 
 # ---- serie horaria del HYPE en el bridge (fotos del indexador)
 hor = [{"ts": sn["ts"], "hora_utc": datetime.fromtimestamp(sn["ts"], timezone.utc).strftime("%Y-%m-%d %H:%M"),

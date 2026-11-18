@@ -235,7 +235,7 @@
   }
 
   // ------------------------------------------------------------------ datos
-  const files = ['resumen', 'diario', 'reparto', 'rollup', 'horario'];
+  const files = ['resumen', 'diario', 'reparto', 'riesgos', 'horario'];
   Promise.all(files.map((f) => fetch(BASE + 'data/' + f + '.json', {cache: 'no-store'}).then((r) => {
     if (!r.ok) throw new Error(f + ' ' + r.status);
     return r.json();
@@ -308,17 +308,19 @@
       el('td', {class: 'r num', translate: 'no', text: F.num(r.hype)}),
       el('td', {class: 'r num', translate: 'no', text: F.usd(r.usd)}),
     ])));
-    $('#tbl-rollup').replaceChildren(...D.rollup.map((r) => {
-      const st = r.estado === 'riesgo' ? 'risk' : r.estado === 'ok' ? 'ok' : 'info';
-      const icon = st === 'risk' ? '!' : st === 'ok' ? '✓' : 'i';
-      const v = /^\d+$/.test(String(r.valor)) ? F.num(+r.valor) : tr(r.valor);
-      return el('tr', {}, [
-        el('td', {text: tr(r.aspecto)}),
-        el('td', {class: 'num', translate: 'no', text: v}),
-        el('td', {}, [el('span', {class: 'pill ' + st}, [el('b', {'aria-hidden': 'true', text: icon}), T[st]])]),
-        el('td', {class: 'fn', translate: 'no', text: r.lectura}),
-      ]);
-    }));
+    const LVL = ES
+      ? {ok: 'Bajo', medio: 'Medio', alto: 'Alto', info: 'Dato'}
+      : {ok: 'Low', medio: 'Medium', alto: 'High', info: 'Info'};
+    const readLbl = ES ? 'Leído de' : 'Read from';
+    $('#risks').replaceChildren(...D.riesgos.map((r) => el('div', {class: 'risk'}, [
+      el('div', {class: 'r-top'}, [
+        el('h3', {text: ES ? r.aspecto : r.aspecto_en}),
+        el('span', {class: 'r-val', translate: 'no', text: ES ? r.valor : r.valor_en}),
+      ]),
+      el('span', {class: 'lvl lvl-' + r.nivel, text: LVL[r.nivel] || r.nivel}),
+      el('p', {class: 'r-detail', text: ES ? r.detalle : r.detalle_en}),
+      el('p', {class: 'r-src', translate: 'no'}, [document.createTextNode(readLbl + ': ' + (ES ? r.lectura : (r.lectura_en || r.lectura)))]),
+    ])));
 
     // gráficos (se vuelven a dibujar cuando cambia el ancho)
     const cs = getComputedStyle(root);

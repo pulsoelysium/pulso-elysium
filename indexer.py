@@ -25,6 +25,8 @@ ARBSYS = "0x0000000000000000000000000000000000000064"         # Elysium (retiros
 ARB_OWNER_PUBLIC = "0x000000000000000000000000000000000000006b"
 BRIDGE_L1 = "0x503D572157113fAaaD4DbeD2647Bb10b949216B6"      # HyperEVM (custodia HYPE)
 ROLLUP_L1 = "0x508C173dFe5F737B3493195Bf785d71fA76fD217"      # HyperEVM
+UPGRADE_EXEC_L1 = "0xdd45a7a06cc21cfe442cf13dffeb8252b18c1441"  # UpgradeExecutor: controla las actualizaciones
+UPGRADE_SAFE_L1 = "0xc030cee9e03a6dfbda0a817c8bdb4ba44d6d61d0"  # multisig con EXECUTOR_ROLE
 SEQ_INBOX_L1 = "0x7f3Ff53aecB87261206ad3bDc27A88b6D8420fa6"   # HyperEVM
 
 SEL_TOTAL_SUPPLY = "0x18160ddd"
@@ -33,6 +35,10 @@ SEL_CONFIRM_PERIOD = "0x2e7acfa6"
 SEL_WHITELIST_DISABLED = "0x12ab3d3b"
 SEL_GET_VALIDATORS = "0xb7ab4db5"
 SEL_BATCH_COUNT = "0x06f13056"
+SEL_HAS_ROLE = "0x91d14854"
+SEL_GET_THRESHOLD = "0xe75235b8"
+SEL_GET_OWNERS = "0xa0e67e2b"
+ROLE_EXECUTOR = "d8aa0f3194971a2a116679f7c2090f6939c8d4e01a2a8d7e41d55e5351469e63"
 SEL_PAUSED = "0x5c975abb"
 TOPIC_L2_TO_L1 = "0x3e7aafa77dbf186b7fd488006beff893744caa3c4f6f299e8a709fa2087374fc"
 
@@ -199,6 +205,15 @@ def main():
         snap["rollup"]["paused"] = h2i(call(HYPEREVM_RPC, ROLLUP_L1, SEL_PAUSED)) == 1
         time.sleep(1.2)
         snap["rollup"]["batches"] = h2i(call(HYPEREVM_RPC, SEQ_INBOX_L1, SEL_BATCH_COUNT))
+        time.sleep(1.2)
+        # control de actualizaciones: ¿el multisig conserva el permiso y con qué umbral?
+        has = call(HYPEREVM_RPC, UPGRADE_EXEC_L1, SEL_HAS_ROLE + ROLE_EXECUTOR + UPGRADE_SAFE_L1[2:].rjust(64, "0"))
+        snap["rollup"]["upgrade_multisig"] = str(has).endswith("1")
+        time.sleep(1.2)
+        snap["rollup"]["upgrade_threshold"] = h2i(call(HYPEREVM_RPC, UPGRADE_SAFE_L1, SEL_GET_THRESHOLD))
+        time.sleep(1.2)
+        owners = call(HYPEREVM_RPC, UPGRADE_SAFE_L1, SEL_GET_OWNERS)
+        snap["rollup"]["upgrade_owners"] = h2i(owners[2 + 64:2 + 128]) if owners and len(owners) > 130 else 0
     except Exception as e:
         print("  aviso: HyperEVM no respondio -", e, file=sys.stderr)
 

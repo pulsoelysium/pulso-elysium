@@ -25,6 +25,10 @@ Su estado (radar_estado.json.gz) no se guarda en main: la tarea horaria lo deja 
 que se reemplaza en cada corrida para no acumular historial. Si esa rama se pierde, el radar arranca de cero
 y las cohortes diarias se reconstruyen solas a partir del día siguiente.
 
+## Riesgos de la red
+
+indexer.py lee de los contratos en HyperEVM los supuestos de confianza del rollup (validadores, validación con permiso, plazo de desafío, estado de pausa) y el multisig que controla las actualizaciones (dirección 0xc030…61d0, con rol EXECUTOR sobre el UpgradeExecutor 0xdd45…1441). build_datasets.py arma docs/data/riesgos.json con un nivel (bajo/medio/alto) y una explicación por aspecto, en español e inglés. No es una auditoría de seguridad: son lecturas públicas de la cadena.
+
 Los nombres de las plataformas (Montra, Eleos, Ascend) se identificaron en el explorador de Elysium;
 están en el diccionario LABELS de radar.py.
 

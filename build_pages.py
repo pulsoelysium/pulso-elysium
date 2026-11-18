@@ -80,10 +80,11 @@ S = {
     "rep_d_a": ("The network fee account holds ", "La cuenta de comisiones de la red acumula "),
     "rep_d_b": (" and shows no outflows yet.", " y todavía no registra ninguna salida."),
     "th_dest": ("Destination", "Destino"), "th_share": ("Share", "Parte"), "th_usd": ("US dollars", "Dólares"),
-    "ro_h": ("Who controls the rollup", "Quién controla el rollup"),
-    "ro_l": ("Values read directly from Elysium's contracts on HyperEVM. A single permissioned validator is normal for a young chain and worth watching as it decentralizes.",
-             "Valores leídos directamente de los contratos de Elysium en HyperEVM. Un único validador autorizado es normal en una red joven, y conviene seguirlo mientras se descentraliza."),
-    "th_item": ("Item", "Aspecto"), "th_val": ("Value", "Valor"), "th_st": ("Assessment", "Evaluación"), "th_fn": ("Function read", "Función leída"),
+    "ro_h": ("How much you have to trust the operator", "Cuánto hay que confiar en el operador"),
+    "ro_l": ("Elysium is a young rollup: today its security rests on a few parties behaving honestly. These are the trust assumptions, read where possible from the contracts on HyperEVM. Not a security audit.",
+             "Elysium es un rollup joven: hoy su seguridad descansa en que unas pocas partes actúen de forma honesta. Estos son los supuestos de confianza, leídos cuando es posible de los contratos en HyperEVM. No es una auditoría de seguridad."),
+    "lvl_ok": ("Low", "Bajo"), "lvl_medio": ("Medium", "Medio"), "lvl_alto": ("High", "Alto"), "lvl_info": ("Info", "Dato"),
+    "risk_read": ("Read from", "Leído de"),
     "m_sum": ("How each number is calculated", "Cómo se calcula cada número"),
     "m1": ("Sequencer revenue is the daily change in the balance of the network fee account, valued at each day's HYPE price. Days close at 00:00 UTC.",
            "Los ingresos del secuenciador son la variación diaria del saldo de la cuenta de comisiones de la red, valuada al precio de HYPE de cada día. Los días cierran a las 00:00 UTC."),
@@ -267,10 +268,7 @@ TEMPLATE = """<!DOCTYPE html>
   <section id="rollup">
     <h2>{t:ro_h}</h2>
     <p class="lead">{t:ro_l}</p>
-    <div class="tbl-wrap" style="margin-top:20px"><table>
-      <thead><tr><th>{t:th_item}</th><th>{t:th_val}</th><th>{t:th_st}</th><th>{t:th_fn}</th></tr></thead>
-      <tbody id="tbl-rollup"></tbody>
-    </table></div>
+    <div class="risks" id="risks"></div>
   </section>
 </main>
 
