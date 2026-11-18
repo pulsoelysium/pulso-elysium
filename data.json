@@ -211,11 +211,11 @@
    "whype_supply": 62055.19402517762
   },
   "2026-11-18": {
-   "block": 7923517,
+   "block": 7929602,
    "closed": false,
-   "fees_cum_hype": 1897.7352117414873,
-   "usdc_supply": 5463834.677852,
-   "whype_supply": 62262.60999178997
+   "fees_cum_hype": 1898.7591387290888,
+   "usdc_supply": 5465151.937646,
+   "whype_supply": 62674.325232538875
   }
  },
  "snapshots": [
@@ -2338,10 +2338,63 @@
      "vol_24h": 235339
     }
    ]
+  },
+  {
+   "ts": 1795022472,
+   "block": 7929602,
+   "fee_account": "0x6cbb552855ce5eb70af49b76a8048be8e3799a05",
+   "gas_gwei": 0.5001,
+   "block_time_s": 0.1968,
+   "bridge_hype": 353749.3544320252,
+   "rollup": {
+    "validators": 1,
+    "whitelist_enabled": true,
+    "confirm_period_blocks": 86400,
+    "paused": false,
+    "batches": 1012
+   },
+   "hype_usd": 66.32163352500001,
+   "kntq_usd": 0.21944383936730158,
+   "tvl_usd": 7396299.157793032,
+   "dex_24h_usd": 16692868.45,
+   "dex_by_protocol": [
+    {
+     "name": "Uniswap V4",
+     "vol_24h": 5105425
+    },
+    {
+     "name": "Metric V1",
+     "vol_24h": 3748649
+    },
+    {
+     "name": "Aero Slipstream",
+     "vol_24h": 2220841
+    },
+    {
+     "name": "Ramses CL V2",
+     "vol_24h": 818431
+    },
+    {
+     "name": "Montra",
+     "vol_24h": 814949
+    },
+    {
+     "name": "nest AVR",
+     "vol_24h": 607395
+    },
+    {
+     "name": "Ascend Launchpad",
+     "vol_24h": 585004
+    },
+    {
+     "name": "GMGN",
+     "vol_24h": 235339
+    }
+   ]
   }
  ],
  "withdrawals": {
-  "last_block": 7923517,
+  "last_block": 7929602,
   "by_day": {
    "2026-10-21": {
     "count": 3,
@@ -2456,8 +2509,8 @@
     "hype": 7635.218147264653
    },
    "2026-11-18": {
-    "count": 157,
-    "hype": 5786.058485383442
+    "count": 159,
+    "hype": 5797.063028832788
    }
   }
  },
@@ -2548,7 +2601,7 @@
   }
  },
  "meta": {
-  "updated_ts": 1795021278,
+  "updated_ts": 1795022472,
   "genesis_day": "2026-10-19",
   "public_mainnet_day": "2026-11-09",
   "kntq_unlock": {
