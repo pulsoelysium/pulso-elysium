@@ -45,6 +45,29 @@ S = {
     "wd_l2": (" left.", "."),
     "wd_cap": ("Withdrawals of other tokens are not included. Grey bar: day in progress.",
                "No incluye retiros de otros tokens. Barra gris: día en curso."),
+    "rd_h": ("What happens to new tokens", "Qué pasa con los tokens nuevos"),
+    "rd_k1": ("Launches, last 24 hours", "Lanzamientos, últimas 24 horas"),
+    "rd_k2": ("Never traded, last 24 hours", "Nunca operados, últimas 24 horas"),
+    "rd_k2s": ("Launches over an hour old with no purchase from a pool", "Lanzamientos de más de una hora sin ninguna compra en un pool"),
+    "rd_k3": ("Serial creators, last 7 days", "Creadores en serie, últimos 7 días"),
+    "rd_k3s_a": ("Wallets with 5+ launches, behind ", "Billeteras con 5 o más lanzamientos, detrás del "),
+    "rd_k3s_b": (" of all launches", " de todos los lanzamientos"),
+    "rd_c_h": ("Outcome of each day's launches", "Qué pasó con los lanzamientos de cada día"),
+    "rd_c_d": ("Share of tokens launched that day, by UTC day of launch.", "Porcentaje de los tokens lanzados ese día, por día UTC de lanzamiento."),
+    "rd_never": ("Never traded", "Nunca se operaron"),
+    "rd_died": ("Stopped within 2 hours", "Se apagaron en menos de 2 horas"),
+    "rd_lasted": ("Traded for 2 hours or more", "Operaron 2 horas o más"),
+    "rd_p_h": ("By launch platform, last 7 days", "Por plataforma de lanzamiento, últimos 7 días"),
+    "rd_p_d": ("Platforms are identified by the contract that created the pool. Contracts with fewer than 100 launches are grouped.", "Las plataformas se identifican por el contrato que creó el pool. Los contratos con menos de 100 lanzamientos van agrupados."),
+    "th_pad": ("Platform", "Plataforma"), "th_launches": ("Launches", "Lanzamientos"), "th_never": ("Never traded", "Nunca operados"),
+    "th_alive": ("Active after 24 h", "Activos a las 24 h"), "th_life": ("Median life when traded", "Vida mediana si se operó"),
+    "rd_t_h": ("Launches of the last 24 hours, most active first", "Lanzamientos de las últimas 24 horas, los más activos primero"),
+    "rd_t_d": ("Ranked by trades in the last 6 hours. Signals are on-chain indicators, not a verdict on any token.",
+               "Ordenados por operaciones en las últimas 6 horas. Las señales son indicadores de la cadena, no un veredicto sobre ningún token."),
+    "th_token": ("Token", "Token"), "th_age": ("Age", "Edad"), "th_tx": ("Transfers", "Transferencias"), "th_holders": ("Holders", "Tenedores"),
+    "th_top10": ("Top 10", "Top 10"), "th_signals": ("Signals", "Señales"),
+    "rd_note": ("A token counts as traded once a wallet buys it from a pool. It stops when its last trade happens, and it is active after 24 hours if it had at least 3 trades between hours 18 and 24 after launch. Top 10 share is measured over the tokens held by wallets, excluding the pool and the launch contract. Concentrated: 10+ holders and the top 10 hold 70% or more. Serial creator: the wallet launched 5+ tokens in 7 days. Tokens are tracked for 8 days; activity after 48 hours of silence is not followed.",
+                "Un token cuenta como operado cuando una billetera lo compra en un pool. Se apaga con su última operación, y está activo a las 24 horas si tuvo al menos 3 operaciones entre las horas 18 y 24 desde su lanzamiento. La parte del top 10 se mide sobre los tokens que tienen las billeteras, sin contar el pool ni el contrato de lanzamiento. Concentrado: 10 o más tenedores y el top 10 con el 70 % o más. Creador en serie: la billetera lanzó 5 o más tokens en 7 días. Cada token se sigue 8 días; la actividad después de 48 horas de silencio no se registra."),
     "bb_h": ("Buybacks versus unlocks", "Recompras contra desbloqueos"),
     "bb_l_a": ("Half of sequencer revenue is earmarked to buy back KNTQ. At the pace of the last three closed days, that covers ",
                "La mitad de los ingresos del secuenciador se destina a recomprar KNTQ. Al ritmo de los últimos tres días cerrados, eso cubre el "),
@@ -171,6 +194,50 @@ TEMPLATE = """<!DOCTYPE html>
       <div class="chart short" id="ch-withdrawals"></div>
       <p class="caption">{t:wd_cap}</p>
     </div>
+  </section>
+
+  <section id="radar">
+    <h2>{t:rd_h}</h2>
+    <p class="lead" id="rd-lead"></p>
+    <div class="kpis kpis-3">
+      <div class="kpi">
+        <h3>{t:rd_k1}</h3>
+        <p class="v" data-r="lanzamientos_24h" data-f="num">—</p>
+      </div>
+      <div class="kpi">
+        <h3>{t:rd_k2}</h3>
+        <p class="v" data-r="nunca_operados_24h_pct" data-f="pct">—</p>
+        <p>{t:rd_k2s}</p>
+      </div>
+      <div class="kpi">
+        <h3>{t:rd_k3}</h3>
+        <p class="v" data-r="creadores_en_serie_7d" data-f="num">—</p>
+        <p>{t:rd_k3s_a}<span data-r="pct_lanzamientos_de_creadores_en_serie_7d" data-f="pct">—</span>{t:rd_k3s_b}</p>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:28px">
+      <h3>{t:rd_c_h}</h3>
+      <p class="d">{t:rd_c_d}</p>
+      <div class="chart short" id="ch-cohorts"></div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>{t:rd_lasted}</span><span><i style="background:var(--s2)"></i>{t:rd_died}</span><span><i style="background:#34486a"></i>{t:rd_never}</span></div>
+    </div>
+    <div class="panel" style="margin-top:20px">
+      <h3>{t:rd_p_h}</h3>
+      <p class="d">{t:rd_p_d}</p>
+      <div class="tbl-wrap"><table class="tbl-pads">
+        <thead><tr><th>{t:th_pad}</th><th class="r">{t:th_launches}</th><th class="r">{t:th_never}</th><th class="r">{t:th_alive}</th><th class="r">{t:th_life}</th></tr></thead>
+        <tbody id="tbl-pads"></tbody>
+      </table></div>
+    </div>
+    <div class="panel" style="margin-top:20px">
+      <h3>{t:rd_t_h}</h3>
+      <p class="d">{t:rd_t_d}</p>
+      <div class="tbl-wrap"><table class="tbl-tokens">
+        <thead><tr><th>{t:th_token}</th><th>{t:th_pad}</th><th class="r">{t:th_age}</th><th class="r">{t:th_tx}</th><th class="r">{t:th_holders}</th><th class="r">{t:th_top10}</th><th>{t:th_signals}</th></tr></thead>
+        <tbody id="tbl-tokens"></tbody>
+      </table></div>
+    </div>
+    <p class="note">{t:rd_note}</p>
   </section>
 
   <section id="buybacks">

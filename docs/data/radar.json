@@ -1,0 +1,328 @@
+{
+ "actualizado_utc": "2026-11-18 17:12",
+ "seguimiento_desde": "2026-11-15",
+ "resumen": {
+  "lanzamientos_24h": 1116,
+  "activos_ahora": 226,
+  "nunca_operados_24h_pct": 55.2,
+  "creadores_en_serie_7d": 101,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 60.2,
+  "lanzamientos_7d": 5600,
+  "ultimo_dia": {
+   "dia": "2026-11-16",
+   "lanzamientos": 1459,
+   "nunca_operados_pct": 48.5,
+   "murieron_2h_pct": 48.3,
+   "activos_24h_pct": 0.3
+  }
+ },
+ "por_dia": [
+  {
+   "dia": "2026-11-15",
+   "lanzamientos": 1813,
+   "nunca_operados_pct": 50.5,
+   "murieron_2h_pct": 48.0,
+   "activos_24h_pct": 0.1
+  },
+  {
+   "dia": "2026-11-16",
+   "lanzamientos": 1459,
+   "nunca_operados_pct": 48.5,
+   "murieron_2h_pct": 48.3,
+   "activos_24h_pct": 0.3
+  }
+ ],
+ "por_launchpad": [
+  {
+   "contrato": "0x38d3ef3a06d18fa3286fb5deafe611be725fcd15",
+   "nombre": "Montra",
+   "lanzamientos": 1596,
+   "nunca_operados_pct": 83.6,
+   "activos_24h_pct": 0.3,
+   "vida_mediana_min": 1
+  },
+  {
+   "contrato": "0x1d1c51b9d07fd27d36412a2b66cc23d19eb3e518",
+   "nombre": "Uniswap v4 (direct)",
+   "lanzamientos": 1164,
+   "nunca_operados_pct": 0.1,
+   "activos_24h_pct": 0.0,
+   "vida_mediana_min": 4
+  },
+  {
+   "contrato": "0x9c73d179b2911e89a4edc47cfd78765990bc6761",
+   "nombre": "Eleos",
+   "lanzamientos": 168,
+   "nunca_operados_pct": 6.0,
+   "activos_24h_pct": 0.6,
+   "vida_mediana_min": 6
+  },
+  {
+   "contrato": "",
+   "nombre": "otros",
+   "lanzamientos": 344,
+   "nunca_operados_pct": 80.8,
+   "activos_24h_pct": 0.3,
+   "vida_mediana_min": 2
+  }
+ ],
+ "tokens": [
+  {
+   "token": "0xee7ae230725b39ce30b5b3784423f3f9fb06ac1c",
+   "simbolo": "CC",
+   "nombre": "Chuckee Cheese Token",
+   "launchpad": "Eleos",
+   "edad_h": 1.9,
+   "transferencias": 4921,
+   "transferencias_6h": 4854,
+   "tenedores": 4,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 19,
+   "sin_movimiento_h": 0.4,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xf156323e0e0757ae60b37ad3fa37336e3db43de9",
+   "simbolo": "Apocrycoin",
+   "nombre": "Apocrycoin",
+   "launchpad": "Eleos",
+   "edad_h": 1.4,
+   "transferencias": 4391,
+   "transferencias_6h": 4387,
+   "tenedores": 189,
+   "top10_pct": 38.2,
+   "lanzamientos_creador_7d": 19,
+   "sin_movimiento_h": 1.1,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x77d0473fab17da6e9616d4b7091ac8c007990ec6",
+   "simbolo": "JESTER",
+   "nombre": "JESTER",
+   "launchpad": "Eleos",
+   "edad_h": 2.3,
+   "transferencias": 4002,
+   "transferencias_6h": 3952,
+   "tenedores": 4,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 19,
+   "sin_movimiento_h": 2.0,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xb63523fcff956e9960cfdc6debcf26381efa1cb1",
+   "simbolo": "GLITCH",
+   "nombre": "Infinite Money Glitch",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 3215,
+   "transferencias_6h": 3204,
+   "tenedores": 173,
+   "top10_pct": 40.1,
+   "lanzamientos_creador_7d": 7,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x7586338b76a36972df29f7f12ca5ed08dd7ab6e5",
+   "simbolo": "JESTER",
+   "nombre": "JESTER",
+   "launchpad": "Eleos",
+   "edad_h": 2.7,
+   "transferencias": 3018,
+   "transferencias_6h": 2988,
+   "tenedores": 137,
+   "top10_pct": 58.0,
+   "lanzamientos_creador_7d": 19,
+   "sin_movimiento_h": 2.6,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xea77a183e3ce6d33e9ebe8938bd499e981509f05",
+   "simbolo": "DCI",
+   "nombre": "DacityCoin",
+   "launchpad": "Eleos",
+   "edad_h": 3.1,
+   "transferencias": 2604,
+   "transferencias_6h": 2597,
+   "tenedores": 116,
+   "top10_pct": 85.6,
+   "lanzamientos_creador_7d": 19,
+   "sin_movimiento_h": 3.0,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xda3fd6036f585ee8dfbc5b1c487fb381526fb77e",
+   "simbolo": "JALU",
+   "nombre": "Jason & Lucia",
+   "launchpad": "Eleos",
+   "edad_h": 0.2,
+   "transferencias": 1833,
+   "transferencias_6h": 1830,
+   "tenedores": 258,
+   "top10_pct": 85.1,
+   "lanzamientos_creador_7d": 7,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x4abec3a91d96489aa93d2c6d2b87ba9d9b0eb270",
+   "simbolo": "DCI",
+   "nombre": "DacityCoin",
+   "launchpad": "Eleos",
+   "edad_h": 3.3,
+   "transferencias": 1279,
+   "transferencias_6h": 1259,
+   "tenedores": 41,
+   "top10_pct": 96.0,
+   "lanzamientos_creador_7d": 19,
+   "sin_movimiento_h": 3.3,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xcf5774011da5f60dd5ed59a09c65cbafcee92ba0",
+   "simbolo": "GTA",
+   "nombre": "GTA",
+   "launchpad": "Eleos",
+   "edad_h": 17.9,
+   "transferencias": 942,
+   "transferencias_6h": 928,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 96,
+   "sin_movimiento_h": 16.3,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xb7abb56c99595861cb3263c785e496f9045d7a17",
+   "simbolo": "GTA",
+   "nombre": "GTA",
+   "launchpad": "Eleos",
+   "edad_h": 18.0,
+   "transferencias": 494,
+   "transferencias_6h": 484,
+   "tenedores": 5,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 96,
+   "sin_movimiento_h": 14.7,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x4e3a282ed8c2dbc30c6ad3e49edcce6e338069aa",
+   "simbolo": "GLITCH",
+   "nombre": "Infinite Money Glitch",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 366,
+   "transferencias_6h": 361,
+   "tenedores": 17,
+   "top10_pct": 99.7,
+   "lanzamientos_creador_7d": 7,
+   "sin_movimiento_h": 0.6,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0xa530974f6a9f83ebbde9f1e3ae61f7491e0a1d8d",
+   "simbolo": "HI",
+   "nombre": "Hyper Inu",
+   "launchpad": "Eleos",
+   "edad_h": 17.4,
+   "transferencias": 370,
+   "transferencias_6h": 345,
+   "tenedores": 25,
+   "top10_pct": 97.3,
+   "lanzamientos_creador_7d": 23,
+   "sin_movimiento_h": 16.1,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xec2f1026165c9e3199163da378d2d1eb7d616477",
+   "simbolo": "GLITCH",
+   "nombre": "Infinite Money Glitch",
+   "launchpad": "Eleos",
+   "edad_h": 0.8,
+   "transferencias": 260,
+   "transferencias_6h": 254,
+   "tenedores": 11,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 7,
+   "sin_movimiento_h": 0.8,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x324371108f9fbced44e0cf7198cf8350ee39534b",
+   "simbolo": "HI",
+   "nombre": "Hyper Inu",
+   "launchpad": "Eleos",
+   "edad_h": 17.4,
+   "transferencias": 257,
+   "transferencias_6h": 248,
+   "tenedores": 12,
+   "top10_pct": 99.5,
+   "lanzamientos_creador_7d": 23,
+   "sin_movimiento_h": 14.3,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xa6f3c4b2e91ff2db1215c766271af009b5d104b0",
+   "simbolo": "GTA",
+   "nombre": "GTA",
+   "launchpad": "Eleos",
+   "edad_h": 17.5,
+   "transferencias": 226,
+   "transferencias_6h": 224,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 96,
+   "sin_movimiento_h": 16.2,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  }
+ ]
+}

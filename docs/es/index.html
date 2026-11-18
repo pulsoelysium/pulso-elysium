@@ -92,6 +92,50 @@
     </div>
   </section>
 
+  <section id="radar">
+    <h2>Qué pasa con los tokens nuevos</h2>
+    <p class="lead" id="rd-lead"></p>
+    <div class="kpis kpis-3">
+      <div class="kpi">
+        <h3>Lanzamientos, últimas 24 horas</h3>
+        <p class="v" data-r="lanzamientos_24h" data-f="num">—</p>
+      </div>
+      <div class="kpi">
+        <h3>Nunca operados, últimas 24 horas</h3>
+        <p class="v" data-r="nunca_operados_24h_pct" data-f="pct">—</p>
+        <p>Lanzamientos de más de una hora sin ninguna compra en un pool</p>
+      </div>
+      <div class="kpi">
+        <h3>Creadores en serie, últimos 7 días</h3>
+        <p class="v" data-r="creadores_en_serie_7d" data-f="num">—</p>
+        <p>Billeteras con 5 o más lanzamientos, detrás del <span data-r="pct_lanzamientos_de_creadores_en_serie_7d" data-f="pct">—</span> de todos los lanzamientos</p>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:28px">
+      <h3>Qué pasó con los lanzamientos de cada día</h3>
+      <p class="d">Porcentaje de los tokens lanzados ese día, por día UTC de lanzamiento.</p>
+      <div class="chart short" id="ch-cohorts"></div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Operaron 2 horas o más</span><span><i style="background:var(--s2)"></i>Se apagaron en menos de 2 horas</span><span><i style="background:#34486a"></i>Nunca se operaron</span></div>
+    </div>
+    <div class="panel" style="margin-top:20px">
+      <h3>Por plataforma de lanzamiento, últimos 7 días</h3>
+      <p class="d">Las plataformas se identifican por el contrato que creó el pool. Los contratos con menos de 100 lanzamientos van agrupados.</p>
+      <div class="tbl-wrap"><table class="tbl-pads">
+        <thead><tr><th>Plataforma</th><th class="r">Lanzamientos</th><th class="r">Nunca operados</th><th class="r">Activos a las 24 h</th><th class="r">Vida mediana si se operó</th></tr></thead>
+        <tbody id="tbl-pads"></tbody>
+      </table></div>
+    </div>
+    <div class="panel" style="margin-top:20px">
+      <h3>Lanzamientos de las últimas 24 horas, los más activos primero</h3>
+      <p class="d">Ordenados por operaciones en las últimas 6 horas. Las señales son indicadores de la cadena, no un veredicto sobre ningún token.</p>
+      <div class="tbl-wrap"><table class="tbl-tokens">
+        <thead><tr><th>Token</th><th>Plataforma</th><th class="r">Edad</th><th class="r">Transferencias</th><th class="r">Tenedores</th><th class="r">Top 10</th><th>Señales</th></tr></thead>
+        <tbody id="tbl-tokens"></tbody>
+      </table></div>
+    </div>
+    <p class="note">Un token cuenta como operado cuando una billetera lo compra en un pool. Se apaga con su última operación, y está activo a las 24 horas si tuvo al menos 3 operaciones entre las horas 18 y 24 desde su lanzamiento. La parte del top 10 se mide sobre los tokens que tienen las billeteras, sin contar el pool ni el contrato de lanzamiento. Concentrado: 10 o más tenedores y el top 10 con el 70 % o más. Creador en serie: la billetera lanzó 5 o más tokens en 7 días. Cada token se sigue 8 días; la actividad después de 48 horas de silencio no se registra.</p>
+  </section>
+
   <section id="buybacks">
     <h2>Recompras contra desbloqueos</h2>
     <p class="lead">La mitad de los ingresos del secuenciador se destina a recomprar KNTQ. Al ritmo de los últimos tres días cerrados, eso cubre el <strong data-k="cobertura_recompra_pct" data-f="pct">—</strong> del desbloqueo mensual.</p>

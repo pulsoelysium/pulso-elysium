@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+radar_estado.json.gz
+radar_estado.json.gz.tmp

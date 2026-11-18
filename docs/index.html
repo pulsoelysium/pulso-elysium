@@ -93,6 +93,50 @@
     </div>
   </section>
 
+  <section id="radar">
+    <h2>What happens to new tokens</h2>
+    <p class="lead" id="rd-lead"></p>
+    <div class="kpis kpis-3">
+      <div class="kpi">
+        <h3>Launches, last 24 hours</h3>
+        <p class="v" data-r="lanzamientos_24h" data-f="num">—</p>
+      </div>
+      <div class="kpi">
+        <h3>Never traded, last 24 hours</h3>
+        <p class="v" data-r="nunca_operados_24h_pct" data-f="pct">—</p>
+        <p>Launches over an hour old with no purchase from a pool</p>
+      </div>
+      <div class="kpi">
+        <h3>Serial creators, last 7 days</h3>
+        <p class="v" data-r="creadores_en_serie_7d" data-f="num">—</p>
+        <p>Wallets with 5+ launches, behind <span data-r="pct_lanzamientos_de_creadores_en_serie_7d" data-f="pct">—</span> of all launches</p>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:28px">
+      <h3>Outcome of each day's launches</h3>
+      <p class="d">Share of tokens launched that day, by UTC day of launch.</p>
+      <div class="chart short" id="ch-cohorts"></div>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Traded for 2 hours or more</span><span><i style="background:var(--s2)"></i>Stopped within 2 hours</span><span><i style="background:#34486a"></i>Never traded</span></div>
+    </div>
+    <div class="panel" style="margin-top:20px">
+      <h3>By launch platform, last 7 days</h3>
+      <p class="d">Platforms are identified by the contract that created the pool. Contracts with fewer than 100 launches are grouped.</p>
+      <div class="tbl-wrap"><table class="tbl-pads">
+        <thead><tr><th>Platform</th><th class="r">Launches</th><th class="r">Never traded</th><th class="r">Active after 24 h</th><th class="r">Median life when traded</th></tr></thead>
+        <tbody id="tbl-pads"></tbody>
+      </table></div>
+    </div>
+    <div class="panel" style="margin-top:20px">
+      <h3>Launches of the last 24 hours, most active first</h3>
+      <p class="d">Ranked by trades in the last 6 hours. Signals are on-chain indicators, not a verdict on any token.</p>
+      <div class="tbl-wrap"><table class="tbl-tokens">
+        <thead><tr><th>Token</th><th>Platform</th><th class="r">Age</th><th class="r">Transfers</th><th class="r">Holders</th><th class="r">Top 10</th><th>Signals</th></tr></thead>
+        <tbody id="tbl-tokens"></tbody>
+      </table></div>
+    </div>
+    <p class="note">A token counts as traded once a wallet buys it from a pool. It stops when its last trade happens, and it is active after 24 hours if it had at least 3 trades between hours 18 and 24 after launch. Top 10 share is measured over the tokens held by wallets, excluding the pool and the launch contract. Concentrated: 10+ holders and the top 10 hold 70% or more. Serial creator: the wallet launched 5+ tokens in 7 days. Tokens are tracked for 8 days; activity after 48 hours of silence is not followed.</p>
+  </section>
+
   <section id="buybacks">
     <h2>Buybacks versus unlocks</h2>
     <p class="lead">Half of sequencer revenue is earmarked to buy back KNTQ. At the pace of the last three closed days, that covers <strong data-k="cobertura_recompra_pct" data-f="pct">—</strong> of the monthly unlock.</p>

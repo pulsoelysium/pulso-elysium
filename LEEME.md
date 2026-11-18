@@ -14,6 +14,20 @@ Cada ejecución agrega una foto nueva (saldo del bridge, gas, estado del rollup)
 Conviene ejecutarlo al menos una vez por día: el saldo de HYPE en el bridge solo se puede leer al momento,
 así que su historial depende de estas fotos.
 
+## Radar de lanzamientos
+
+    python3 radar.py                       # actualiza docs/data/radar.json
+    python3 radar.py --desde 2026-11-15    # solo la primera vez, sin estado previo: carga historial desde esa fecha
+
+Sigue cada token nuevo de los pools de Uniswap v4 durante 8 días y calcula, por día de lanzamiento,
+cuántos nunca se operaron, cuántos se apagaron en menos de 2 horas y cuántos seguían activos a las 24 horas.
+Su estado (radar_estado.json.gz) no se guarda en main: la tarea horaria lo deja en la rama radar-estado,
+que se reemplaza en cada corrida para no acumular historial. Si esa rama se pierde, el radar arranca de cero
+y las cohortes diarias se reconstruyen solas a partir del día siguiente.
+
+Los nombres de las plataformas (Montra, Eleos, Ascend) se identificaron en el explorador de Elysium;
+están en el diccionario LABELS de radar.py.
+
 ## Alojamiento (GitHub, gratis)
 
 El repositorio se actualiza y se publica solo:

@@ -15,7 +15,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,6 +27,14 @@ jobs:
           ELYSIUM_RPC: ${{ secrets.ELYSIUM_RPC || 'https://rpc.elysium.kinetiq.xyz' }}
       - name: Generar tablas
         run: python3 build_datasets.py
+      - name: Recuperar el estado del radar
+        run: |
+          git fetch --depth=1 origin radar-estado && git show FETCH_HEAD:radar_estado.json.gz > radar_estado.json.gz || echo "Sin estado previo del radar"
+      - name: Radar de lanzamientos
+        continue-on-error: true
+        run: python3 radar.py
+        env:
+          ELYSIUM_RPC: ${{ secrets.ELYSIUM_RPC || 'https://rpc.elysium.kinetiq.xyz' }}
       - name: Guardar cambios
         run: |
           git config user.name "pulso-elysium-bot"
@@ -34,3 +42,11 @@ jobs:
           git add data.json docs/data
           git diff --cached --quiet || git commit -m "Datos $(date -u +'%Y-%m-%d %H:%M') UTC"
           git push
+      - name: Guardar el estado del radar (rama aparte, sin historial)
+        run: |
+          if [ -s radar_estado.json.gz ]; then
+            blob=$(git hash-object -w radar_estado.json.gz)
+            tree=$(printf "100644 blob %s\tradar_estado.json.gz\n" "$blob" | git mktree)
+            commit=$(git commit-tree "$tree" -m "Estado del radar $(date -u +'%Y-%m-%d %H:%M') UTC")
+            git push -f origin "$commit:refs/heads/radar-estado"
+          fi
