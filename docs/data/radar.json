@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-18 20:01",
+ "actualizado_utc": "2026-11-18 21:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1140,
-  "activos_ahora": 226,
-  "nunca_operados_24h_pct": 57.8,
+  "lanzamientos_24h": 1156,
+  "activos_ahora": 2,
+  "nunca_operados_24h_pct": 58.4,
   "creadores_en_serie_7d": 104,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 60.9,
-  "lanzamientos_7d": 5731,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 61.1,
+  "lanzamientos_7d": 5777,
   "ultimo_dia": {
    "dia": "2026-11-16",
    "lanzamientos": 1459,
@@ -55,7 +55,7 @@
    "lanzamientos": 168,
    "nunca_operados_pct": 6.0,
    "activos_24h_pct": 0.6,
-   "vida_mediana_min": 6
+   "vida_mediana_min": 7
   },
   {
    "contrato": "",
@@ -68,85 +68,81 @@
  ],
  "tokens": [
   {
-   "token": "0xea77a183e3ce6d33e9ebe8938bd499e981509f05",
-   "simbolo": "DCI",
-   "nombre": "DacityCoin",
-   "launchpad": "Eleos",
-   "edad_h": 6.0,
-   "transferencias": 2604,
-   "transferencias_6h": 2597,
-   "tenedores": 116,
-   "top10_pct": 85.6,
-   "lanzamientos_creador_7d": 19,
-   "sin_movimiento_h": 5.8,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x371aa8bc00951b3c5157e8874c70260851f7def4",
+   "token": "0x8e58b9c321687311666e1e5d956bb0dfc950f4ae",
    "simbolo": "FULL",
    "nombre": "FULL",
    "launchpad": "Eleos",
-   "edad_h": 0.7,
-   "transferencias": 1654,
-   "transferencias_6h": 1467,
+   "edad_h": 1.0,
+   "transferencias": 1778,
+   "transferencias_6h": 1627,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.4,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xa837c2db184f3c77a16ab988afbe35aabd4ace9e",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 510,
+   "transferencias_6h": 466,
    "tenedores": 2,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 10,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.3,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x19df78768fa71e3042b981ba64807aca45d63948",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 283,
+   "transferencias_6h": 257,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 21,
    "sin_movimiento_h": 0.2,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x4abec3a91d96489aa93d2c6d2b87ba9d9b0eb270",
-   "simbolo": "DCI",
-   "nombre": "DacityCoin",
+   "token": "0xa78c98fdee5ea1e0657c1545b0d66f47824c53f6",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
    "launchpad": "Eleos",
-   "edad_h": 6.2,
-   "transferencias": 1279,
-   "transferencias_6h": 1259,
-   "tenedores": 41,
-   "top10_pct": 96.0,
-   "lanzamientos_creador_7d": 19,
-   "sin_movimiento_h": 6.1,
+   "edad_h": 0.2,
+   "transferencias": 210,
+   "transferencias_6h": 204,
+   "tenedores": 16,
+   "top10_pct": 74.3,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.1,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   },
   {
-   "token": "0xcf5774011da5f60dd5ed59a09c65cbafcee92ba0",
-   "simbolo": "GTA",
-   "nombre": "GTA",
-   "launchpad": "Eleos",
-   "edad_h": 20.7,
-   "transferencias": 942,
-   "transferencias_6h": 928,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 96,
-   "sin_movimiento_h": 21.0,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x62f2d20debe486b118e710f6b790f0aa7658fde4",
-   "simbolo": "FULL",
-   "nombre": "FULL",
+   "token": "0x7371a457f85cbb1dd4f5b1a535052fa7336cc4e6",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
    "launchpad": "Eleos",
    "edad_h": 0.1,
-   "transferencias": 583,
-   "transferencias_6h": 566,
-   "tenedores": 130,
-   "top10_pct": 90.1,
-   "lanzamientos_creador_7d": 10,
+   "transferencias": 181,
+   "transferencias_6h": 177,
+   "tenedores": 79,
+   "top10_pct": 88.8,
+   "lanzamientos_creador_7d": 21,
    "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator",
@@ -154,20 +150,145 @@
    ]
   },
   {
-   "token": "0xb7abb56c99595861cb3263c785e496f9045d7a17",
-   "simbolo": "GTA",
-   "nombre": "GTA",
+   "token": "0x806c35844eaede3f26600cf576b68f719d9a67fb",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
    "launchpad": "Eleos",
-   "edad_h": 20.8,
-   "transferencias": 494,
-   "transferencias_6h": 484,
-   "tenedores": 5,
+   "edad_h": 0.2,
+   "transferencias": 165,
+   "transferencias_6h": 140,
+   "tenedores": 3,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 96,
-   "sin_movimiento_h": 19.1,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.1,
    "senales": [
-    "serial_creator",
-    "inactive"
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xc8e484293b48b877848868c46a5973aac42a9be7",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 131,
+   "transferencias_6h": 121,
+   "tenedores": 9,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x1670e5e4526a425b6ac45901a70b253544ac192a",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 141,
+   "transferencias_6h": 120,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.3,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x62f2d20debe486b118e710f6b790f0aa7658fde4",
+   "simbolo": "FULL",
+   "nombre": "FULL",
+   "launchpad": "Eleos",
+   "edad_h": 1.1,
+   "transferencias": 708,
+   "transferencias_6h": 112,
+   "tenedores": 65,
+   "top10_pct": 45.7,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.7,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x66571bcf3b471cbc35f42deb37d088365fbd7a9d",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
+   "launchpad": "Eleos",
+   "edad_h": 0.1,
+   "transferencias": 78,
+   "transferencias_6h": 68,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xee28f63244562711c55cdfe656277c979eec2ca5",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 59,
+   "transferencias_6h": 50,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xd7bb10ff6a7fc6a4a7a955c58543e74febe2b1ee",
+   "simbolo": "EACCAT",
+   "nombre": "EACCAT",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 49,
+   "transferencias_6h": 43,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.4,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x32c739c0f1740c2be8946fa8f18cdd7bb12fd15c",
+   "simbolo": "TRENCH",
+   "nombre": "Trenc",
+   "launchpad": "Montra",
+   "edad_h": 0.2,
+   "transferencias": 14,
+   "transferencias_6h": 9,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.1,
+   "senales": []
+  },
+  {
+   "token": "0xfb5566cd851a1aaf49c99521c12af9213ffc6b2e",
+   "simbolo": "HYPE",
+   "nombre": "HYPE",
+   "launchpad": "Eleos",
+   "edad_h": 2.6,
+   "transferencias": 1978,
+   "transferencias_6h": 7,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.7,
+   "senales": [
+    "serial_creator"
    ]
   },
   {
@@ -175,153 +296,15 @@
    "simbolo": "FULL",
    "nombre": "FULL",
    "launchpad": "Eleos",
-   "edad_h": 0.8,
-   "transferencias": 525,
-   "transferencias_6h": 434,
-   "tenedores": 4,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 10,
-   "sin_movimiento_h": 0.5,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x039765172006f8be1a385af4e089b196015f9064",
-   "simbolo": "FULL",
-   "nombre": "FULL",
-   "launchpad": "Eleos",
-   "edad_h": 0.9,
-   "transferencias": 392,
-   "transferencias_6h": 379,
-   "tenedores": 37,
-   "top10_pct": 85.2,
-   "lanzamientos_creador_7d": 10,
-   "sin_movimiento_h": 0.6,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0xa530974f6a9f83ebbde9f1e3ae61f7491e0a1d8d",
-   "simbolo": "HI",
-   "nombre": "Hyper Inu",
-   "launchpad": "Eleos",
-   "edad_h": 20.2,
-   "transferencias": 370,
-   "transferencias_6h": 345,
-   "tenedores": 25,
-   "top10_pct": 97.3,
-   "lanzamientos_creador_7d": 23,
-   "sin_movimiento_h": 20.7,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x324371108f9fbced44e0cf7198cf8350ee39534b",
-   "simbolo": "HI",
-   "nombre": "Hyper Inu",
-   "launchpad": "Eleos",
-   "edad_h": 20.2,
-   "transferencias": 257,
-   "transferencias_6h": 248,
-   "tenedores": 12,
-   "top10_pct": 99.5,
-   "lanzamientos_creador_7d": 23,
-   "sin_movimiento_h": 18.7,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xa6f3c4b2e91ff2db1215c766271af009b5d104b0",
-   "simbolo": "GTA",
-   "nombre": "GTA",
-   "launchpad": "Eleos",
-   "edad_h": 20.3,
-   "transferencias": 226,
-   "transferencias_6h": 224,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 96,
-   "sin_movimiento_h": 20.8,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xd37cf8b25b117e4630c0eb40a5b1e3b2ab4d100f",
-   "simbolo": "ELYB",
-   "nombre": "Elybean",
-   "launchpad": "0x36cb…5b49",
-   "edad_h": 8.3,
-   "transferencias": 931,
-   "transferencias_6h": 181,
-   "tenedores": 10,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 6.7,
-   "senales": [
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x7586338b76a36972df29f7f12ca5ed08dd7ab6e5",
-   "simbolo": "JESTER",
-   "nombre": "JESTER",
-   "launchpad": "Eleos",
-   "edad_h": 5.5,
-   "transferencias": 3018,
-   "transferencias_6h": 179,
-   "tenedores": 137,
-   "top10_pct": 58.0,
-   "lanzamientos_creador_7d": 19,
-   "sin_movimiento_h": 5.4,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xeb7c3382f015f016af2b3a36f4082281585a7a60",
-   "simbolo": "GTA",
-   "nombre": "GTA",
-   "launchpad": "Eleos",
-   "edad_h": 20.5,
-   "transferencias": 186,
-   "transferencias_6h": 179,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 96,
-   "sin_movimiento_h": 20.9,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xc15c9f9e7e14babe0f82f29f001fa2c1a44ea37c",
-   "simbolo": "JESTER",
-   "nombre": "JESTER",
-   "launchpad": "Eleos",
-   "edad_h": 5.6,
-   "transferencias": 177,
-   "transferencias_6h": 173,
+   "edad_h": 1.8,
+   "transferencias": 530,
+   "transferencias_6h": 5,
    "tenedores": 3,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 19,
-   "sin_movimiento_h": 5.8,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.1,
    "senales": [
-    "serial_creator",
-    "inactive"
+    "serial_creator"
    ]
   }
  ]
