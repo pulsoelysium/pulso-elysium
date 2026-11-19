@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-19 05:01",
+ "actualizado_utc": "2026-11-19 06:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1249,
-  "activos_ahora": 8,
-  "nunca_operados_24h_pct": 61.0,
+  "lanzamientos_24h": 1255,
+  "activos_ahora": 5,
+  "nunca_operados_24h_pct": 60.5,
   "creadores_en_serie_7d": 109,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 64.2,
-  "lanzamientos_7d": 6316,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 64.6,
+  "lanzamientos_7d": 6385,
   "ultimo_dia": {
    "dia": "2026-11-17",
    "lanzamientos": 1267,
@@ -75,38 +75,38 @@
  ],
  "tokens": [
   {
-   "token": "0x0f133b0234c699964bc54ae71c45502458624697",
-   "simbolo": "Mandy",
-   "nombre": "Jason's ex-girl",
-   "launchpad": "Eleos",
-   "edad_h": 3.4,
-   "transferencias": 5689,
-   "transferencias_6h": 5618,
-   "tenedores": 295,
-   "top10_pct": 46.0,
-   "lanzamientos_creador_7d": 9,
-   "sin_movimiento_h": 1.3,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
    "token": "0xf9255c56e65056175129172a8a3afe2b26dbc098",
    "simbolo": "HI",
    "nombre": "Hyper Inu",
    "launchpad": "Eleos",
-   "edad_h": 4.6,
+   "edad_h": 5.6,
    "transferencias": 5590,
    "transferencias_6h": 5516,
    "tenedores": 209,
    "top10_pct": 93.1,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 4.1,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 5.1,
    "senales": [
     "serial_creator",
     "concentrated",
     "inactive"
+   ]
+  },
+  {
+   "token": "0x878a5fcc22adb5e806717ac26f98fcbacbd03043",
+   "simbolo": "GLITCH",
+   "nombre": "GLITCH",
+   "launchpad": "Eleos",
+   "edad_h": 0.7,
+   "transferencias": 4622,
+   "transferencias_6h": 4591,
+   "tenedores": 202,
+   "top10_pct": 96.3,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator",
+    "concentrated"
    ]
   },
   {
@@ -114,31 +114,13 @@
    "simbolo": "HI",
    "nombre": "Hyper Inu",
    "launchpad": "Eleos",
-   "edad_h": 3.8,
+   "edad_h": 4.8,
    "transferencias": 4830,
-   "transferencias_6h": 4815,
+   "transferencias_6h": 3699,
    "tenedores": 206,
    "top10_pct": 96.8,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 3.1,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x185178aa5d4cb6ec48cd7f5bcd7b7f534cf33a91",
-   "simbolo": "GLITCH",
-   "nombre": "GLITCH",
-   "launchpad": "Eleos",
-   "edad_h": 3.0,
-   "transferencias": 4022,
-   "transferencias_6h": 3991,
-   "tenedores": 202,
-   "top10_pct": 74.0,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 2.3,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 4.0,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -150,33 +132,16 @@
    "simbolo": "MAXIMUS",
    "nombre": "Maximus Cat",
    "launchpad": "Eleos",
-   "edad_h": 5.1,
+   "edad_h": 6.1,
    "transferencias": 3636,
    "transferencias_6h": 3623,
    "tenedores": 154,
    "top10_pct": 18.8,
    "lanzamientos_creador_7d": 10,
-   "sin_movimiento_h": 4.9,
+   "sin_movimiento_h": 6.0,
    "senales": [
     "serial_creator",
     "inactive"
-   ]
-  },
-  {
-   "token": "0xa46693033b430f24879e2e5ce2f9a6afa9883957",
-   "simbolo": "DATITTY",
-   "nombre": "DatittyCoin",
-   "launchpad": "Eleos",
-   "edad_h": 1.1,
-   "transferencias": 3569,
-   "transferencias_6h": 2883,
-   "tenedores": 203,
-   "top10_pct": 78.8,
-   "lanzamientos_creador_7d": 9,
-   "sin_movimiento_h": 0.5,
-   "senales": [
-    "serial_creator",
-    "concentrated"
    ]
   },
   {
@@ -184,33 +149,16 @@
    "simbolo": "HI",
    "nombre": "Hyper Intelligence",
    "launchpad": "Eleos",
-   "edad_h": 3.9,
+   "edad_h": 4.9,
    "transferencias": 2613,
    "transferencias_6h": 2591,
    "tenedores": 154,
    "top10_pct": 98.3,
    "lanzamientos_creador_7d": 10,
-   "sin_movimiento_h": 3.6,
+   "sin_movimiento_h": 4.6,
    "senales": [
     "serial_creator",
     "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x6ef2648de5666e29e71a8fb55506110ac5381f0b",
-   "simbolo": "QUOTED",
-   "nombre": "Quoted",
-   "launchpad": "Eleos",
-   "edad_h": 3.2,
-   "transferencias": 2328,
-   "transferencias_6h": 2315,
-   "tenedores": 135,
-   "top10_pct": 15.5,
-   "lanzamientos_creador_7d": 10,
-   "sin_movimiento_h": 2.9,
-   "senales": [
-    "serial_creator",
     "inactive"
    ]
   },
@@ -219,101 +167,15 @@
    "simbolo": "HI",
    "nombre": "Hyper Intelligence",
    "launchpad": "Eleos",
-   "edad_h": 4.4,
+   "edad_h": 5.4,
    "transferencias": 2226,
    "transferencias_6h": 2224,
    "tenedores": 101,
    "top10_pct": 19.3,
    "lanzamientos_creador_7d": 10,
-   "sin_movimiento_h": 4.3,
+   "sin_movimiento_h": 5.3,
    "senales": [
     "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x0c12e193f89b6f2f007ef26913c18a8b76472744",
-   "simbolo": "GLITCH",
-   "nombre": "GLITCH",
-   "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 1934,
-   "transferencias_6h": 1915,
-   "tenedores": 139,
-   "top10_pct": 97.9,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0xb5b5ced1fa0eb6ad54f4e492b88f96200da8f59e",
-   "simbolo": "MOOHAN",
-   "nombre": "MOOHAN",
-   "launchpad": "Eleos",
-   "edad_h": 2.3,
-   "transferencias": 3920,
-   "transferencias_6h": 1888,
-   "tenedores": 229,
-   "top10_pct": 31.9,
-   "lanzamientos_creador_7d": 9,
-   "sin_movimiento_h": 1.7,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x158822f107a1c797e9e1f0c38cdaa15a1cc835dc",
-   "simbolo": "GTASZN",
-   "nombre": "GTASZN",
-   "launchpad": "Eleos",
-   "edad_h": 3.5,
-   "transferencias": 1835,
-   "transferencias_6h": 1831,
-   "tenedores": 88,
-   "top10_pct": 31.9,
-   "lanzamientos_creador_7d": 132,
-   "sin_movimiento_h": 1.6,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x2132df36e275c6cdb37630250ea23081c3d01a86",
-   "simbolo": "GLITCH",
-   "nombre": "GLITCH",
-   "launchpad": "Eleos",
-   "edad_h": 0.7,
-   "transferencias": 1772,
-   "transferencias_6h": 1764,
-   "tenedores": 116,
-   "top10_pct": 93.5,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 0.4,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0xbbe1ebf53d95d783fb3b5e3366c16bf31d0c72d3",
-   "simbolo": "HI",
-   "nombre": "Hyper Intelligence",
-   "launchpad": "Eleos",
-   "edad_h": 3.5,
-   "transferencias": 1764,
-   "transferencias_6h": 1754,
-   "tenedores": 119,
-   "top10_pct": 76.4,
-   "lanzamientos_creador_7d": 10,
-   "sin_movimiento_h": 3.2,
-   "senales": [
-    "serial_creator",
-    "concentrated",
     "inactive"
    ]
   },
@@ -322,16 +184,155 @@
    "simbolo": "HI",
    "nombre": "Hyper Inu",
    "launchpad": "Eleos",
-   "edad_h": 4.8,
+   "edad_h": 5.8,
    "transferencias": 1750,
    "transferencias_6h": 1740,
    "tenedores": 71,
    "top10_pct": 94.7,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 4.8,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 5.8,
    "senales": [
     "serial_creator",
     "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x158822f107a1c797e9e1f0c38cdaa15a1cc835dc",
+   "simbolo": "GTASZN",
+   "nombre": "GTASZN",
+   "launchpad": "Eleos",
+   "edad_h": 4.5,
+   "transferencias": 1835,
+   "transferencias_6h": 1646,
+   "tenedores": 88,
+   "top10_pct": 31.9,
+   "lanzamientos_creador_7d": 157,
+   "sin_movimiento_h": 2.5,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x3e8c7fcb1cf2aad82df5f06d4474bf98d53afcd2",
+   "simbolo": "HI",
+   "nombre": "Hyper Inu",
+   "launchpad": "Eleos",
+   "edad_h": 6.0,
+   "transferencias": 1667,
+   "transferencias_6h": 1645,
+   "tenedores": 4,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 6.0,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xbbe1ebf53d95d783fb3b5e3366c16bf31d0c72d3",
+   "simbolo": "HI",
+   "nombre": "Hyper Intelligence",
+   "launchpad": "Eleos",
+   "edad_h": 4.5,
+   "transferencias": 1764,
+   "transferencias_6h": 1462,
+   "tenedores": 119,
+   "top10_pct": 76.4,
+   "lanzamientos_creador_7d": 10,
+   "sin_movimiento_h": 4.2,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xb2437ea314e7240bc35921a76bb9f4176e06d3ec",
+   "simbolo": "KNTQ",
+   "nombre": "KNTQ",
+   "launchpad": "Eleos",
+   "edad_h": 7.7,
+   "transferencias": 1354,
+   "transferencias_6h": 1346,
+   "tenedores": 74,
+   "top10_pct": 99.9,
+   "lanzamientos_creador_7d": 157,
+   "sin_movimiento_h": 7.3,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xa674d024fa7660f7b4856d54bb0ae719c92a0b4b",
+   "simbolo": "GLITCH",
+   "nombre": "GLITCH",
+   "launchpad": "Eleos",
+   "edad_h": 0.9,
+   "transferencias": 1252,
+   "transferencias_6h": 1242,
+   "tenedores": 81,
+   "top10_pct": 92.9,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.6,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0xa1c5b04d7bbf94a38a57a1f9fa470d850c0872d1",
+   "simbolo": "KNTQ",
+   "nombre": "KNTQ",
+   "launchpad": "Eleos",
+   "edad_h": 6.8,
+   "transferencias": 1228,
+   "transferencias_6h": 1206,
+   "tenedores": 62,
+   "top10_pct": 28.6,
+   "lanzamientos_creador_7d": 157,
+   "sin_movimiento_h": 6.5,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xe99bc73834527864580cee8db01bc7caef4504af",
+   "simbolo": "HI",
+   "nombre": "Hyper Intelligence",
+   "launchpad": "Eleos",
+   "edad_h": 5.0,
+   "transferencias": 1132,
+   "transferencias_6h": 1116,
+   "tenedores": 45,
+   "top10_pct": 99.9,
+   "lanzamientos_creador_7d": 10,
+   "sin_movimiento_h": 5.0,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x3441bdc62d8b91e6672df71d5f8df8a799c5f6ac",
+   "simbolo": "PIP",
+   "nombre": "PIP",
+   "launchpad": "Eleos",
+   "edad_h": 6.8,
+   "transferencias": 1286,
+   "transferencias_6h": 1102,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 66,
+   "sin_movimiento_h": 6.1,
+   "senales": [
+    "serial_creator",
     "inactive"
    ]
   }
