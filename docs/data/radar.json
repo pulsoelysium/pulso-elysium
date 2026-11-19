@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-19 19:01",
+ "actualizado_utc": "2026-11-19 20:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1457,
+  "lanzamientos_24h": 1458,
   "activos_ahora": 4,
-  "nunca_operados_24h_pct": 51.3,
-  "creadores_en_serie_7d": 120,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 67.3,
-  "lanzamientos_7d": 7147,
+  "nunca_operados_24h_pct": 49.8,
+  "creadores_en_serie_7d": 121,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 67.4,
+  "lanzamientos_7d": 7189,
   "ultimo_dia": {
    "dia": "2026-11-17",
    "lanzamientos": 1267,
@@ -79,32 +79,17 @@
    "simbolo": "GTASZN",
    "nombre": "GTA Season",
    "launchpad": "Eleos",
-   "edad_h": 2.4,
+   "edad_h": 3.4,
    "transferencias": 3898,
    "transferencias_6h": 3883,
    "tenedores": 220,
    "top10_pct": 89.1,
    "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.3,
+   "sin_movimiento_h": 1.1,
    "senales": [
     "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x84661ebec2b0c2036f1dfaa6c0f1793632f6a4fe",
-   "simbolo": "GTASZN",
-   "nombre": "GTA Season",
-   "launchpad": "Eleos",
-   "edad_h": 2.7,
-   "transferencias": 3059,
-   "transferencias_6h": 3027,
-   "tenedores": 157,
-   "top10_pct": 40.6,
-   "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.3,
-   "senales": [
-    "serial_creator"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -112,27 +97,61 @@
    "simbolo": "NDX",
    "nombre": "NDX42069",
    "launchpad": "0xe620…b82f",
-   "edad_h": 1.1,
-   "transferencias": 3105,
-   "transferencias_6h": 2647,
-   "tenedores": 90,
-   "top10_pct": 41.5,
+   "edad_h": 2.1,
+   "transferencias": 3718,
+   "transferencias_6h": 3132,
+   "tenedores": 108,
+   "top10_pct": 36.2,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
+  },
+  {
+   "token": "0x84661ebec2b0c2036f1dfaa6c0f1793632f6a4fe",
+   "simbolo": "GTASZN",
+   "nombre": "GTA Season",
+   "launchpad": "Eleos",
+   "edad_h": 3.7,
+   "transferencias": 3059,
+   "transferencias_6h": 3027,
+   "tenedores": 157,
+   "top10_pct": 40.6,
+   "lanzamientos_creador_7d": 27,
+   "sin_movimiento_h": 1.1,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xd3cf9920a7c93b4d29c59ea9d5c258bd94e52058",
+   "simbolo": "GME",
+   "nombre": "GameStop",
+   "launchpad": "Eleos",
+   "edad_h": 1.0,
+   "transferencias": 2668,
+   "transferencias_6h": 2626,
+   "tenedores": 142,
+   "top10_pct": 98.3,
+   "lanzamientos_creador_7d": 28,
+   "sin_movimiento_h": 0.5,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
   },
   {
    "token": "0x2f21e84c3d75520e4cc09173fba143e63eddf96c",
    "simbolo": "GME",
    "nombre": "GameStop",
    "launchpad": "Eleos",
-   "edad_h": 0.5,
-   "transferencias": 2213,
-   "transferencias_6h": 2195,
-   "tenedores": 121,
+   "edad_h": 1.5,
+   "transferencias": 2215,
+   "transferencias_6h": 2196,
+   "tenedores": 120,
    "top10_pct": 97.0,
-   "lanzamientos_creador_7d": 19,
-   "sin_movimiento_h": 0.3,
+   "lanzamientos_creador_7d": 28,
+   "sin_movimiento_h": 0.8,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -143,16 +162,17 @@
    "simbolo": "JETSKI",
    "nombre": "Jet Ski Dog",
    "launchpad": "Eleos",
-   "edad_h": 1.5,
+   "edad_h": 2.5,
    "transferencias": 1603,
    "transferencias_6h": 1591,
    "tenedores": 77,
    "top10_pct": 70.9,
    "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.3,
+   "sin_movimiento_h": 1.1,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -160,16 +180,17 @@
    "simbolo": "JETSKI",
    "nombre": "Jet Ski Dog",
    "launchpad": "Eleos",
-   "edad_h": 0.9,
+   "edad_h": 1.9,
    "transferencias": 1604,
    "transferencias_6h": 1585,
    "tenedores": 84,
    "top10_pct": 99.9,
-   "lanzamientos_creador_7d": 19,
-   "sin_movimiento_h": 0.8,
+   "lanzamientos_creador_7d": 28,
+   "sin_movimiento_h": 1.6,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -177,13 +198,13 @@
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 20.7,
+   "edad_h": 21.7,
    "transferencias": 1354,
    "transferencias_6h": 1346,
    "tenedores": 74,
    "top10_pct": 99.9,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 17.3,
+   "sin_movimiento_h": 18.9,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -195,16 +216,33 @@
    "simbolo": "algo",
    "nombre": "MJ.algo",
    "launchpad": "Eleos",
-   "edad_h": 1.8,
+   "edad_h": 2.8,
    "transferencias": 1343,
    "transferencias_6h": 1288,
    "tenedores": 2,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 80,
-   "sin_movimiento_h": 1.4,
+   "lanzamientos_creador_7d": 84,
+   "sin_movimiento_h": 2.3,
    "senales": [
     "serial_creator",
     "inactive"
+   ]
+  },
+  {
+   "token": "0x08cabccbd24585754a3c4184d947b069e2d7e6f0",
+   "simbolo": "CBUCKS",
+   "nombre": "Cartoon Money",
+   "launchpad": "Eleos",
+   "edad_h": 0.1,
+   "transferencias": 1267,
+   "transferencias_6h": 1252,
+   "tenedores": 188,
+   "top10_pct": 89.2,
+   "lanzamientos_creador_7d": 28,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
    ]
   },
   {
@@ -212,16 +250,33 @@
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 19.8,
+   "edad_h": 20.8,
    "transferencias": 1228,
    "transferencias_6h": 1206,
    "tenedores": 62,
    "top10_pct": 28.6,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 16.5,
+   "sin_movimiento_h": 18.2,
    "senales": [
     "serial_creator",
     "inactive"
+   ]
+  },
+  {
+   "token": "0xfcf0b0d952e759da5f69a5d17d6d2af7579a7ada",
+   "simbolo": "CBUCKS",
+   "nombre": "Cartoon Money",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 1217,
+   "transferencias_6h": 1181,
+   "tenedores": 66,
+   "top10_pct": 99.9,
+   "lanzamientos_creador_7d": 28,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator",
+    "concentrated"
    ]
   },
   {
@@ -229,13 +284,13 @@
    "simbolo": "MAXIMUS",
    "nombre": "Maximus Cat",
    "launchpad": "Eleos",
-   "edad_h": 19.1,
+   "edad_h": 20.1,
    "transferencias": 3636,
    "transferencias_6h": 1162,
    "tenedores": 154,
    "top10_pct": 18.8,
    "lanzamientos_creador_7d": 23,
-   "sin_movimiento_h": 16.1,
+   "sin_movimiento_h": 17.7,
    "senales": [
     "serial_creator",
     "inactive"
@@ -246,30 +301,13 @@
    "simbolo": "GME",
    "nombre": "GameStop",
    "launchpad": "Eleos",
-   "edad_h": 0.6,
+   "edad_h": 1.6,
    "transferencias": 1173,
    "transferencias_6h": 1148,
    "tenedores": 53,
    "top10_pct": 99.7,
-   "lanzamientos_creador_7d": 19,
-   "sin_movimiento_h": 0.6,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x0c818515f425e56ea3458cbd7a402cd1c2e67637",
-   "simbolo": "JETSKI",
-   "nombre": "Jet Ski Dog",
-   "launchpad": "Eleos",
-   "edad_h": 1.0,
-   "transferencias": 1152,
-   "transferencias_6h": 1147,
-   "tenedores": 64,
-   "top10_pct": 92.7,
-   "lanzamientos_creador_7d": 19,
-   "sin_movimiento_h": 1.0,
+   "lanzamientos_creador_7d": 28,
+   "sin_movimiento_h": 1.4,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -277,50 +315,17 @@
    ]
   },
   {
-   "token": "0x3441bdc62d8b91e6672df71d5f8df8a799c5f6ac",
-   "simbolo": "PIP",
-   "nombre": "PIP",
+   "token": "0x0c818515f425e56ea3458cbd7a402cd1c2e67637",
+   "simbolo": "JETSKI",
+   "nombre": "Jet Ski Dog",
    "launchpad": "Eleos",
-   "edad_h": 19.8,
-   "transferencias": 1286,
-   "transferencias_6h": 1099,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 66,
-   "sin_movimiento_h": 16.2,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x1afcb3578a13d1a36bb1eba5cc9c6fdfc8bd41f7",
-   "simbolo": "AGORA",
-   "nombre": "Agora",
-   "launchpad": "Eleos",
-   "edad_h": 1.1,
-   "transferencias": 1112,
-   "transferencias_6h": 1095,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 80,
-   "sin_movimiento_h": 0.9,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x64b12d2963f5f7ea958b7d8240a8d38f2357ea6f",
-   "simbolo": "KNTQ",
-   "nombre": "KNTQ",
-   "launchpad": "Eleos",
-   "edad_h": 20.2,
-   "transferencias": 1090,
-   "transferencias_6h": 1079,
-   "tenedores": 72,
-   "top10_pct": 89.4,
-   "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 17.0,
+   "edad_h": 2.0,
+   "transferencias": 1152,
+   "transferencias_6h": 1147,
+   "tenedores": 64,
+   "top10_pct": 92.7,
+   "lanzamientos_creador_7d": 28,
+   "sin_movimiento_h": 1.8,
    "senales": [
     "serial_creator",
     "concentrated",
