@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-19 16:01",
+ "actualizado_utc": "2026-11-19 17:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1388,
+  "lanzamientos_24h": 1419,
   "activos_ahora": 4,
-  "nunca_operados_24h_pct": 56.6,
-  "creadores_en_serie_7d": 115,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 66.8,
-  "lanzamientos_7d": 6929,
+  "nunca_operados_24h_pct": 56.5,
+  "creadores_en_serie_7d": 117,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 67.2,
+  "lanzamientos_7d": 7005,
   "ultimo_dia": {
    "dia": "2026-11-17",
    "lanzamientos": 1267,
@@ -75,17 +75,51 @@
  ],
  "tokens": [
   {
+   "token": "0xc831131baffb13d8be1d953ea258e44cb209711e",
+   "simbolo": "GTASZN",
+   "nombre": "GTA Season",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 3498,
+   "transferencias_6h": 3483,
+   "tenedores": 373,
+   "top10_pct": 85.2,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x84661ebec2b0c2036f1dfaa6c0f1793632f6a4fe",
+   "simbolo": "GTASZN",
+   "nombre": "GTA Season",
+   "launchpad": "Eleos",
+   "edad_h": 0.7,
+   "transferencias": 3058,
+   "transferencias_6h": 3026,
+   "tenedores": 158,
+   "top10_pct": 95.6,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.4,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
    "token": "0xb2437ea314e7240bc35921a76bb9f4176e06d3ec",
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 17.7,
+   "edad_h": 18.7,
    "transferencias": 1354,
    "transferencias_6h": 1346,
    "tenedores": 74,
    "top10_pct": 99.9,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 19.4,
+   "sin_movimiento_h": 19.6,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -97,13 +131,13 @@
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 16.8,
+   "edad_h": 17.8,
    "transferencias": 1228,
    "transferencias_6h": 1206,
    "tenedores": 62,
    "top10_pct": 28.6,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 18.4,
+   "sin_movimiento_h": 18.7,
    "senales": [
     "serial_creator",
     "inactive"
@@ -114,13 +148,13 @@
    "simbolo": "MAXIMUS",
    "nombre": "Maximus Cat",
    "launchpad": "Eleos",
-   "edad_h": 16.1,
+   "edad_h": 17.1,
    "transferencias": 3636,
    "transferencias_6h": 1162,
    "tenedores": 154,
    "top10_pct": 18.8,
    "lanzamientos_creador_7d": 23,
-   "sin_movimiento_h": 17.8,
+   "sin_movimiento_h": 18.1,
    "senales": [
     "serial_creator",
     "inactive"
@@ -131,13 +165,13 @@
    "simbolo": "PIP",
    "nombre": "PIP",
    "launchpad": "Eleos",
-   "edad_h": 16.8,
+   "edad_h": 17.8,
    "transferencias": 1286,
    "transferencias_6h": 1099,
    "tenedores": 1,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 66,
-   "sin_movimiento_h": 18.0,
+   "sin_movimiento_h": 18.3,
    "senales": [
     "serial_creator",
     "inactive"
@@ -148,13 +182,13 @@
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 17.2,
+   "edad_h": 18.2,
    "transferencias": 1090,
    "transferencias_6h": 1079,
    "tenedores": 72,
    "top10_pct": 89.4,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 19.0,
+   "sin_movimiento_h": 19.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -166,13 +200,13 @@
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 16.4,
+   "edad_h": 17.4,
    "transferencias": 917,
    "transferencias_6h": 902,
    "tenedores": 56,
    "top10_pct": 99.9,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 10.2,
+   "sin_movimiento_h": 10.7,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -184,16 +218,32 @@
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 16.6,
+   "edad_h": 17.6,
    "transferencias": 896,
    "transferencias_6h": 888,
    "tenedores": 66,
    "top10_pct": 31.5,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 17.9,
+   "sin_movimiento_h": 18.2,
    "senales": [
     "serial_creator",
     "inactive"
+   ]
+  },
+  {
+   "token": "0x7643c57fe8b361a81f5a320a2272e0e49e04e865",
+   "simbolo": "right",
+   "nombre": "right.fun",
+   "launchpad": "Eleos",
+   "edad_h": 1.0,
+   "transferencias": 789,
+   "transferencias_6h": 787,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 67,
+   "sin_movimiento_h": 0.7,
+   "senales": [
+    "serial_creator"
    ]
   },
   {
@@ -201,13 +251,13 @@
    "simbolo": "AVALON",
    "nombre": "AVALON",
    "launchpad": "Eleos",
-   "edad_h": 16.2,
+   "edad_h": 17.2,
    "transferencias": 1155,
    "transferencias_6h": 784,
    "tenedores": 2,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 66,
-   "sin_movimiento_h": 10.2,
+   "sin_movimiento_h": 10.7,
    "senales": [
     "serial_creator",
     "inactive"
@@ -218,16 +268,33 @@
    "simbolo": "AGI",
    "nombre": "AGI",
    "launchpad": "Eleos",
-   "edad_h": 17.3,
+   "edad_h": 18.3,
    "transferencias": 798,
    "transferencias_6h": 725,
    "tenedores": 1,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 66,
-   "sin_movimiento_h": 19.1,
+   "sin_movimiento_h": 19.3,
    "senales": [
     "serial_creator",
     "inactive"
+   ]
+  },
+  {
+   "token": "0xf955c14d0f001fdb0ff969e89be3c7fc6114c338",
+   "simbolo": "GTASZN",
+   "nombre": "GTA Season",
+   "launchpad": "Eleos",
+   "edad_h": 1.0,
+   "transferencias": 659,
+   "transferencias_6h": 653,
+   "tenedores": 30,
+   "top10_pct": 99.9,
+   "lanzamientos_creador_7d": 21,
+   "sin_movimiento_h": 0.4,
+   "senales": [
+    "serial_creator",
+    "concentrated"
    ]
   },
   {
@@ -235,13 +302,13 @@
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 17.4,
+   "edad_h": 18.4,
    "transferencias": 626,
    "transferencias_6h": 619,
    "tenedores": 35,
    "top10_pct": 45.4,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 10.2,
+   "sin_movimiento_h": 10.7,
    "senales": [
     "serial_creator",
     "inactive"
@@ -252,82 +319,13 @@
    "simbolo": "KNTQ",
    "nombre": "KNTQ",
    "launchpad": "Eleos",
-   "edad_h": 16.6,
+   "edad_h": 17.6,
    "transferencias": 558,
    "transferencias_6h": 553,
    "tenedores": 35,
    "top10_pct": 43.2,
    "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 18.7,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xe23707474243d4e60a00cebd48bb21c88599779b",
-   "simbolo": "EACCAT",
-   "nombre": "EACCAT",
-   "launchpad": "Eleos",
-   "edad_h": 18.2,
-   "transferencias": 1565,
-   "transferencias_6h": 340,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 66,
-   "sin_movimiento_h": 19.6,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x71a0974606de4db3dc7783a919d2a208b32e8979",
-   "simbolo": "KNTQ",
-   "nombre": "KNTQ",
-   "launchpad": "Eleos",
-   "edad_h": 17.3,
-   "transferencias": 331,
-   "transferencias_6h": 329,
-   "tenedores": 20,
-   "top10_pct": 61.1,
-   "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 19.2,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xaee5056c9b79dd80c39ecdcc610e7f7f2107bc57",
-   "simbolo": "KNTQ",
-   "nombre": "KNTQ",
-   "launchpad": "Eleos",
-   "edad_h": 16.1,
-   "transferencias": 327,
-   "transferencias_6h": 320,
-   "tenedores": 18,
-   "top10_pct": 99.9,
-   "lanzamientos_creador_7d": 185,
-   "sin_movimiento_h": 10.2,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xcd614aa3dd128b826919eda14e156fba830dd561",
-   "simbolo": "AGI",
-   "nombre": "AGI",
-   "launchpad": "Eleos",
-   "edad_h": 17.4,
-   "transferencias": 281,
-   "transferencias_6h": 273,
-   "tenedores": 25,
-   "top10_pct": 66.9,
-   "lanzamientos_creador_7d": 66,
-   "sin_movimiento_h": 19.3,
+   "sin_movimiento_h": 18.9,
    "senales": [
     "serial_creator",
     "inactive"
