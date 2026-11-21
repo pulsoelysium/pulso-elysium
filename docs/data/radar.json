@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-21 02:01",
+ "actualizado_utc": "2026-11-21 02:32",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1473,
+  "lanzamientos_24h": 1453,
   "activos_ahora": 89,
-  "nunca_operados_24h_pct": 36.6,
-  "creadores_en_serie_7d": 151,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 73.6,
-  "lanzamientos_7d": 9000,
+  "nunca_operados_24h_pct": 36.7,
+  "creadores_en_serie_7d": 152,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 73.8,
+  "lanzamientos_7d": 9032,
   "ultimo_dia": {
    "dia": "2026-11-19",
    "lanzamientos": 1420,
@@ -93,16 +93,33 @@
    "simbolo": "MONKE",
    "nombre": "MONKE",
    "launchpad": "Eleos",
-   "edad_h": 0.9,
+   "edad_h": 1.4,
    "transferencias": 4492,
    "transferencias_6h": 4447,
    "tenedores": 253,
    "top10_pct": 87.7,
-   "lanzamientos_creador_7d": 32,
-   "sin_movimiento_h": 0.5,
+   "lanzamientos_creador_7d": 36,
+   "sin_movimiento_h": 1.1,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x223925248794b7d435f1854c02342291d3729a6c",
+   "simbolo": "VOID",
+   "nombre": "voidcash",
+   "launchpad": "Eleos",
+   "edad_h": 0.7,
+   "transferencias": 3693,
+   "transferencias_6h": 3690,
+   "tenedores": 242,
+   "top10_pct": 43.4,
+   "lanzamientos_creador_7d": 23,
+   "sin_movimiento_h": 0.3,
+   "senales": [
+    "serial_creator"
    ]
   },
   {
@@ -110,16 +127,17 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 1.1,
+   "edad_h": 1.6,
    "transferencias": 3534,
    "transferencias_6h": 3532,
    "tenedores": 198,
    "top10_pct": 97.7,
-   "lanzamientos_creador_7d": 42,
-   "sin_movimiento_h": 0.9,
+   "lanzamientos_creador_7d": 45,
+   "sin_movimiento_h": 1.5,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -127,15 +145,16 @@
    "simbolo": "VOID",
    "nombre": "voidcash",
    "launchpad": "Eleos",
-   "edad_h": 0.7,
+   "edad_h": 1.2,
    "transferencias": 2472,
    "transferencias_6h": 2463,
    "tenedores": 156,
    "top10_pct": 39.0,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 0.4,
+   "lanzamientos_creador_7d": 23,
+   "sin_movimiento_h": 1.0,
    "senales": [
-    "serial_creator"
+    "serial_creator",
+    "inactive"
    ]
   },
   {
@@ -143,13 +162,13 @@
    "simbolo": "MONKE",
    "nombre": "MONKE",
    "launchpad": "Eleos",
-   "edad_h": 0.4,
+   "edad_h": 0.9,
    "transferencias": 2317,
    "transferencias_6h": 2309,
    "tenedores": 139,
    "top10_pct": 62.3,
-   "lanzamientos_creador_7d": 32,
-   "sin_movimiento_h": 0.2,
+   "lanzamientos_creador_7d": 36,
+   "sin_movimiento_h": 0.8,
    "senales": [
     "serial_creator"
    ]
@@ -159,13 +178,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 2.9,
+   "edad_h": 3.4,
    "transferencias": 2314,
    "transferencias_6h": 2309,
    "tenedores": 123,
    "top10_pct": 98.7,
-   "lanzamientos_creador_7d": 42,
-   "sin_movimiento_h": 2.9,
+   "lanzamientos_creador_7d": 45,
+   "sin_movimiento_h": 3.4,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -177,13 +196,30 @@
    "simbolo": "epacc",
    "nombre": "Elysium Pepe Acceleration",
    "launchpad": "Eleos",
-   "edad_h": 0.3,
+   "edad_h": 0.9,
    "transferencias": 2300,
    "transferencias_6h": 2289,
    "tenedores": 128,
    "top10_pct": 99.8,
-   "lanzamientos_creador_7d": 42,
-   "sin_movimiento_h": 0.1,
+   "lanzamientos_creador_7d": 45,
+   "sin_movimiento_h": 0.7,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x67dce8da2cad5ff7d55e40082594a6d6db3bda56",
+   "simbolo": "epacc",
+   "nombre": "Elysium Pepe Acceleration",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 2264,
+   "transferencias_6h": 2257,
+   "tenedores": 139,
+   "top10_pct": 98.9,
+   "lanzamientos_creador_7d": 45,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -194,13 +230,13 @@
    "simbolo": "MONKE",
    "nombre": "MONKE",
    "launchpad": "Eleos",
-   "edad_h": 1.9,
+   "edad_h": 2.4,
    "transferencias": 2218,
    "transferencias_6h": 2213,
    "tenedores": 107,
    "top10_pct": 74.3,
-   "lanzamientos_creador_7d": 32,
-   "sin_movimiento_h": 1.6,
+   "lanzamientos_creador_7d": 36,
+   "sin_movimiento_h": 2.1,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -212,15 +248,16 @@
    "simbolo": "AI",
    "nombre": "Artificial Inu",
    "launchpad": "Eleos",
-   "edad_h": 0.8,
+   "edad_h": 1.3,
    "transferencias": 2219,
    "transferencias_6h": 2211,
    "tenedores": 95,
    "top10_pct": 22.0,
-   "lanzamientos_creador_7d": 28,
-   "sin_movimiento_h": 0.6,
+   "lanzamientos_creador_7d": 29,
+   "sin_movimiento_h": 1.1,
    "senales": [
-    "serial_creator"
+    "serial_creator",
+    "inactive"
    ]
   },
   {
@@ -228,13 +265,13 @@
    "simbolo": "epacc",
    "nombre": "Elysium Pepe Acceleration",
    "launchpad": "Eleos",
-   "edad_h": 3.0,
+   "edad_h": 3.5,
    "transferencias": 2197,
    "transferencias_6h": 2195,
    "tenedores": 140,
    "top10_pct": 49.5,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 3.0,
+   "lanzamientos_creador_7d": 23,
+   "sin_movimiento_h": 3.5,
    "senales": [
     "serial_creator",
     "inactive"
@@ -245,13 +282,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 1.7,
+   "edad_h": 2.2,
    "transferencias": 2086,
    "transferencias_6h": 2078,
    "tenedores": 122,
    "top10_pct": 99.3,
-   "lanzamientos_creador_7d": 42,
-   "sin_movimiento_h": 1.3,
+   "lanzamientos_creador_7d": 45,
+   "sin_movimiento_h": 1.9,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -263,16 +300,32 @@
    "simbolo": "ELYQ",
    "nombre": "Elyquid",
    "launchpad": "Eleos",
-   "edad_h": 2.0,
+   "edad_h": 2.5,
    "transferencias": 2075,
    "transferencias_6h": 2070,
    "tenedores": 132,
    "top10_pct": 22.5,
-   "lanzamientos_creador_7d": 100,
-   "sin_movimiento_h": 2.0,
+   "lanzamientos_creador_7d": 105,
+   "sin_movimiento_h": 2.5,
    "senales": [
     "serial_creator",
     "inactive"
+   ]
+  },
+  {
+   "token": "0xd4a034f8e339edf13622cc84c68e856269a3b759",
+   "simbolo": "MONKE",
+   "nombre": "MONKE",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 2024,
+   "transferencias_6h": 2016,
+   "tenedores": 113,
+   "top10_pct": 66.4,
+   "lanzamientos_creador_7d": 36,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator"
    ]
   },
   {
@@ -280,67 +333,16 @@
    "simbolo": "ELYQ",
    "nombre": "Elyquid",
    "launchpad": "Eleos",
-   "edad_h": 1.4,
+   "edad_h": 1.9,
    "transferencias": 1795,
    "transferencias_6h": 1789,
    "tenedores": 108,
    "top10_pct": 45.1,
-   "lanzamientos_creador_7d": 100,
-   "sin_movimiento_h": 1.4,
+   "lanzamientos_creador_7d": 105,
+   "sin_movimiento_h": 1.9,
    "senales": [
     "serial_creator",
     "inactive"
-   ]
-  },
-  {
-   "token": "0xfc4c9be8a10fe62c4c86d020f4d639f743df63c6",
-   "simbolo": "MONTRA",
-   "nombre": "Montra",
-   "launchpad": "Eleos",
-   "edad_h": 2.0,
-   "transferencias": 1708,
-   "transferencias_6h": 1705,
-   "tenedores": 103,
-   "top10_pct": 56.3,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 2.0,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x223925248794b7d435f1854c02342291d3729a6c",
-   "simbolo": "VOID",
-   "nombre": "voidcash",
-   "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 1589,
-   "transferencias_6h": 1586,
-   "tenedores": 175,
-   "top10_pct": 95.1,
-   "lanzamientos_creador_7d": 22,
-   "sin_movimiento_h": 0.0,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x4330e5a085e9025ae62e05568338c69c781f0274",
-   "simbolo": "ELYQ",
-   "nombre": "Elyquid",
-   "launchpad": "Eleos",
-   "edad_h": 0.7,
-   "transferencias": 1541,
-   "transferencias_6h": 1535,
-   "tenedores": 96,
-   "top10_pct": 99.7,
-   "lanzamientos_creador_7d": 100,
-   "sin_movimiento_h": 0.5,
-   "senales": [
-    "serial_creator",
-    "concentrated"
    ]
   }
  ]
