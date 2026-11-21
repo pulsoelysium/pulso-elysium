@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-21 19:30",
+ "actualizado_utc": "2026-11-21 20:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1183,
+  "lanzamientos_24h": 1193,
   "activos_ahora": 74,
-  "nunca_operados_24h_pct": 36.7,
-  "creadores_en_serie_7d": 157,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 75.5,
-  "lanzamientos_7d": 9792,
+  "nunca_operados_24h_pct": 37.1,
+  "creadores_en_serie_7d": 156,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 75.6,
+  "lanzamientos_7d": 9782,
   "ultimo_dia": {
    "dia": "2026-11-19",
    "lanzamientos": 1420,
@@ -89,16 +89,16 @@
  ],
  "tokens": [
   {
-   "token": "0xb4f7827c4e327248293dd0c6dae82135bd9f9389",
-   "simbolo": "UpSide",
-   "nombre": "UpSide Down Cat",
+   "token": "0xa74c744e941f0ae106cdde4fc6d6aca0f0465fa1",
+   "simbolo": "DUKE",
+   "nombre": "The Duke of Arc",
    "launchpad": "Eleos",
    "edad_h": 0.3,
-   "transferencias": 884,
-   "transferencias_6h": 869,
-   "tenedores": 4,
+   "transferencias": 806,
+   "transferencias_6h": 798,
+   "tenedores": 2,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 98,
+   "lanzamientos_creador_7d": 108,
    "sin_movimiento_h": 0.1,
    "senales": [
     "serial_creator"
@@ -109,74 +109,169 @@
    "simbolo": "SCHIFFY",
    "nombre": "Schiffy",
    "launchpad": "Eleos",
-   "edad_h": 0.1,
-   "transferencias": 405,
-   "transferencias_6h": 397,
-   "tenedores": 76,
-   "top10_pct": 92.7,
-   "lanzamientos_creador_7d": 98,
-   "sin_movimiento_h": 0.0,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x1168f06fea91fc8d9a0a7cf156b02800c5178345",
-   "simbolo": "SCHIFFY",
-   "nombre": "Schiffy",
-   "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 378,
-   "transferencias_6h": 369,
+   "edad_h": 0.6,
+   "transferencias": 871,
+   "transferencias_6h": 462,
    "tenedores": 4,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 98,
-   "sin_movimiento_h": 0.1,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0xc4f5f2ef5cdce6496d9792097d47a879fe63cb51",
-   "simbolo": "UpSide",
-   "nombre": "UpSide Down Cat",
+   "token": "0x0399336cb4340d6280aa69d77bc98754666605ff",
+   "simbolo": "DUKE",
+   "nombre": "The Duke of Arc",
    "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 264,
-   "transferencias_6h": 257,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 98,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x772b0f4b2d871b846288a79628886b5a5bb3868c",
-   "simbolo": "UpSide",
-   "nombre": "UpSide Down Cat",
-   "launchpad": "Eleos",
-   "edad_h": 0.5,
-   "transferencias": 116,
-   "transferencias_6h": 109,
+   "edad_h": 0.1,
+   "transferencias": 318,
+   "transferencias_6h": 315,
    "tenedores": 1,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 98,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x1e7095ae195936051c122771fa644b26d379bc32",
+   "simbolo": "DUKE",
+   "nombre": "The Duke of Arc",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 172,
+   "transferencias_6h": 167,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 108,
    "sin_movimiento_h": 0.2,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x5322572381c5bd58e10043709d88c35d5619ac36",
-   "simbolo": "UNBOTHERED",
-   "nombre": "unbothered moisturized happy",
-   "launchpad": "Montra",
-   "edad_h": 4.1,
+   "token": "0x263caa1380cc1eff9df39213d856d195d8606d5d",
+   "simbolo": "DUKE",
+   "nombre": "The Duke of Arc",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 135,
+   "transferencias_6h": 129,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x2b1fd676fa4672047232f16c81a6765077307470",
+   "simbolo": "DUKE",
+   "nombre": "The Duke of Arc",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 86,
+   "transferencias_6h": 80,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xf638ae25b3a2953e8123c20088392b368afbb965",
+   "simbolo": "CAT",
+   "nombre": "Pump Cat",
+   "launchpad": "Eleos",
+   "edad_h": 0.0,
+   "transferencias": 75,
+   "transferencias_6h": 70,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x0d3f6e115f5dfed43acf64b7e819e07d6f194818",
+   "simbolo": "DUKE",
+   "nombre": "The Duke of Arc",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 65,
+   "transferencias_6h": 60,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x5c2ad05b01bcb4d0835c18eb4d3926817e50c406",
+   "simbolo": "CAT",
+   "nombre": "Pump Cat",
+   "launchpad": "Eleos",
+   "edad_h": 0.0,
+   "transferencias": 55,
+   "transferencias_6h": 50,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x6f60df2ecd82d66c8c9b807f0f83711c9ebbf9aa",
+   "simbolo": "DUKE",
+   "nombre": "The Duke of Arc",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 48,
+   "transferencias_6h": 40,
+   "tenedores": 4,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xec26d5b616b8d3d7f7e56dbdbaf9b3870b951b84",
+   "simbolo": "CAT",
+   "nombre": "Pump Cat",
+   "launchpad": "Eleos",
+   "edad_h": 0.0,
    "transferencias": 17,
-   "transferencias_6h": 1,
+   "transferencias_6h": 15,
+   "tenedores": 8,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 108,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xf8a73e04c5c1f2e4fda9e626ce4eb049f813d8ef",
+   "simbolo": "TEST",
+   "nombre": "test",
+   "launchpad": "0x0000…a032",
+   "edad_h": 0.2,
+   "transferencias": 6,
+   "transferencias_6h": 4,
    "tenedores": 1,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 1,
@@ -184,145 +279,49 @@
    "senales": []
   },
   {
-   "token": "0xbf6141c6b65d8c6e72c439a97da9d3096d2e5ac0",
-   "simbolo": "FERALQUOK",
-   "nombre": "Feral Quokka",
-   "launchpad": "Montra",
-   "edad_h": 0.5,
-   "transferencias": 3,
+   "token": "0xd362fe840fafccbbf368d59f601cc9fbdbef2603",
+   "simbolo": "NOAI",
+   "nombre": "NoAi",
+   "launchpad": "Uniswap v4 (direct)",
+   "edad_h": 2.2,
+   "transferencias": 112,
+   "transferencias_6h": 2,
+   "tenedores": 11,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 2,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0xa6bb613ccc624cdf3a88dcbd2e6d7ec8dc93299c",
+   "simbolo": "VEXTRA",
+   "nombre": "VEXTRA",
+   "launchpad": "Eleos",
+   "edad_h": 1.5,
+   "transferencias": 1441,
    "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 47,
-   "sin_movimiento_h": 0.3,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 30,
+   "sin_movimiento_h": 0.1,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0xcbe59266344006d2abc1f0ddc67da344be3de40c",
-   "simbolo": "NSP",
-   "nombre": "Nonstick Promise",
+   "token": "0x9563d4600847e368fdd86f2e04ab917b2c3d4c8b",
+   "simbolo": "LNCS",
+   "nombre": "Linoleum Cosmos",
    "launchpad": "Montra",
    "edad_h": 0.4,
    "transferencias": 3,
    "transferencias_6h": 1,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 81,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x733acc7e333dfd8f5ef0c17f1712bd91ee0d4802",
-   "simbolo": "CRTN",
-   "nombre": "Common Room Titan",
-   "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 95,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xf6a1bc446bb02342d0dc4f194c7293638481898e",
-   "simbolo": "ESCS",
-   "nombre": "Estate Sale Cosmos",
-   "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 91,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x3718f43a6935511bd364342851465b55ac6dafe6",
-   "simbolo": "PAPER",
-   "nombre": "Paper Trade",
-   "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 26,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x629bb5b51dca41cd1f9ac792020d40b9aaadd59f",
-   "simbolo": "AGI",
-   "nombre": "Agorion",
-   "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 26,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xcb8ee5348270fb1b39d03275e7a5a8232be857c1",
-   "simbolo": "MTBD",
-   "nombre": "Masking Tape Border",
-   "launchpad": "Montra",
-   "edad_h": 0.2,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 85,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x0dc6d3dbc38aac4d479878435c1e4cb8b470b7e9",
-   "simbolo": "TOXICPUFF",
-   "nombre": "Toxic Puffin",
-   "launchpad": "Montra",
-   "edad_h": 0.2,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 47,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x2f5621d7a27f0ebaeb2e0f0b2e85cd5444cacd88",
-   "simbolo": "RCPT",
-   "nombre": "Receipt for a Feeling",
-   "launchpad": "Montra",
-   "edad_h": 0.1,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 72,
-   "sin_movimiento_h": 0.1,
+   "lanzamientos_creador_7d": 88,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator"
    ]
