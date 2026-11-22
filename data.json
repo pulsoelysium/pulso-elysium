@@ -239,11 +239,11 @@
    "whype_supply": 55932.64799884382
   },
   "2026-11-22": {
-   "block": 9493911,
+   "block": 9496521,
    "closed": false,
-   "fees_cum_hype": 61.99937384896534,
-   "usdc_supply": 4011712.278468,
-   "whype_supply": 54744.27732234649
+   "fees_cum_hype": 62.017503558040914,
+   "usdc_supply": 4003712.278468,
+   "whype_supply": 54758.02069305092
   }
  },
  "snapshots": [
@@ -7960,10 +7960,66 @@
      "vol_24h": 81070
     }
    ]
+  },
+  {
+   "ts": 1795335080,
+   "block": 9496521,
+   "fee_account": "0x9b36ec4b5cff5f036f29bba2a493dd9204cc3570",
+   "gas_gwei": 0.5001,
+   "block_time_s": 0.211,
+   "bridge_hype": 300164.82861445216,
+   "rollup": {
+    "validators": 1,
+    "whitelist_enabled": true,
+    "confirm_period_blocks": 86400,
+    "paused": false,
+    "batches": 1103,
+    "upgrade_multisig": true,
+    "upgrade_threshold": 4,
+    "upgrade_owners": 10
+   },
+   "hype_usd": 60.180272200000005,
+   "kntq_usd": 0.16893,
+   "tvl_usd": 5552732.148558528,
+   "dex_24h_usd": 6385032.96,
+   "dex_by_protocol": [
+    {
+     "name": "Metric V1",
+     "vol_24h": 1646318
+    },
+    {
+     "name": "Aero Slipstream",
+     "vol_24h": 869540
+    },
+    {
+     "name": "Uniswap V4",
+     "vol_24h": 771488
+    },
+    {
+     "name": "Montra",
+     "vol_24h": 496697
+    },
+    {
+     "name": "Ramses CL V2",
+     "vol_24h": 356549
+    },
+    {
+     "name": "nest AVR",
+     "vol_24h": 241130
+    },
+    {
+     "name": "Ascend Launchpad",
+     "vol_24h": 111626
+    },
+    {
+     "name": "Kalos V4",
+     "vol_24h": 81070
+    }
+   ]
   }
  ],
  "withdrawals": {
-  "last_block": 9493911,
+  "last_block": 9496521,
   "by_day": {
    "2026-10-21": {
     "count": 3,
@@ -8094,7 +8150,7 @@
     "hype": 4670.534568315432
    },
    "2026-11-22": {
-    "count": 23,
+    "count": 24,
     "hype": 923.2242712012344
    }
   }
@@ -8198,7 +8254,7 @@
   }
  },
  "meta": {
-  "updated_ts": 1795334474,
+  "updated_ts": 1795335080,
   "genesis_day": "2026-10-19",
   "public_mainnet_day": "2026-11-09",
   "kntq_unlock": {
