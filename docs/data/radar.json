@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-22 17:01",
+ "actualizado_utc": "2026-11-22 18:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 923,
-  "activos_ahora": 4,
-  "nunca_operados_24h_pct": 47.8,
+  "lanzamientos_24h": 920,
+  "activos_ahora": 3,
+  "nunca_operados_24h_pct": 47.6,
   "creadores_en_serie_7d": 147,
   "pct_lanzamientos_de_creadores_en_serie_7d": 84.5,
-  "lanzamientos_7d": 8349,
+  "lanzamientos_7d": 8380,
   "ultimo_dia": {
    "dia": "2026-11-20",
    "lanzamientos": 1478,
@@ -96,33 +96,17 @@
  ],
  "tokens": [
   {
-   "token": "0xade1e7778ef0ff337f381c125fe832d06f179a10",
-   "simbolo": "HELIE",
-   "nombre": "Helie",
-   "launchpad": "Eleos",
-   "edad_h": 0.6,
-   "transferencias": 4902,
-   "transferencias_6h": 4888,
-   "tenedores": 265,
-   "top10_pct": 38.8,
-   "lanzamientos_creador_7d": 51,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
    "token": "0xe017cd118475a29739fa002ef15cbf6e3ee85311",
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 9.9,
+   "edad_h": 10.9,
    "transferencias": 3918,
    "transferencias_6h": 3901,
    "tenedores": 203,
    "top10_pct": 87.8,
    "lanzamientos_creador_7d": 52,
-   "sin_movimiento_h": 9.6,
+   "sin_movimiento_h": 10.6,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -130,37 +114,36 @@
    ]
   },
   {
+   "token": "0x182bb578cf94ffb50453a4bba511897921a39029",
+   "simbolo": "FEELSGOOD",
+   "nombre": "Feels Good Man",
+   "launchpad": "Eleos",
+   "edad_h": 0.8,
+   "transferencias": 2720,
+   "transferencias_6h": 2718,
+   "tenedores": 144,
+   "top10_pct": 54.8,
+   "lanzamientos_creador_7d": 57,
+   "sin_movimiento_h": 0.5,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
    "token": "0x2a41805e49d22207834041ba68eb15efb00425ed",
    "simbolo": "FTR",
    "nombre": "Flying Tesla Roadster",
    "launchpad": "Eleos",
-   "edad_h": 9.5,
+   "edad_h": 10.5,
    "transferencias": 2578,
    "transferencias_6h": 2571,
    "tenedores": 160,
    "top10_pct": 58.7,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 9.3,
+   "sin_movimiento_h": 10.4,
    "senales": [
     "serial_creator",
     "inactive"
-   ]
-  },
-  {
-   "token": "0x2d5130736d8a97ac2ed6e4fdef60f421cfa3bfb8",
-   "simbolo": "HELIE",
-   "nombre": "Helie",
-   "launchpad": "Eleos",
-   "edad_h": 1.0,
-   "transferencias": 2572,
-   "transferencias_6h": 2535,
-   "tenedores": 132,
-   "top10_pct": 81.9,
-   "lanzamientos_creador_7d": 51,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator",
-    "concentrated"
    ]
   },
   {
@@ -168,13 +151,13 @@
    "simbolo": "HELIE",
    "nombre": "Helie",
    "launchpad": "Eleos",
-   "edad_h": 1.5,
+   "edad_h": 2.5,
    "transferencias": 2506,
    "transferencias_6h": 2498,
    "tenedores": 130,
    "top10_pct": 93.5,
-   "lanzamientos_creador_7d": 51,
-   "sin_movimiento_h": 1.1,
+   "lanzamientos_creador_7d": 57,
+   "sin_movimiento_h": 2.0,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -186,13 +169,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 9.4,
+   "edad_h": 10.4,
    "transferencias": 2267,
    "transferencias_6h": 2261,
    "tenedores": 134,
    "top10_pct": 97.2,
    "lanzamientos_creador_7d": 52,
-   "sin_movimiento_h": 9.3,
+   "sin_movimiento_h": 10.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -200,17 +183,50 @@
    ]
   },
   {
+   "token": "0xaade3fd2c0b1917d84367ff85e755e3d2cb65757",
+   "simbolo": "FEELSGOOD",
+   "nombre": "Feels Good Man",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 1537,
+   "transferencias_6h": 1522,
+   "tenedores": 81,
+   "top10_pct": 98.7,
+   "lanzamientos_creador_7d": 57,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x3b90491d39b19a26bc3bc13c4853674d627db858",
+   "simbolo": "GOOD",
+   "nombre": "GOOD",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 1488,
+   "transferencias_6h": 1486,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 168,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
    "token": "0xb9220442b5813c8f2a55925c5c1331d6e51966fa",
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 9.1,
+   "edad_h": 10.1,
    "transferencias": 1270,
    "transferencias_6h": 1257,
    "tenedores": 67,
    "top10_pct": 98.2,
    "lanzamientos_creador_7d": 52,
-   "sin_movimiento_h": 9.0,
+   "sin_movimiento_h": 10.1,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -222,13 +238,13 @@
    "simbolo": "FTR",
    "nombre": "Flying Tesla Roadster",
    "launchpad": "Eleos",
-   "edad_h": 9.8,
+   "edad_h": 10.8,
    "transferencias": 1234,
    "transferencias_6h": 1228,
    "tenedores": 72,
    "top10_pct": 89.5,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 9.8,
+   "sin_movimiento_h": 10.9,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -240,13 +256,13 @@
    "simbolo": "FTR",
    "nombre": "Flying Tesla Roadster",
    "launchpad": "Eleos",
-   "edad_h": 10.0,
+   "edad_h": 11.0,
    "transferencias": 1185,
    "transferencias_6h": 1178,
    "tenedores": 67,
    "top10_pct": 87.9,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 4.1,
+   "sin_movimiento_h": 5.1,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -258,32 +274,16 @@
    "simbolo": "Bongo",
    "nombre": "Bongo",
    "launchpad": "Eleos",
-   "edad_h": 1.3,
+   "edad_h": 2.3,
    "transferencias": 1155,
    "transferencias_6h": 1153,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 160,
-   "sin_movimiento_h": 1.0,
+   "lanzamientos_creador_7d": 168,
+   "sin_movimiento_h": 2.0,
    "senales": [
     "serial_creator",
     "inactive"
-   ]
-  },
-  {
-   "token": "0x51442db803b78b9abb59bfe402d54c7ac8064c6f",
-   "simbolo": "SCHIFFY",
-   "nombre": "Schiffy",
-   "launchpad": "Eleos",
-   "edad_h": 0.6,
-   "transferencias": 1132,
-   "transferencias_6h": 1119,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 160,
-   "sin_movimiento_h": 0.3,
-   "senales": [
-    "serial_creator"
    ]
   },
   {
@@ -291,68 +291,64 @@
    "simbolo": "BLUB",
    "nombre": "Blub",
    "launchpad": "Eleos",
-   "edad_h": 1.7,
+   "edad_h": 2.7,
    "transferencias": 1019,
    "transferencias_6h": 1014,
    "tenedores": 1,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 160,
-   "sin_movimiento_h": 1.4,
+   "lanzamientos_creador_7d": 168,
+   "sin_movimiento_h": 2.4,
    "senales": [
     "serial_creator",
     "inactive"
    ]
   },
   {
-   "token": "0x451448346794df7d34f90f11986c64dff5bf3409",
-   "simbolo": "POPFROG",
-   "nombre": "popfrog",
+   "token": "0xf508c66771af36fc4da892e1c7608f031b791e81",
+   "simbolo": "FEELSGOOD",
+   "nombre": "Feels Good Man",
    "launchpad": "Eleos",
-   "edad_h": 0.9,
-   "transferencias": 930,
-   "transferencias_6h": 928,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 160,
-   "sin_movimiento_h": 0.8,
+   "edad_h": 0.5,
+   "transferencias": 982,
+   "transferencias_6h": 968,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 57,
+   "sin_movimiento_h": 0.4,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x0a2b21f0c0cf38e8e87bd353e601fcb7864c3614",
-   "simbolo": "HELIE",
-   "nombre": "Helie",
+   "token": "0xf5cf731a48ecb41262769fca7073463a4285902c",
+   "simbolo": "TEXT",
+   "nombre": "text",
    "launchpad": "Eleos",
-   "edad_h": 1.8,
-   "transferencias": 861,
-   "transferencias_6h": 856,
-   "tenedores": 45,
-   "top10_pct": 95.7,
-   "lanzamientos_creador_7d": 51,
-   "sin_movimiento_h": 1.5,
+   "edad_h": 0.2,
+   "transferencias": 956,
+   "transferencias_6h": 953,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 168,
+   "sin_movimiento_h": 0.1,
    "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
+    "serial_creator"
    ]
   },
   {
-   "token": "0xb9649b853326ce56884a96141d0fb59dc23d3a52",
-   "simbolo": "ANTFUN",
-   "nombre": "AntFun BlockChain",
+   "token": "0xb18ff3eebff823bb28fbf41517c905443c72f353",
+   "simbolo": "SCHIFFY",
+   "nombre": "Schiffy",
    "launchpad": "Eleos",
-   "edad_h": 10.2,
-   "transferencias": 866,
-   "transferencias_6h": 854,
-   "tenedores": 48,
-   "top10_pct": 96.9,
-   "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 10.3,
+   "edad_h": 1.0,
+   "transferencias": 945,
+   "transferencias_6h": 932,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 168,
+   "sin_movimiento_h": 0.7,
    "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
+    "serial_creator"
    ]
   }
  ]
