@@ -239,11 +239,11 @@
    "whype_supply": 55932.64799884382
   },
   "2026-11-22": {
-   "block": 9475443,
+   "block": 9493911,
    "closed": false,
-   "fees_cum_hype": 61.918801477280695,
-   "usdc_supply": 4006310.674398,
-   "whype_supply": 54798.39004683936
+   "fees_cum_hype": 61.99937384896534,
+   "usdc_supply": 4011712.278468,
+   "whype_supply": 54744.27732234649
   }
  },
  "snapshots": [
@@ -7904,10 +7904,66 @@
      "vol_24h": 78424
     }
    ]
+  },
+  {
+   "ts": 1795334474,
+   "block": 9493911,
+   "fee_account": "0x9b36ec4b5cff5f036f29bba2a493dd9204cc3570",
+   "gas_gwei": 0.5001,
+   "block_time_s": 0.2038,
+   "bridge_hype": 300164.82861445216,
+   "rollup": {
+    "validators": 1,
+    "whitelist_enabled": true,
+    "confirm_period_blocks": 86400,
+    "paused": false,
+    "batches": 1103,
+    "upgrade_multisig": true,
+    "upgrade_threshold": 4,
+    "upgrade_owners": 10
+   },
+   "hype_usd": 60.077245074,
+   "kntq_usd": 0.16736552699279658,
+   "tvl_usd": 5552732.148558528,
+   "dex_24h_usd": 6385032.96,
+   "dex_by_protocol": [
+    {
+     "name": "Metric V1",
+     "vol_24h": 1646318
+    },
+    {
+     "name": "Aero Slipstream",
+     "vol_24h": 869540
+    },
+    {
+     "name": "Uniswap V4",
+     "vol_24h": 771488
+    },
+    {
+     "name": "Montra",
+     "vol_24h": 496697
+    },
+    {
+     "name": "Ramses CL V2",
+     "vol_24h": 356549
+    },
+    {
+     "name": "nest AVR",
+     "vol_24h": 241130
+    },
+    {
+     "name": "Ascend Launchpad",
+     "vol_24h": 111626
+    },
+    {
+     "name": "Kalos V4",
+     "vol_24h": 81070
+    }
+   ]
   }
  ],
  "withdrawals": {
-  "last_block": 9475443,
+  "last_block": 9493911,
   "by_day": {
    "2026-10-21": {
     "count": 3,
@@ -8038,8 +8094,8 @@
     "hype": 4670.534568315432
    },
    "2026-11-22": {
-    "count": 16,
-    "hype": 832.711097056945
+    "count": 23,
+    "hype": 923.2242712012344
    }
   }
  },
@@ -8106,7 +8162,7 @@
    "2026-11-19": 7310288,
    "2026-11-20": 6519298,
    "2026-11-21": 5700387,
-   "2026-11-22": 5392584
+   "2026-11-22": 5502421
   },
   "llama_app_fees_by_day": {
    "2026-10-24": 760,
@@ -8138,11 +8194,11 @@
    "2026-11-19": 50188.27999999999,
    "2026-11-20": 37224.45999999999,
    "2026-11-21": 23912.3,
-   "2026-11-22": 18197.24
+   "2026-11-22": 17277.89
   }
  },
  "meta": {
-  "updated_ts": 1795330876,
+  "updated_ts": 1795334474,
   "genesis_day": "2026-10-19",
   "public_mainnet_day": "2026-11-09",
   "kntq_unlock": {
