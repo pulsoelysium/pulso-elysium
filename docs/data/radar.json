@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-22 23:01",
+ "actualizado_utc": "2026-11-23 00:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 928,
+  "lanzamientos_24h": 905,
   "activos_ahora": 1,
-  "nunca_operados_24h_pct": 47.9,
+  "nunca_operados_24h_pct": 49.2,
   "creadores_en_serie_7d": 111,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 94.9,
-  "lanzamientos_7d": 5136,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 94.8,
+  "lanzamientos_7d": 4756,
   "ultimo_dia": {
    "dia": "2026-11-20",
    "lanzamientos": 1478,
@@ -83,7 +83,7 @@
    "lanzamientos": 1489,
    "nunca_operados_pct": 0.3,
    "activos_24h_pct": 0.0,
-   "vida_mediana_min": 4
+   "vida_mediana_min": 1303
   },
   {
    "contrato": "",
@@ -100,231 +100,231 @@
    "simbolo": "VICE",
    "nombre": "Vice City",
    "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 1.3,
-   "transferencias": 814,
-   "transferencias_6h": 21,
+   "edad_h": 2.3,
+   "transferencias": 847,
+   "transferencias_6h": 24,
    "tenedores": 61,
-   "top10_pct": 43.1,
+   "top10_pct": 44.6,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 0.1,
    "senales": [
     "liquidity_removed"
    ]
+  },
+  {
+   "token": "0xe54a3de7c3da711ddd31c4d7b3f55630f01d6aed",
+   "simbolo": "PHYLAX",
+   "nombre": "Phylax Systems",
+   "launchpad": "Montra",
+   "edad_h": 0.6,
+   "transferencias": 16,
+   "transferencias_6h": 9,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.5,
+   "senales": []
   },
   {
    "token": "0xeacc3dc3192d1bf3e04a6479b36bcbf4a4fad072",
    "simbolo": "EACCVIDIA",
    "nombre": "EACCVIDIA",
    "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 4.1,
-   "transferencias": 697,
-   "transferencias_6h": 4,
+   "edad_h": 5.1,
+   "transferencias": 702,
+   "transferencias_6h": 5,
    "tenedores": 94,
-   "top10_pct": 78.9,
+   "top10_pct": 78.8,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "concentrated"
    ]
   },
   {
-   "token": "0x59d6ac05dc452f769e8530fe738f5429dcaecccc",
-   "simbolo": "HFI",
-   "nombre": "Hyper Flow Intellegence",
-   "launchpad": "0xca11…ca16",
-   "edad_h": 0.5,
-   "transferencias": 30,
-   "transferencias_6h": 4,
-   "tenedores": 9,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.2,
-   "senales": []
-  },
-  {
-   "token": "0xcd0d42c692b98c8be57a7e7866406cc8b70f6777",
-   "simbolo": "TCL",
-   "nombre": "TCELL",
+   "token": "0xc2703c4b7a61b62d377011210300f89254e7e5ce",
+   "simbolo": "EACCVIDIA",
+   "nombre": "EACCVIDIA",
    "launchpad": "Montra",
-   "edad_h": 0.4,
+   "edad_h": 0.9,
    "transferencias": 4,
    "transferencias_6h": 2,
    "tenedores": 1,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 3,
-   "sin_movimiento_h": 0.2,
+   "sin_movimiento_h": 0.7,
    "senales": []
   },
   {
-   "token": "0x0cfc13706009fc6a63f074df7710ffebe088f875",
-   "simbolo": "TCL",
-   "nombre": "T-CELL",
+   "token": "0x6581c396968ded14281d3d8cfb1c425fb16a5252",
+   "simbolo": "EACCVIDIA",
+   "nombre": "EACCVIDIA",
    "launchpad": "Montra",
-   "edad_h": 1.3,
-   "transferencias": 6,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 3,
-   "sin_movimiento_h": 0.2,
-   "senales": []
+   "edad_h": 0.7,
+   "transferencias": 4,
+   "transferencias_6h": 2,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 6,
+   "sin_movimiento_h": 0.6,
+   "senales": [
+    "serial_creator"
+   ]
   },
   {
-   "token": "0x66b3c6f5c96138e52d771c3ab1481196f5f0f93c",
-   "simbolo": "GDHR",
-   "nombre": "General Delivery Heart",
+   "token": "0xeb1839a09a657700a0cd1f364d35ecf250479b94",
+   "simbolo": "ASS",
+   "nombre": "ASS HUB",
    "launchpad": "Montra",
-   "edad_h": 0.4,
-   "transferencias": 3,
+   "edad_h": 1.7,
+   "transferencias": 7,
    "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 59,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 2,
    "sin_movimiento_h": 0.3,
+   "senales": []
+  },
+  {
+   "token": "0x9234acdc86c232f54567c747b72e93ffce5312fe",
+   "simbolo": "EACCVIDIA",
+   "nombre": "EACCVIDIA",
+   "launchpad": "Montra",
+   "edad_h": 3.9,
+   "transferencias": 5,
+   "transferencias_6h": 1,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 9,
+   "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x3055c693812db600a2d2fc18f98b267310229d5b",
-   "simbolo": "WKLG",
-   "nombre": "Wine Key Logic",
+   "token": "0x680a406aa1de2cb34939d6b8802b0754f97bf5ec",
+   "simbolo": "HCCS",
+   "nombre": "Hatcheck Cosmos",
    "launchpad": "Montra",
-   "edad_h": 0.4,
+   "edad_h": 1.0,
    "transferencias": 3,
    "transferencias_6h": 1,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 49,
-   "sin_movimiento_h": 0.2,
+   "lanzamientos_creador_7d": 35,
+   "sin_movimiento_h": 0.8,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x60e615b728569f27f5060f6d7cff3d161e38419c",
-   "simbolo": "NSW",
-   "nombre": "Night School for Wolves",
+   "token": "0x24c29023b25e10faa8862ceb8be7bc5a43691947",
+   "simbolo": "OSPR",
+   "nombre": "Odd Sock Parliament",
    "launchpad": "Montra",
-   "edad_h": 0.3,
+   "edad_h": 0.9,
    "transferencias": 3,
    "transferencias_6h": 1,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 63,
-   "sin_movimiento_h": 0.2,
+   "lanzamientos_creador_7d": 55,
+   "sin_movimiento_h": 0.7,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0xc44c821c5e000d2f9aef3644b5c1c96505adc55b",
-   "simbolo": "SCWT",
-   "nombre": "Suitcase of Weather",
+   "token": "0x1b9c9af589a0bbcb972a022093fa60446bfa7bc4",
+   "simbolo": "WRTH",
+   "nombre": "Worn Threshold",
    "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 60,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x0ad7fbe126ad5b2c615bd8c0c28ee5230ea5d861",
-   "simbolo": "GPFU",
-   "nombre": "Grease Pencil Future",
-   "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 49,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x053b61de58af847b3fed5fe624e65a8124e4971a",
-   "simbolo": "SEXM",
-   "nombre": "Side Exit Music",
-   "launchpad": "Montra",
-   "edad_h": 0.2,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 39,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x2f271323320fe20893ec8045a91c03bf6fb66515",
-   "simbolo": "EDLF",
-   "nombre": "Edge Lit Fact",
-   "launchpad": "Montra",
-   "edad_h": 0.2,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 54,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x36ad71e1245c2f544166842ea79f902ddf6fc7d0",
-   "simbolo": "MNMG",
-   "nombre": "Menu Margin",
-   "launchpad": "Montra",
-   "edad_h": 0.1,
+   "edad_h": 0.8,
    "transferencias": 3,
    "transferencias_6h": 1,
    "tenedores": 0,
    "top10_pct": 0,
    "lanzamientos_creador_7d": 50,
-   "sin_movimiento_h": 0.1,
+   "sin_movimiento_h": 0.6,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x6c6c3c193f6ecfb8e33e2a2f9d58d5c5fcdf3de9",
-   "simbolo": "SPDP",
-   "nombre": "Spatula Diplomacy",
+   "token": "0xa6cc5695dafb1aae1a76c8543f37ddf57bd58271",
+   "simbolo": "VALM",
+   "nombre": "Vault of Almosts",
    "launchpad": "Montra",
-   "edad_h": 0.1,
+   "edad_h": 0.7,
    "transferencias": 3,
    "transferencias_6h": 1,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 48,
-   "sin_movimiento_h": 0.1,
+   "lanzamientos_creador_7d": 49,
+   "sin_movimiento_h": 0.6,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0xcbb490728f83e366064dd6ba18ac313f8f58a934",
-   "simbolo": "SWPL",
-   "nombre": "Standing Water Plan",
+   "token": "0x4eb531c192cd4f1186670dc9785731ccaafe0445",
+   "simbolo": "GDPH",
+   "nombre": "Gilding the Pothole",
    "launchpad": "Montra",
-   "edad_h": 0.1,
+   "edad_h": 0.6,
    "transferencias": 3,
    "transferencias_6h": 1,
    "tenedores": 0,
    "top10_pct": 0,
    "lanzamientos_creador_7d": 43,
-   "sin_movimiento_h": 0.1,
+   "sin_movimiento_h": 0.5,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x3bde8963c2801dc67e88abe545951147fd4e547b",
+   "simbolo": "CLEX",
+   "nombre": "Caliper of Excuses",
+   "launchpad": "Montra",
+   "edad_h": 0.6,
+   "transferencias": 3,
+   "transferencias_6h": 1,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 39,
+   "sin_movimiento_h": 0.5,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x0a477bb25b980255439c8addf8815cec3110b947",
+   "simbolo": "CRPR",
+   "nombre": "Circuit Preacher",
+   "launchpad": "Montra",
+   "edad_h": 0.6,
+   "transferencias": 3,
+   "transferencias_6h": 1,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 54,
+   "sin_movimiento_h": 0.4,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xf7310888f7b42f07330833ec63e0a51bfad095cf",
+   "simbolo": "VCSM",
+   "nombre": "Vacancy Sign Mood",
+   "launchpad": "Montra",
+   "edad_h": 0.5,
+   "transferencias": 3,
+   "transferencias_6h": 1,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 48,
+   "sin_movimiento_h": 0.4,
    "senales": [
     "serial_creator"
    ]
