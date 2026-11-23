@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-23 14:01",
+ "actualizado_utc": "2026-11-23 14:57",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 992,
+  "lanzamientos_24h": 974,
   "activos_ahora": 4,
-  "nunca_operados_24h_pct": 44.4,
-  "creadores_en_serie_7d": 115,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 95.1,
-  "lanzamientos_7d": 4826,
+  "nunca_operados_24h_pct": 43.8,
+  "creadores_en_serie_7d": 116,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 95.2,
+  "lanzamientos_7d": 4851,
   "ultimo_dia": {
    "dia": "2026-11-21",
    "lanzamientos": 1135,
@@ -107,13 +107,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 2.0,
+   "edad_h": 3.0,
    "transferencias": 7838,
    "transferencias_6h": 7817,
    "tenedores": 3,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 6,
-   "sin_movimiento_h": 1.3,
+   "sin_movimiento_h": 2.2,
    "senales": [
     "serial_creator",
     "inactive"
@@ -124,13 +124,13 @@
    "simbolo": "MINELIUS",
    "nombre": "Minelius",
    "launchpad": "Eleos",
-   "edad_h": 2.2,
+   "edad_h": 3.1,
    "transferencias": 7250,
    "transferencias_6h": 7233,
    "tenedores": 291,
    "top10_pct": 84.5,
    "lanzamientos_creador_7d": 15,
-   "sin_movimiento_h": 1.5,
+   "sin_movimiento_h": 2.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -142,13 +142,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 11.3,
+   "edad_h": 12.2,
    "transferencias": 4575,
    "transferencias_6h": 4562,
    "tenedores": 200,
    "top10_pct": 96.7,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 6.3,
+   "sin_movimiento_h": 7.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -160,13 +160,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 10.4,
+   "edad_h": 11.3,
    "transferencias": 3660,
    "transferencias_6h": 3653,
    "tenedores": 201,
    "top10_pct": 79.8,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 8.8,
+   "sin_movimiento_h": 9.8,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -178,16 +178,17 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 0.8,
+   "edad_h": 1.7,
    "transferencias": 3629,
    "transferencias_6h": 3624,
    "tenedores": 201,
    "top10_pct": 93.2,
    "lanzamientos_creador_7d": 6,
-   "sin_movimiento_h": 0.4,
+   "sin_movimiento_h": 1.2,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -195,13 +196,13 @@
    "simbolo": "FEELSGOOD",
    "nombre": "Feels Good Man",
    "launchpad": "Eleos",
-   "edad_h": 9.6,
+   "edad_h": 10.5,
    "transferencias": 3401,
    "transferencias_6h": 3394,
    "tenedores": 183,
    "top10_pct": 42.6,
    "lanzamientos_creador_7d": 20,
-   "sin_movimiento_h": 6.3,
+   "sin_movimiento_h": 7.3,
    "senales": [
     "serial_creator",
     "inactive"
@@ -212,31 +213,16 @@
    "simbolo": "FEELSGOOD",
    "nombre": "Feels Good Man",
    "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 2982,
-   "transferencias_6h": 2916,
-   "tenedores": 279,
-   "top10_pct": 15.9,
+   "edad_h": 1.2,
+   "transferencias": 4022,
+   "transferencias_6h": 2930,
+   "tenedores": 223,
+   "top10_pct": 76.0,
    "lanzamientos_creador_7d": 15,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 0.4,
    "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xe27e6951e46f12175ab2b2f24d0398fc0fe6e106",
-   "simbolo": "MINELIUS",
-   "nombre": "Minelius",
-   "launchpad": "Eleos",
-   "edad_h": 0.9,
-   "transferencias": 2745,
-   "transferencias_6h": 2690,
-   "tenedores": 142,
-   "top10_pct": 54.5,
-   "lanzamientos_creador_7d": 15,
-   "sin_movimiento_h": 0.6,
-   "senales": [
-    "serial_creator"
+    "serial_creator",
+    "concentrated"
    ]
   },
   {
@@ -244,11 +230,11 @@
    "simbolo": "EACCVIDIA",
    "nombre": "EACCVIDIA",
    "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 19.1,
-   "transferencias": 5367,
-   "transferencias_6h": 2392,
-   "tenedores": 97,
-   "top10_pct": 78.7,
+   "edad_h": 20.0,
+   "transferencias": 5793,
+   "transferencias_6h": 2721,
+   "tenedores": 104,
+   "top10_pct": 77.4,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": [
@@ -256,17 +242,34 @@
    ]
   },
   {
+   "token": "0xe27e6951e46f12175ab2b2f24d0398fc0fe6e106",
+   "simbolo": "MINELIUS",
+   "nombre": "Minelius",
+   "launchpad": "Eleos",
+   "edad_h": 1.8,
+   "transferencias": 2745,
+   "transferencias_6h": 2690,
+   "tenedores": 142,
+   "top10_pct": 54.5,
+   "lanzamientos_creador_7d": 15,
+   "sin_movimiento_h": 1.5,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
    "token": "0xe0f954a9d989b156a449552e5d898cf96ce77209",
    "simbolo": "AGORA",
    "nombre": "Agora",
    "launchpad": "Eleos",
-   "edad_h": 10.6,
+   "edad_h": 11.5,
    "transferencias": 2210,
    "transferencias_6h": 2205,
    "tenedores": 140,
    "top10_pct": 77.7,
    "lanzamientos_creador_7d": 57,
-   "sin_movimiento_h": 9.6,
+   "sin_movimiento_h": 10.6,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -278,13 +281,13 @@
    "simbolo": "ELYSP",
    "nombre": "Elys Pump",
    "launchpad": "Eleos",
-   "edad_h": 9.8,
+   "edad_h": 10.7,
    "transferencias": 2059,
    "transferencias_6h": 2057,
    "tenedores": 112,
    "top10_pct": 89.8,
    "lanzamientos_creador_7d": 57,
-   "sin_movimiento_h": 8.8,
+   "sin_movimiento_h": 9.9,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -296,13 +299,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 11.6,
+   "edad_h": 12.5,
    "transferencias": 2034,
    "transferencias_6h": 2021,
    "tenedores": 110,
    "top10_pct": 99.0,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 1.2,
+   "sin_movimiento_h": 2.1,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -314,13 +317,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 1.1,
+   "edad_h": 2.1,
    "transferencias": 1959,
    "transferencias_6h": 1954,
    "tenedores": 104,
    "top10_pct": 99.1,
    "lanzamientos_creador_7d": 6,
-   "sin_movimiento_h": 1.0,
+   "sin_movimiento_h": 1.8,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -332,15 +335,16 @@
    "simbolo": "FULL",
    "nombre": "FULL",
    "launchpad": "Eleos",
-   "edad_h": 1.2,
+   "edad_h": 2.1,
    "transferencias": 1830,
    "transferencias_6h": 1824,
    "tenedores": 1,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 49,
-   "sin_movimiento_h": 0.9,
+   "sin_movimiento_h": 1.8,
    "senales": [
-    "serial_creator"
+    "serial_creator",
+    "inactive"
    ]
   },
   {
@@ -348,16 +352,17 @@
    "simbolo": "MINELIUS",
    "nombre": "Minelius",
    "launchpad": "Eleos",
-   "edad_h": 1.4,
+   "edad_h": 2.3,
    "transferencias": 1795,
    "transferencias_6h": 1779,
    "tenedores": 103,
    "top10_pct": 87.8,
    "lanzamientos_creador_7d": 15,
-   "sin_movimiento_h": 0.9,
+   "sin_movimiento_h": 1.7,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   }
  ]
