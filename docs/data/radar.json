@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-23 12:01",
+ "actualizado_utc": "2026-11-23 13:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 993,
-  "activos_ahora": 3,
-  "nunca_operados_24h_pct": 44.5,
+  "lanzamientos_24h": 998,
+  "activos_ahora": 4,
+  "nunca_operados_24h_pct": 44.0,
   "creadores_en_serie_7d": 113,
   "pct_lanzamientos_de_creadores_en_serie_7d": 95.0,
-  "lanzamientos_7d": 4750,
+  "lanzamientos_7d": 4788,
   "ultimo_dia": {
    "dia": "2026-11-21",
    "lanzamientos": 1135,
@@ -103,17 +103,48 @@
  ],
  "tokens": [
   {
+   "token": "0x4a7b2650af2e2eaaf19bac300c19d733df6a08a0",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
+   "launchpad": "Eleos",
+   "edad_h": 1.0,
+   "transferencias": 7838,
+   "transferencias_6h": 7817,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 4,
+   "sin_movimiento_h": 0.3,
+   "senales": []
+  },
+  {
+   "token": "0x8fe959c450ba445ab52b3064da2d479e5a6697f3",
+   "simbolo": "MINELIUS",
+   "nombre": "Minelius",
+   "launchpad": "Eleos",
+   "edad_h": 1.2,
+   "transferencias": 7250,
+   "transferencias_6h": 7233,
+   "tenedores": 291,
+   "top10_pct": 84.5,
+   "lanzamientos_creador_7d": 11,
+   "sin_movimiento_h": 0.5,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
    "token": "0xe738d230d0bec9d5727e4036c38e9ebcf370320b",
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 9.3,
+   "edad_h": 10.3,
    "transferencias": 4575,
    "transferencias_6h": 4562,
    "tenedores": 200,
    "top10_pct": 96.7,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 4.9,
+   "sin_movimiento_h": 5.8,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -125,13 +156,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 8.4,
+   "edad_h": 9.4,
    "transferencias": 3660,
    "transferencias_6h": 3653,
    "tenedores": 201,
    "top10_pct": 79.8,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 7.8,
+   "sin_movimiento_h": 8.4,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -143,13 +174,13 @@
    "simbolo": "FEELSGOOD",
    "nombre": "Feels Good Man",
    "launchpad": "Eleos",
-   "edad_h": 7.6,
+   "edad_h": 8.6,
    "transferencias": 3401,
    "transferencias_6h": 3394,
    "tenedores": 183,
    "top10_pct": 42.6,
    "lanzamientos_creador_7d": 20,
-   "sin_movimiento_h": 4.9,
+   "sin_movimiento_h": 5.8,
    "senales": [
     "serial_creator",
     "inactive"
@@ -160,13 +191,13 @@
    "simbolo": "AGORA",
    "nombre": "Agora",
    "launchpad": "Eleos",
-   "edad_h": 8.6,
+   "edad_h": 9.6,
    "transferencias": 2210,
    "transferencias_6h": 2205,
    "tenedores": 140,
    "top10_pct": 77.7,
    "lanzamientos_creador_7d": 57,
-   "sin_movimiento_h": 8.7,
+   "sin_movimiento_h": 9.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -178,31 +209,13 @@
    "simbolo": "ELYSP",
    "nombre": "Elys Pump",
    "launchpad": "Eleos",
-   "edad_h": 7.8,
+   "edad_h": 8.8,
    "transferencias": 2059,
    "transferencias_6h": 2057,
    "tenedores": 112,
    "top10_pct": 89.8,
    "lanzamientos_creador_7d": 57,
-   "sin_movimiento_h": 7.8,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x8bc2ee2edac95da99177637efe57b777b23654a5",
-   "simbolo": "BULL",
-   "nombre": "The Bull",
-   "launchpad": "Eleos",
-   "edad_h": 9.6,
-   "transferencias": 2031,
-   "transferencias_6h": 2020,
-   "tenedores": 110,
-   "top10_pct": 99.8,
-   "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 4.9,
+   "sin_movimiento_h": 8.5,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -214,14 +227,48 @@
    "simbolo": "EACCVIDIA",
    "nombre": "EACCVIDIA",
    "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 17.1,
-   "transferencias": 4650,
-   "transferencias_6h": 1689,
-   "tenedores": 97,
-   "top10_pct": 78.3,
+   "edad_h": 18.1,
+   "transferencias": 5011,
+   "transferencias_6h": 2043,
+   "tenedores": 98,
+   "top10_pct": 78.4,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": [
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x8bc2ee2edac95da99177637efe57b777b23654a5",
+   "simbolo": "BULL",
+   "nombre": "The Bull",
+   "launchpad": "Eleos",
+   "edad_h": 10.6,
+   "transferencias": 2034,
+   "transferencias_6h": 2021,
+   "tenedores": 110,
+   "top10_pct": 99.0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x8daadc676eadf09b661911e896cbb118efc23c28",
+   "simbolo": "MINELIUS",
+   "nombre": "Minelius",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 1793,
+   "transferencias_6h": 1778,
+   "tenedores": 104,
+   "top10_pct": 94.6,
+   "lanzamientos_creador_7d": 11,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator",
     "concentrated"
    ]
   },
@@ -230,13 +277,13 @@
    "simbolo": "ANT",
    "nombre": "ANT",
    "launchpad": "Eleos",
-   "edad_h": 8.2,
+   "edad_h": 9.2,
    "transferencias": 1605,
    "transferencias_6h": 1603,
    "tenedores": 100,
    "top10_pct": 16.0,
    "lanzamientos_creador_7d": 124,
-   "sin_movimiento_h": 8.3,
+   "sin_movimiento_h": 8.9,
    "senales": [
     "serial_creator",
     "inactive"
@@ -247,15 +294,16 @@
    "simbolo": "ELYPX",
    "nombre": "Elypx402 Network",
    "launchpad": "Eleos",
-   "edad_h": 1.0,
+   "edad_h": 2.0,
    "transferencias": 1497,
    "transferencias_6h": 1468,
    "tenedores": 99,
    "top10_pct": 57.6,
    "lanzamientos_creador_7d": 57,
-   "sin_movimiento_h": 0.7,
+   "sin_movimiento_h": 1.8,
    "senales": [
-    "serial_creator"
+    "serial_creator",
+    "inactive"
    ]
   },
   {
@@ -263,13 +311,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 8.8,
+   "edad_h": 9.8,
    "transferencias": 1415,
    "transferencias_6h": 1401,
    "tenedores": 76,
    "top10_pct": 99.0,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 4.9,
+   "sin_movimiento_h": 5.8,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -281,16 +329,17 @@
    "simbolo": "MINELIUS",
    "nombre": "Minelius",
    "launchpad": "Eleos",
-   "edad_h": 0.4,
+   "edad_h": 1.4,
    "transferencias": 1330,
    "transferencias_6h": 1323,
    "tenedores": 67,
    "top10_pct": 99.6,
-   "lanzamientos_creador_7d": 7,
-   "sin_movimiento_h": 0.2,
+   "lanzamientos_creador_7d": 11,
+   "sin_movimiento_h": 1.3,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -298,66 +347,15 @@
    "simbolo": "GANG",
    "nombre": "GANG",
    "launchpad": "Eleos",
-   "edad_h": 0.7,
+   "edad_h": 1.7,
    "transferencias": 1305,
    "transferencias_6h": 1300,
    "tenedores": 101,
    "top10_pct": 17.0,
    "lanzamientos_creador_7d": 124,
-   "sin_movimiento_h": 0.5,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x8fe959c450ba445ab52b3064da2d479e5a6697f3",
-   "simbolo": "MINELIUS",
-   "nombre": "Minelius",
-   "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 1284,
-   "transferencias_6h": 1279,
-   "tenedores": 137,
-   "top10_pct": 92.4,
-   "lanzamientos_creador_7d": 7,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 1.6,
    "senales": [
     "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x962a729ee35c141e571afdc9c53d5587b1fe38b8",
-   "simbolo": "ANT",
-   "nombre": "ANT",
-   "launchpad": "Eleos",
-   "edad_h": 9.8,
-   "transferencias": 1262,
-   "transferencias_6h": 1257,
-   "tenedores": 99,
-   "top10_pct": 26.2,
-   "lanzamientos_creador_7d": 124,
-   "sin_movimiento_h": 10.2,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xd2b2ee7d7cc4a26ebf4dcc9fb3fba377491153dd",
-   "simbolo": "BULL",
-   "nombre": "The Bull",
-   "launchpad": "Eleos",
-   "edad_h": 9.8,
-   "transferencias": 1221,
-   "transferencias_6h": 1213,
-   "tenedores": 67,
-   "top10_pct": 99.4,
-   "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 4.9,
-   "senales": [
-    "serial_creator",
-    "concentrated",
     "inactive"
    ]
   }
