@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-23 03:48",
+ "actualizado_utc": "2026-11-23 04:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 827,
+  "lanzamientos_24h": 834,
   "activos_ahora": 2,
-  "nunca_operados_24h_pct": 52.1,
-  "creadores_en_serie_7d": 107,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 94.5,
-  "lanzamientos_7d": 4330,
+  "nunca_operados_24h_pct": 52.4,
+  "creadores_en_serie_7d": 110,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 94.8,
+  "lanzamientos_7d": 4342,
   "ultimo_dia": {
    "dia": "2026-11-21",
    "lanzamientos": 1135,
@@ -107,46 +107,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 1.1,
+   "edad_h": 1.3,
    "transferencias": 4574,
    "transferencias_6h": 4562,
    "tenedores": 201,
    "top10_pct": 96.7,
    "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.8,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0xe0f954a9d989b156a449552e5d898cf96ce77209",
-   "simbolo": "AGORA",
-   "nombre": "Agora",
-   "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 2210,
-   "transferencias_6h": 2205,
-   "tenedores": 140,
-   "top10_pct": 77.7,
-   "lanzamientos_creador_7d": 4,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x8bc2ee2edac95da99177637efe57b777b23654a5",
-   "simbolo": "BULL",
-   "nombre": "The Bull",
-   "launchpad": "Eleos",
-   "edad_h": 1.3,
-   "transferencias": 2030,
-   "transferencias_6h": 2020,
-   "tenedores": 111,
-   "top10_pct": 99.8,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 1.4,
+   "sin_movimiento_h": 1.0,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -158,16 +125,67 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 1995,
-   "transferencias_6h": 1990,
-   "tenedores": 260,
-   "top10_pct": 93.3,
+   "edad_h": 0.4,
+   "transferencias": 3657,
+   "transferencias_6h": 3651,
+   "tenedores": 202,
+   "top10_pct": 99.9,
    "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 0.1,
    "senales": [
     "serial_creator",
     "concentrated"
+   ]
+  },
+  {
+   "token": "0xe0f954a9d989b156a449552e5d898cf96ce77209",
+   "simbolo": "AGORA",
+   "nombre": "Agora",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 2210,
+   "transferencias_6h": 2205,
+   "tenedores": 140,
+   "top10_pct": 77.7,
+   "lanzamientos_creador_7d": 6,
+   "sin_movimiento_h": 0.4,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x8bc2ee2edac95da99177637efe57b777b23654a5",
+   "simbolo": "BULL",
+   "nombre": "The Bull",
+   "launchpad": "Eleos",
+   "edad_h": 1.6,
+   "transferencias": 2030,
+   "transferencias_6h": 2020,
+   "tenedores": 111,
+   "top10_pct": 99.8,
+   "lanzamientos_creador_7d": 12,
+   "sin_movimiento_h": 1.6,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x23a8949f4572904801d8d664726156fb533f8c95",
+   "simbolo": "ANT",
+   "nombre": "ANT",
+   "launchpad": "Eleos",
+   "edad_h": 0.2,
+   "transferencias": 1605,
+   "transferencias_6h": 1603,
+   "tenedores": 100,
+   "top10_pct": 16.0,
+   "lanzamientos_creador_7d": 31,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
    ]
   },
   {
@@ -175,13 +193,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 0.6,
+   "edad_h": 0.8,
    "transferencias": 1414,
    "transferencias_6h": 1401,
    "tenedores": 77,
    "top10_pct": 99.0,
    "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.6,
+   "sin_movimiento_h": 0.8,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -192,13 +210,13 @@
    "simbolo": "ANT",
    "nombre": "ANT",
    "launchpad": "Eleos",
-   "edad_h": 1.6,
+   "edad_h": 1.8,
    "transferencias": 1262,
    "transferencias_6h": 1257,
    "tenedores": 99,
    "top10_pct": 26.2,
-   "lanzamientos_creador_7d": 29,
-   "sin_movimiento_h": 1.8,
+   "lanzamientos_creador_7d": 31,
+   "sin_movimiento_h": 1.9,
    "senales": [
     "serial_creator",
     "inactive"
@@ -209,13 +227,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 1.6,
+   "edad_h": 1.8,
    "transferencias": 1220,
    "transferencias_6h": 1213,
    "tenedores": 68,
    "top10_pct": 99.5,
    "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 1.8,
+   "sin_movimiento_h": 2.0,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -227,32 +245,33 @@
    "simbolo": "ANT",
    "nombre": "ANT",
    "launchpad": "Eleos",
-   "edad_h": 1.1,
+   "edad_h": 1.4,
    "transferencias": 1123,
    "transferencias_6h": 1119,
    "tenedores": 97,
    "top10_pct": 22.0,
-   "lanzamientos_creador_7d": 29,
-   "sin_movimiento_h": 1.3,
+   "lanzamientos_creador_7d": 31,
+   "sin_movimiento_h": 1.5,
    "senales": [
     "serial_creator",
     "inactive"
    ]
   },
   {
-   "token": "0xb9f01e4195843f5a507f2134c6404479826812f8",
-   "simbolo": "ANT",
-   "nombre": "ANT",
+   "token": "0x44b2bcf10f26c1a58dde4c58116f79b3de1348ba",
+   "simbolo": "AGORA",
+   "nombre": "Agora",
    "launchpad": "Eleos",
-   "edad_h": 0.8,
-   "transferencias": 938,
-   "transferencias_6h": 931,
-   "tenedores": 97,
-   "top10_pct": 31.1,
-   "lanzamientos_creador_7d": 29,
-   "sin_movimiento_h": 0.9,
+   "edad_h": 0.2,
+   "transferencias": 1035,
+   "transferencias_6h": 1032,
+   "tenedores": 59,
+   "top10_pct": 99.3,
+   "lanzamientos_creador_7d": 6,
+   "sin_movimiento_h": 0.1,
    "senales": [
-    "serial_creator"
+    "serial_creator",
+    "concentrated"
    ]
   },
   {
@@ -260,9 +279,9 @@
    "simbolo": "EACCVIDIA",
    "nombre": "EACCVIDIA",
    "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 8.9,
-   "transferencias": 1766,
-   "transferencias_6h": 911,
+   "edad_h": 9.1,
+   "transferencias": 1836,
+   "transferencias_6h": 981,
    "tenedores": 94,
    "top10_pct": 78.9,
    "lanzamientos_creador_7d": 1,
@@ -272,17 +291,34 @@
    ]
   },
   {
+   "token": "0xb9f01e4195843f5a507f2134c6404479826812f8",
+   "simbolo": "ANT",
+   "nombre": "ANT",
+   "launchpad": "Eleos",
+   "edad_h": 1.0,
+   "transferencias": 938,
+   "transferencias_6h": 931,
+   "tenedores": 97,
+   "top10_pct": 31.1,
+   "lanzamientos_creador_7d": 31,
+   "sin_movimiento_h": 1.1,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
    "token": "0x748fdd48c1e0bd01136850993d3bea1f5680c6f6",
    "simbolo": "ANT",
    "nombre": "ANT",
    "launchpad": "Eleos",
-   "edad_h": 0.6,
+   "edad_h": 0.8,
    "transferencias": 732,
    "transferencias_6h": 726,
    "tenedores": 82,
    "top10_pct": 80.3,
-   "lanzamientos_creador_7d": 29,
-   "sin_movimiento_h": 0.6,
+   "lanzamientos_creador_7d": 31,
+   "sin_movimiento_h": 0.9,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -293,13 +329,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 1.4,
+   "edad_h": 1.7,
    "transferencias": 708,
    "transferencias_6h": 700,
    "tenedores": 41,
    "top10_pct": 97.9,
    "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 1.7,
+   "sin_movimiento_h": 1.9,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -311,52 +347,17 @@
    "simbolo": "ANT",
    "nombre": "ANT",
    "launchpad": "Eleos",
-   "edad_h": 0.9,
+   "edad_h": 1.1,
    "transferencias": 669,
    "transferencias_6h": 663,
    "tenedores": 73,
    "top10_pct": 96.9,
-   "lanzamientos_creador_7d": 29,
-   "sin_movimiento_h": 1.1,
+   "lanzamientos_creador_7d": 31,
+   "sin_movimiento_h": 1.3,
    "senales": [
     "serial_creator",
     "concentrated",
     "inactive"
-   ]
-  },
-  {
-   "token": "0xf9b7d01f5a204c6be38c8e24d021de0c5e261d94",
-   "simbolo": "ANT",
-   "nombre": "ANT",
-   "launchpad": "Eleos",
-   "edad_h": 1.4,
-   "transferencias": 656,
-   "transferencias_6h": 651,
-   "tenedores": 67,
-   "top10_pct": 99.4,
-   "lanzamientos_creador_7d": 29,
-   "sin_movimiento_h": 1.4,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x315c1e2b1a14243e419e01207ac308993569bb76",
-   "simbolo": "ANT",
-   "nombre": "ANT",
-   "launchpad": "Eleos",
-   "edad_h": 0.1,
-   "transferencias": 621,
-   "transferencias_6h": 615,
-   "tenedores": 67,
-   "top10_pct": 99.9,
-   "lanzamientos_creador_7d": 29,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator",
-    "concentrated"
    ]
   }
  ]
