@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-24 13:01",
+ "actualizado_utc": "2026-11-24 14:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1143,
+  "lanzamientos_24h": 1140,
   "activos_ahora": 31,
-  "nunca_operados_24h_pct": 47.5,
+  "nunca_operados_24h_pct": 48.6,
   "creadores_en_serie_7d": 133,
   "pct_lanzamientos_de_creadores_en_serie_7d": 94.9,
-  "lanzamientos_7d": 5931,
+  "lanzamientos_7d": 5966,
   "ultimo_dia": {
    "dia": "2026-11-22",
    "lanzamientos": 908,
@@ -110,16 +110,64 @@
  ],
  "tokens": [
   {
+   "token": "0xcf9bbe2eaa77c6957e51820f8285fd0db9fd74a7",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 932,
+   "transferencias_6h": 928,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xcaf290dd4ec51eb3c09794d009e0b9863a55729f",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 707,
+   "transferencias_6h": 701,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.3,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
    "token": "0xe7daaffd3f5beab5097967dc1689d977c2551143",
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 599,
-   "transferencias_6h": 597,
-   "tenedores": 35,
-   "top10_pct": 95.2,
-   "lanzamientos_creador_7d": 16,
+   "edad_h": 1.2,
+   "transferencias": 1065,
+   "transferencias_6h": 463,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.9,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x2f3fc5396548e01a58d49200391a6c7f5ec76f5a",
+   "simbolo": "L9AT",
+   "nombre": "L9AT_ETH",
+   "launchpad": "Eleos",
+   "edad_h": 0.1,
+   "transferencias": 252,
+   "transferencias_6h": 250,
+   "tenedores": 76,
+   "top10_pct": 87.6,
+   "lanzamientos_creador_7d": 244,
    "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator",
@@ -127,92 +175,129 @@
    ]
   },
   {
-   "token": "0x6516826208502eb97b79a233a85c5c5086046c71",
+   "token": "0xe59d738b9cc4156e336b523a93c199eaee3b0066",
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 57,
-   "transferencias_6h": 52,
+   "edad_h": 0.8,
+   "transferencias": 253,
+   "transferencias_6h": 243,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.7,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x09743c656cd8e4e0a213695ba9642c974b805853",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.1,
+   "transferencias": 189,
+   "transferencias_6h": 187,
+   "tenedores": 24,
+   "top10_pct": 91.4,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x5926ead53225998231ac82e29321ddad0cac8bd1",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.7,
+   "transferencias": 195,
+   "transferencias_6h": 187,
    "tenedores": 1,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 16,
-   "sin_movimiento_h": 0.1,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.6,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0xdefaaafa43969c7fbfd5c9547d3dc1320af4b19f",
+   "token": "0xe8a8a04c99f49e7b0526d19ce31f925ae079fe7c",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 42,
+   "transferencias_6h": 40,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.5,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x7793618003108682488336db5484d989636c7160",
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
    "edad_h": 0.3,
-   "transferencias": 34,
-   "transferencias_6h": 30,
+   "transferencias": 36,
+   "transferencias_6h": 34,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 16,
-   "sin_movimiento_h": 0.2,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0xd18a1c33f8ed56a1f0f5d49fd4e9b4cd8feb0b20",
+   "token": "0x93f4b3c0344df51593211b0d104a769985c56fc6",
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 32,
-   "transferencias_6h": 30,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 16,
-   "sin_movimiento_h": 0.1,
+   "edad_h": 0.5,
+   "transferencias": 28,
+   "transferencias_6h": 23,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.5,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x68b867f6de166449b57a482109b43e0cf562b090",
-   "simbolo": "BLOB",
-   "nombre": "Blob",
-   "launchpad": "0x7e8c…6a9d",
-   "edad_h": 21.5,
-   "transferencias": 1642,
-   "transferencias_6h": 6,
-   "tenedores": 83,
-   "top10_pct": 64.1,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.1,
-   "senales": []
+   "token": "0x551869596bf3782fa0afff87d40f4cc322a656e8",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 23,
+   "transferencias_6h": 19,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 25,
+   "sin_movimiento_h": 0.6,
+   "senales": [
+    "serial_creator"
+   ]
   },
   {
    "token": "0xd993927abef40f2eefd7bde5b98b2f66fd381ca3",
    "simbolo": "FIBER",
    "nombre": "FIBER",
    "launchpad": "Montra",
-   "edad_h": 8.5,
-   "transferencias": 2053,
-   "transferencias_6h": 5,
-   "tenedores": 105,
-   "top10_pct": 52.0,
+   "edad_h": 9.5,
+   "transferencias": 2090,
+   "transferencias_6h": 18,
+   "tenedores": 102,
+   "top10_pct": 52.4,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
-   "senales": []
-  },
-  {
-   "token": "0xc2607beef2b76bc839ac96d37b51f044cce2bd81",
-   "simbolo": "AVOLTA",
-   "nombre": "AVOLTA",
-   "launchpad": "0x3ab8…e5dc",
-   "edad_h": 0.3,
-   "transferencias": 6,
-   "transferencias_6h": 5,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 2,
    "sin_movimiento_h": 0.2,
    "senales": []
   },
@@ -221,124 +306,42 @@
    "simbolo": "IMP",
    "nombre": "Implied Markets",
    "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 13.3,
-   "transferencias": 1196,
-   "transferencias_6h": 2,
-   "tenedores": 121,
-   "top10_pct": 42.3,
+   "edad_h": 14.3,
+   "transferencias": 1221,
+   "transferencias_6h": 16,
+   "tenedores": 120,
+   "top10_pct": 43.3,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
   },
   {
-   "token": "0x3912fb6e3867e0b252457cec87e2133959fad51e",
-   "simbolo": "Longcat",
-   "nombre": "Longcat",
+   "token": "0xa5bed18ced371d83f0e596fed4f5d0416d2546a8",
+   "simbolo": "RINGEVM",
+   "nombre": "RingEVM",
    "launchpad": "Montra",
-   "edad_h": 18.8,
-   "transferencias": 251,
-   "transferencias_6h": 1,
+   "edad_h": 0.1,
+   "transferencias": 18,
+   "transferencias_6h": 14,
    "tenedores": 7,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 3,
-   "sin_movimiento_h": 0.1,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
    "senales": []
   },
   {
-   "token": "0x7a7af00c98ec931d7df4a33e2e9b3aeec34d38ec",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 15,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 16,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x497f5a9e65d416ad8c74bb1417f45d4852cf92dd",
-   "simbolo": "STPH",
-   "nombre": "Spare Tire Philosopher",
-   "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 63,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x1bd7805c0b33799d98315dd4d421c2198cfa062c",
-   "simbolo": "TBSN",
-   "nombre": "Telephone Book Snow",
-   "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 74,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x69bdc726de2a6df0679dd38b394dafbbe87df758",
-   "simbolo": "FNFT",
-   "nombre": "Footnote Fortune",
-   "launchpad": "Montra",
-   "edad_h": 0.2,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 69,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x34c5b1dad3203bafd08ddecf3675a608f6df8c03",
-   "simbolo": "PIXELGEC3",
-   "nombre": "Pixel Gecko",
-   "launchpad": "Montra",
-   "edad_h": 0.2,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 158,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xbe8faf59e17a4626a2707fdc509fef8a0699ac42",
-   "simbolo": "CYNM",
-   "nombre": "Cyanotype Memory",
-   "launchpad": "Montra",
-   "edad_h": 0.2,
-   "transferencias": 3,
-   "transferencias_6h": 1,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 85,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
-   ]
+   "token": "0x68b867f6de166449b57a482109b43e0cf562b090",
+   "simbolo": "BLOB",
+   "nombre": "Blob",
+   "launchpad": "0x7e8c…6a9d",
+   "edad_h": 22.5,
+   "transferencias": 1648,
+   "transferencias_6h": 4,
+   "tenedores": 83,
+   "top10_pct": 63.4,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.1,
+   "senales": []
   }
  ]
 }
