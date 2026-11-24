@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-24 01:01",
+ "actualizado_utc": "2026-11-24 02:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1080,
-  "activos_ahora": 5,
+  "lanzamientos_24h": 1120,
+  "activos_ahora": 8,
   "nunca_operados_24h_pct": 43.0,
   "creadores_en_serie_7d": 125,
   "pct_lanzamientos_de_creadores_en_serie_7d": 94.7,
-  "lanzamientos_7d": 5333,
+  "lanzamientos_7d": 5385,
   "ultimo_dia": {
    "dia": "2026-11-22",
    "lanzamientos": 908,
@@ -114,13 +114,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 1.7,
+   "edad_h": 2.7,
    "transferencias": 4476,
    "transferencias_6h": 4470,
    "tenedores": 201,
    "top10_pct": 94.6,
-   "lanzamientos_creador_7d": 13,
-   "sin_movimiento_h": 1.4,
+   "lanzamientos_creador_7d": 30,
+   "sin_movimiento_h": 2.2,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -132,13 +132,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 22.3,
+   "edad_h": 23.3,
    "transferencias": 4575,
    "transferencias_6h": 2665,
    "tenedores": 200,
    "top10_pct": 96.7,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 18.1,
+   "sin_movimiento_h": 17.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -146,17 +146,34 @@
    ]
   },
   {
+   "token": "0x8e8d15da3512fae5ada104cb70510ef20fe78563",
+   "simbolo": "TURBO",
+   "nombre": "Turbo on Robinhood",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 2628,
+   "transferencias_6h": 2623,
+   "tenedores": 300,
+   "top10_pct": 93.7,
+   "lanzamientos_creador_7d": 30,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
    "token": "0x8bc2ee2edac95da99177637efe57b777b23654a5",
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 22.6,
+   "edad_h": 23.6,
    "transferencias": 2034,
    "transferencias_6h": 2020,
    "tenedores": 110,
    "top10_pct": 99.0,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 11.8,
+   "sin_movimiento_h": 11.6,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -168,13 +185,13 @@
    "simbolo": "ANT",
    "nombre": "ANT",
    "launchpad": "Eleos",
-   "edad_h": 22.8,
+   "edad_h": 23.8,
    "transferencias": 1262,
    "transferencias_6h": 1257,
    "tenedores": 99,
    "top10_pct": 26.2,
-   "lanzamientos_creador_7d": 154,
-   "sin_movimiento_h": 23.8,
+   "lanzamientos_creador_7d": 160,
+   "sin_movimiento_h": 22.3,
    "senales": [
     "serial_creator",
     "inactive"
@@ -185,13 +202,13 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 22.8,
+   "edad_h": 23.8,
    "transferencias": 1221,
    "transferencias_6h": 1213,
    "tenedores": 67,
    "top10_pct": 99.4,
    "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 18.1,
+   "sin_movimiento_h": 17.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -203,13 +220,13 @@
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
-   "edad_h": 1.4,
+   "edad_h": 2.4,
    "transferencias": 1208,
    "transferencias_6h": 1203,
    "tenedores": 2,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 37,
-   "sin_movimiento_h": 1.3,
+   "sin_movimiento_h": 2.2,
    "senales": [
     "serial_creator",
     "inactive"
@@ -220,13 +237,13 @@
    "simbolo": "GANG",
    "nombre": "GANG",
    "launchpad": "Eleos",
-   "edad_h": 1.8,
+   "edad_h": 2.8,
    "transferencias": 1137,
    "transferencias_6h": 1130,
    "tenedores": 96,
    "top10_pct": 93.6,
-   "lanzamientos_creador_7d": 154,
-   "sin_movimiento_h": 1.9,
+   "lanzamientos_creador_7d": 160,
+   "sin_movimiento_h": 2.7,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -238,13 +255,13 @@
    "simbolo": "ANT",
    "nombre": "ANT",
    "launchpad": "Eleos",
-   "edad_h": 22.4,
+   "edad_h": 23.4,
    "transferencias": 1123,
    "transferencias_6h": 1119,
    "tenedores": 97,
    "top10_pct": 22.0,
-   "lanzamientos_creador_7d": 154,
-   "sin_movimiento_h": 23.3,
+   "lanzamientos_creador_7d": 160,
+   "sin_movimiento_h": 21.9,
    "senales": [
     "serial_creator",
     "inactive"
@@ -255,17 +272,33 @@
    "simbolo": "ELYPX",
    "nombre": "Elypx402 Network",
    "launchpad": "Eleos",
-   "edad_h": 1.2,
+   "edad_h": 2.2,
    "transferencias": 1102,
    "transferencias_6h": 1094,
    "tenedores": 65,
    "top10_pct": 97.9,
    "lanzamientos_creador_7d": 5,
-   "sin_movimiento_h": 1.2,
+   "sin_movimiento_h": 2.1,
    "senales": [
     "serial_creator",
     "concentrated",
     "inactive"
+   ]
+  },
+  {
+   "token": "0x36bd666ac2ccf3958ffe21970bf48dcdee02dd87",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 1075,
+   "transferencias_6h": 1073,
+   "tenedores": 72,
+   "top10_pct": 75.7,
+   "lanzamientos_creador_7d": 3,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "concentrated"
    ]
   },
   {
@@ -273,15 +306,49 @@
    "simbolo": "CLAUDIO",
    "nombre": "CLAUDIO",
    "launchpad": "Eleos",
-   "edad_h": 0.1,
+   "edad_h": 1.1,
    "transferencias": 929,
    "transferencias_6h": 927,
    "tenedores": 89,
    "top10_pct": 30.2,
-   "lanzamientos_creador_7d": 154,
-   "sin_movimiento_h": 0.0,
+   "lanzamientos_creador_7d": 160,
+   "sin_movimiento_h": 1.0,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xbd8249ec0cf46032fc6fd065bc59935f26cb5d77",
+   "simbolo": "L9AT",
+   "nombre": "L9AT_ETH",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 930,
+   "transferencias_6h": 924,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 236,
+   "sin_movimiento_h": 0.4,
    "senales": [
     "serial_creator"
+   ]
+  },
+  {
+   "token": "0x1d6754853b779fd04a287984d27c080c1a3ff3d6",
+   "simbolo": "TURBO",
+   "nombre": "Turbo on Robinhood",
+   "launchpad": "Eleos",
+   "edad_h": 0.8,
+   "transferencias": 896,
+   "transferencias_6h": 891,
+   "tenedores": 45,
+   "top10_pct": 98.6,
+   "lanzamientos_creador_7d": 30,
+   "sin_movimiento_h": 0.7,
+   "senales": [
+    "serial_creator",
+    "concentrated"
    ]
   },
   {
@@ -289,82 +356,13 @@
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
-   "edad_h": 2.2,
+   "edad_h": 3.2,
    "transferencias": 876,
    "transferencias_6h": 874,
    "tenedores": 0,
    "top10_pct": 0,
    "lanzamientos_creador_7d": 37,
-   "sin_movimiento_h": 2.3,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xe95b8e887c716f16f8bf71d9ce17cfab8a5fbfaf",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 1.9,
-   "transferencias": 841,
-   "transferencias_6h": 838,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 37,
-   "sin_movimiento_h": 2.0,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x66c83ff32a04b86f5b77c1f50ae34ff0ab3cba24",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 2.6,
-   "transferencias": 794,
-   "transferencias_6h": 792,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 37,
-   "sin_movimiento_h": 2.5,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x5eaa851d99f1d51164a962d5eadcaf408fb3210b",
-   "simbolo": "BULL",
-   "nombre": "The Bull",
-   "launchpad": "Eleos",
-   "edad_h": 22.7,
-   "transferencias": 709,
-   "transferencias_6h": 700,
-   "tenedores": 40,
-   "top10_pct": 98.0,
-   "lanzamientos_creador_7d": 25,
-   "sin_movimiento_h": 18.1,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x2dfe24ca4953521c93c206851711b03289566847",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 1.7,
-   "transferencias": 674,
-   "transferencias_6h": 671,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 37,
-   "sin_movimiento_h": 1.7,
+   "sin_movimiento_h": 3.0,
    "senales": [
     "serial_creator",
     "inactive"
