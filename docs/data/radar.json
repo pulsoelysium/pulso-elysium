@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-24 23:01",
+ "actualizado_utc": "2026-11-24 23:06",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1097,
-  "activos_ahora": 21,
+  "lanzamientos_24h": 1096,
+  "activos_ahora": 6,
   "nunca_operados_24h_pct": 46.1,
-  "creadores_en_serie_7d": 122,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 94.7,
-  "lanzamientos_7d": 5775,
+  "creadores_en_serie_7d": 116,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 94.8,
+  "lanzamientos_7d": 5130,
   "ultimo_dia": {
    "dia": "2026-11-22",
    "lanzamientos": 908,
@@ -81,7 +81,7 @@
    "lanzamientos": 4638,
    "nunca_operados_pct": 85.3,
    "activos_24h_pct": 0.2,
-   "vida_mediana_min": 0
+   "vida_mediana_min": 1
   },
   {
    "contrato": "0x9c73d179b2911e89a4edc47cfd78765990bc6761",
@@ -105,100 +105,116 @@
    "lanzamientos": 440,
    "nunca_operados_pct": 62.0,
    "activos_24h_pct": 1.1,
-   "vida_mediana_min": 37
+   "vida_mediana_min": 36
   }
  ],
  "tokens": [
   {
-   "token": "0xed0e4312edec2d31b1365618c87b22c7540a21d9",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.8,
-   "transferencias": 588,
-   "transferencias_6h": 583,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.5,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x27f9398418f63b7cebef370cb52d7c99eed5c37d",
+   "token": "0x5fe2fa17ec88c9efa6881647c496fc366a59e03f",
    "simbolo": "AGORA",
    "nombre": "AGORA",
    "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 476,
-   "transferencias_6h": 471,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 9,
-   "sin_movimiento_h": 0.2,
+   "edad_h": 0.1,
+   "transferencias": 13,
+   "transferencias_6h": 11,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 14,
+   "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x61b405ce2e135bda858855019191b3c1fba12d83",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 1.0,
-   "transferencias": 382,
-   "transferencias_6h": 379,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.6,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x4c4c7e90efb6e6a017f7c6d9dc8c564b6c5a8a94",
+   "token": "0x36921deb873d8801a54399b98a570ac811bfd516",
    "simbolo": "AGORA",
    "nombre": "AGORA",
    "launchpad": "Eleos",
-   "edad_h": 0.5,
-   "transferencias": 299,
-   "transferencias_6h": 297,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 9,
-   "sin_movimiento_h": 0.3,
+   "edad_h": 0.1,
+   "transferencias": 13,
+   "transferencias_6h": 11,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 14,
+   "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x3ddff3cb215fcb694dbf0d5c91c7d3b982e6290b",
+   "token": "0xa88fb1f0db036c1e39b98247c3c0b7107332b43c",
    "simbolo": "AGORA",
    "nombre": "AGORA",
    "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 182,
-   "transferencias_6h": 180,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 9,
-   "sin_movimiento_h": 0.1,
+   "edad_h": 0.0,
+   "transferencias": 11,
+   "transferencias_6h": 9,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 14,
+   "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x0d442948a8748f0296af853c85ec054d875c010f",
-   "simbolo": "LEASH",
-   "nombre": "Leash",
+   "token": "0x0e178135d6d4ae4632e51147f815a030665d0dc0",
+   "simbolo": "AGORA",
+   "nombre": "AGORA",
+   "launchpad": "Eleos",
+   "edad_h": 0.0,
+   "transferencias": 11,
+   "transferencias_6h": 9,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 14,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xeeef76ec3f145fcaea9c3dba49748fbdc9685141",
+   "simbolo": "WBLN",
+   "nombre": "Welding Blanket Night",
    "launchpad": "Montra",
-   "edad_h": 4.0,
-   "transferencias": 963,
-   "transferencias_6h": 75,
-   "tenedores": 124,
-   "top10_pct": 45.4,
+   "edad_h": 0.0,
+   "transferencias": 8,
+   "transferencias_6h": 3,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 59,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x982ae7304cdadddd0565150a848508ab66337e37",
+   "simbolo": "AGORA",
+   "nombre": "AGORA",
+   "launchpad": "Eleos",
+   "edad_h": 0.0,
+   "transferencias": 4,
+   "transferencias_6h": 2,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 14,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x66e8fd180b4e699b773174d4551b0ab5cc728699",
+   "simbolo": "IMP",
+   "nombre": "Implied Markets",
+   "launchpad": "Uniswap v4 (direct)",
+   "edad_h": 23.3,
+   "transferencias": 1364,
+   "transferencias_6h": 1,
+   "tenedores": 114,
+   "top10_pct": 43.6,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
@@ -208,141 +224,132 @@
    "simbolo": "RAZE",
    "nombre": "Raze.fi",
    "launchpad": "0xe601…f662",
-   "edad_h": 1.8,
-   "transferencias": 452,
-   "transferencias_6h": 54,
-   "tenedores": 88,
-   "top10_pct": 36.2,
+   "edad_h": 1.9,
+   "transferencias": 455,
+   "transferencias_6h": 1,
+   "tenedores": 89,
+   "top10_pct": 36.1,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
   },
   {
-   "token": "0x0b938dcdd5ba3ac0e1c918467b0380bf2d19eb5d",
-   "simbolo": "AGORA",
-   "nombre": "AGORA",
-   "launchpad": "Eleos",
+   "token": "0xcbb0c0299b2feb6967b47e05c5bf7c096af425d6",
+   "simbolo": "WHRV",
+   "nombre": "Whiteout Revision",
+   "launchpad": "Montra",
    "edad_h": 0.1,
-   "transferencias": 54,
-   "transferencias_6h": 52,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 9,
+   "transferencias": 3,
+   "transferencias_6h": 1,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 52,
    "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0xdba72e8e7fd0f7a2e8744b69b86f08e6af201172",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.6,
-   "transferencias": 37,
-   "transferencias_6h": 35,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.4,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xeb49c2c87fbcfc7cd02f256010d06a4e1327b14d",
-   "simbolo": "AGORA",
-   "nombre": "AGORA",
-   "launchpad": "Eleos",
-   "edad_h": 0.1,
-   "transferencias": 33,
-   "transferencias_6h": 31,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 9,
-   "sin_movimiento_h": 0.0,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xd7ba2c67664c7c65e4ea0caff264a1d6bcdc0cb4",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 1.0,
-   "transferencias": 33,
-   "transferencias_6h": 22,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x8f304c811a5eeb0e82f03284a2b8545e9fb54725",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.6,
-   "transferencias": 27,
-   "transferencias_6h": 22,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.4,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xe13d97ad71a017b35a9c14b4fc74735a0ec4e305",
-   "simbolo": "AGORA",
-   "nombre": "AGORA",
-   "launchpad": "Eleos",
+   "token": "0x791af482ed3c45112639c702558417e8d1b33cb7",
+   "simbolo": "RTHZ",
+   "nombre": "Roof Tar Horizon",
+   "launchpad": "Montra",
    "edad_h": 0.0,
-   "transferencias": 24,
-   "transferencias_6h": 22,
+   "transferencias": 3,
+   "transferencias_6h": 1,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 9,
+   "lanzamientos_creador_7d": 36,
    "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0xda44824d90d01d69800792a6f5ec7556ff2e95cb",
-   "simbolo": "UP",
-   "nombre": "UP",
+   "token": "0xf690cdd8eaf521a359255fb1ddab36e5bfff5c59",
+   "simbolo": "ELYQ",
+   "nombre": "Elyquid",
    "launchpad": "Eleos",
-   "edad_h": 0.6,
-   "transferencias": 22,
-   "transferencias_6h": 20,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 27,
-   "sin_movimiento_h": 0.4,
+   "edad_h": 16.3,
+   "transferencias": 4199,
+   "transferencias_6h": 0,
+   "tenedores": 190,
+   "top10_pct": 99.2,
+   "lanzamientos_creador_7d": 94,
+   "sin_movimiento_h": 4.1,
    "senales": [
-    "serial_creator"
+    "serial_creator",
+    "concentrated",
+    "inactive"
    ]
   },
   {
-   "token": "0xa59f3cce8f18c22931d08244a1e7d500c17dfbc3",
-   "simbolo": "AGORA",
-   "nombre": "AGORA",
+   "token": "0xc240c62896b8a89b19e8e9543a955e3d0a354553",
+   "simbolo": "ELYQ",
+   "nombre": "Elyquid",
    "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 19,
-   "transferencias_6h": 17,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 9,
-   "sin_movimiento_h": 0.1,
+   "edad_h": 19.0,
+   "transferencias": 3955,
+   "transferencias_6h": 0,
+   "tenedores": 280,
+   "top10_pct": 9.3,
+   "lanzamientos_creador_7d": 94,
+   "sin_movimiento_h": 24.8,
    "senales": [
-    "serial_creator"
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x69189cfcb1317e4dcb07a1ea6bb47c46217359a2",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
+   "launchpad": "Eleos",
+   "edad_h": 23.8,
+   "transferencias": 4477,
+   "transferencias_6h": 0,
+   "tenedores": 200,
+   "top10_pct": 95.5,
+   "lanzamientos_creador_7d": 68,
+   "sin_movimiento_h": 19.1,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x2cc63af9a7bb9413791ca28daf3917909540a2ae",
+   "simbolo": "ELYQ",
+   "nombre": "Elyquid",
+   "launchpad": "Eleos",
+   "edad_h": 20.1,
+   "transferencias": 3773,
+   "transferencias_6h": 0,
+   "tenedores": 267,
+   "top10_pct": 9.7,
+   "lanzamientos_creador_7d": 94,
+   "sin_movimiento_h": 19.1,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xa0c7a3886bec254986dcf69c00a5d51aaa53c88e",
+   "simbolo": "ELYQ",
+   "nombre": "Elyquid",
+   "launchpad": "Eleos",
+   "edad_h": 8.6,
+   "transferencias": 3936,
+   "transferencias_6h": 0,
+   "tenedores": 177,
+   "top10_pct": 16.0,
+   "lanzamientos_creador_7d": 94,
+   "sin_movimiento_h": 9.2,
+   "senales": [
+    "serial_creator",
+    "inactive"
    ]
   }
  ]
