@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-24 21:01",
+ "actualizado_utc": "2026-11-24 22:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1149,
-  "activos_ahora": 21,
+  "lanzamientos_24h": 1122,
+  "activos_ahora": 22,
   "nunca_operados_24h_pct": 47.1,
-  "creadores_en_serie_7d": 141,
+  "creadores_en_serie_7d": 140,
   "pct_lanzamientos_de_creadores_en_serie_7d": 94.8,
-  "lanzamientos_7d": 6233,
+  "lanzamientos_7d": 6185,
   "ultimo_dia": {
    "dia": "2026-11-22",
    "lanzamientos": 908,
@@ -105,86 +105,54 @@
    "lanzamientos": 440,
    "nunca_operados_pct": 62.0,
    "activos_24h_pct": 1.1,
-   "vida_mediana_min": 37
+   "vida_mediana_min": 36
   }
  ],
  "tokens": [
   {
-   "token": "0xe285685d753e91be10901bf36881ec9e636cd8dc",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 842,
-   "transferencias_6h": 837,
-   "tenedores": 3,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x8c53d3eedec857800b7e8fb58b52af3598dd2f14",
+   "token": "0x8e7158c0db5ad26839ce6309af6dee1046157ecc",
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
    "edad_h": 0.8,
-   "transferencias": 805,
-   "transferencias_6h": 800,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
+   "transferencias": 1404,
+   "transferencias_6h": 1402,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 22,
    "sin_movimiento_h": 0.5,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x6ec7fd83914d34628fac8c97f07c8ff86ba65ee0",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 1.0,
-   "transferencias": 491,
-   "transferencias_6h": 486,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xd61f9b5d3ce00732fc0d4784123037c9f3655c2d",
-   "simbolo": "UP",
-   "nombre": "UP",
+   "token": "0x000302c51e989d3806eb0c9c5029c22d0565b887",
+   "simbolo": "KOLANA",
+   "nombre": "Kolana 🐨",
    "launchpad": "Eleos",
    "edad_h": 0.6,
-   "transferencias": 320,
-   "transferencias_6h": 315,
+   "transferencias": 1298,
+   "transferencias_6h": 1296,
    "tenedores": 1,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.4,
+   "lanzamientos_creador_7d": 11,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x16bdaad0697682aad9768bf39c5cec87116992d8",
+   "token": "0xce11e2c7210b9ca7702869669245570ed299ca99",
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 244,
-   "transferencias_6h": 237,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.3,
+   "edad_h": 0.3,
+   "transferencias": 1060,
+   "transferencias_6h": 1058,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 22,
+   "sin_movimiento_h": 0.1,
    "senales": [
     "serial_creator"
    ]
@@ -194,30 +162,91 @@
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
-   "edad_h": 0.1,
-   "transferencias": 237,
-   "transferencias_6h": 235,
-   "tenedores": 29,
-   "top10_pct": 90.1,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.0,
+   "edad_h": 1.1,
+   "transferencias": 868,
+   "transferencias_6h": 630,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 22,
+   "sin_movimiento_h": 0.8,
    "senales": [
-    "serial_creator",
-    "concentrated"
+    "serial_creator"
    ]
   },
   {
-   "token": "0xa1f2cf420b7156a5221f8ede0d5ba2090ffd3aca",
+   "token": "0x9c9896dab95cfaaf49d3e9f03c689c39c2527060",
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
    "edad_h": 0.5,
-   "transferencias": 200,
-   "transferencias_6h": 195,
+   "transferencias": 411,
+   "transferencias_6h": 403,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 22,
+   "sin_movimiento_h": 0.3,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xbe5a7dabaa5339eae5dbb47390f607423a786dfd",
+   "simbolo": "RAZE",
+   "nombre": "Raze.fi",
+   "launchpad": "0xe601…f662",
+   "edad_h": 0.8,
+   "transferencias": 381,
+   "transferencias_6h": 325,
+   "tenedores": 86,
+   "top10_pct": 37.6,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
+   "senales": []
+  },
+  {
+   "token": "0x7b5666bffa76fc10241c4e7b8e23bdf468234f80",
+   "simbolo": "EACCAT",
+   "nombre": "eaccat",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 83,
+   "transferencias_6h": 81,
    "tenedores": 1,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.4,
+   "lanzamientos_creador_7d": 11,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xb4d8f86024a1c536d28875d812d731250013e8d2",
+   "simbolo": "EACCAT",
+   "nombre": "eaccat",
+   "launchpad": "Eleos",
+   "edad_h": 0.1,
+   "transferencias": 77,
+   "transferencias_6h": 75,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 11,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x3675c358aaa32c9ad5dc973262a9c216a5c8ae52",
+   "simbolo": "KOLANA",
+   "nombre": "Kolana 🐨",
+   "launchpad": "Eleos",
+   "edad_h": 0.7,
+   "transferencias": 71,
+   "transferencias_6h": 69,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 11,
+   "sin_movimiento_h": 0.6,
    "senales": [
     "serial_creator"
    ]
@@ -227,122 +256,94 @@
    "simbolo": "LEASH",
    "nombre": "Leash",
    "launchpad": "Montra",
-   "edad_h": 2.0,
-   "transferencias": 671,
-   "transferencias_6h": 66,
-   "tenedores": 102,
-   "top10_pct": 46.2,
+   "edad_h": 3.0,
+   "transferencias": 801,
+   "transferencias_6h": 68,
+   "tenedores": 106,
+   "top10_pct": 47.1,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.1,
+   "sin_movimiento_h": 0.0,
    "senales": []
   },
   {
-   "token": "0x95c3516741f23aeac21bc39de0f9560868fc3790",
+   "token": "0x7154b4ebf9365cc0eddd4a0c54b830fb5a600c05",
    "simbolo": "UP",
    "nombre": "UP",
    "launchpad": "Eleos",
-   "edad_h": 0.8,
-   "transferencias": 23,
-   "transferencias_6h": 21,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x2ee940ba35baabac75a7e099a28c1058a567a20f",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 24,
-   "transferencias_6h": 19,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.3,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x8fc474903c6531f5e9d683f2ed26df56adf4a80d",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.6,
-   "transferencias": 22,
-   "transferencias_6h": 18,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.5,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x9699fb855e01393af43708d0bd5611c071c9222d",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.6,
-   "transferencias": 17,
-   "transferencias_6h": 11,
-   "tenedores": 3,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 12,
-   "sin_movimiento_h": 0.4,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x716aac7d812d88a68386a00077271bc092b12eb3",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 15,
-   "transferencias_6h": 11,
+   "edad_h": 0.1,
+   "transferencias": 44,
+   "transferencias_6h": 42,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 12,
+   "lanzamientos_creador_7d": 22,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x0e49dc8cd80979a0b3d3eced77c4098fe8212803",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.9,
+   "transferencias": 36,
+   "transferencias_6h": 34,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 22,
+   "sin_movimiento_h": 0.8,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x53e1048c41a6b9bc1ebcd2b807c0cce71cf38700",
+   "simbolo": "EACCAT",
+   "nombre": "eaccat",
+   "launchpad": "Eleos",
+   "edad_h": 0.2,
+   "transferencias": 35,
+   "transferencias_6h": 30,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 11,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x48f54bf3e4d145b4b25bd37636b3eb53317a5394",
+   "simbolo": "EACCAT",
+   "nombre": "eaccat",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 26,
+   "transferencias_6h": 24,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 11,
    "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator"
    ]
   },
   {
-   "token": "0x66e8fd180b4e699b773174d4551b0ab5cc728699",
-   "simbolo": "IMP",
-   "nombre": "Implied Markets",
-   "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 21.3,
-   "transferencias": 1347,
-   "transferencias_6h": 10,
-   "tenedores": 115,
-   "top10_pct": 43.5,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.2,
-   "senales": []
-  },
-  {
-   "token": "0xd993927abef40f2eefd7bde5b98b2f66fd381ca3",
-   "simbolo": "FIBER",
-   "nombre": "FIBER",
-   "launchpad": "Montra",
-   "edad_h": 16.5,
-   "transferencias": 2167,
-   "transferencias_6h": 6,
-   "tenedores": 78,
-   "top10_pct": 58.0,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.2,
-   "senales": []
+   "token": "0x004ac8ecf767d4288caca2750a8a23cf73a920f2",
+   "simbolo": "UP",
+   "nombre": "UP",
+   "launchpad": "Eleos",
+   "edad_h": 0.0,
+   "transferencias": 25,
+   "transferencias_6h": 19,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 22,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
   }
  ]
 }
