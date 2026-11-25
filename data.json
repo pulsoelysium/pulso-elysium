@@ -260,11 +260,11 @@
    "whype_supply": 58909.48404486001
   },
   "2026-11-25": {
-   "block": 10745430,
+   "block": 10753899,
    "closed": false,
-   "fees_cum_hype": 5.619278093955181,
-   "usdc_supply": 3572647.950743,
-   "whype_supply": 61541.71231422428
+   "fees_cum_hype": 6.011630909294047,
+   "usdc_supply": 3601487.030365,
+   "whype_supply": 60913.66948369805
   }
  },
  "snapshots": [
@@ -12930,10 +12930,66 @@
      "vol_24h": 95762
     }
    ]
+  },
+  {
+   "ts": 1795627573,
+   "block": 10753899,
+   "fee_account": "0x9b36ec4b5cff5f036f29bba2a493dd9204cc3570",
+   "gas_gwei": 0.5,
+   "block_time_s": 0.187,
+   "bridge_hype": 300981.1100709249,
+   "rollup": {
+    "validators": 1,
+    "whitelist_enabled": true,
+    "confirm_period_blocks": 86400,
+    "paused": false,
+    "batches": 1186,
+    "upgrade_multisig": true,
+    "upgrade_threshold": 4,
+    "upgrade_owners": 10
+   },
+   "hype_usd": 59.07846721999999,
+   "kntq_usd": 0.14988646503155248,
+   "tvl_usd": 6440245.082901168,
+   "dex_24h_usd": 8643918.729999999,
+   "dex_by_protocol": [
+    {
+     "name": "Metric V1",
+     "vol_24h": 2594565
+    },
+    {
+     "name": "Aero Slipstream",
+     "vol_24h": 1465936
+    },
+    {
+     "name": "Uniswap V4",
+     "vol_24h": 1238491
+    },
+    {
+     "name": "Montra",
+     "vol_24h": 798911
+    },
+    {
+     "name": "nest AVR",
+     "vol_24h": 641604
+    },
+    {
+     "name": "Ramses CL V2",
+     "vol_24h": 535130
+    },
+    {
+     "name": "Ascend Launchpad",
+     "vol_24h": 119432
+    },
+    {
+     "name": "GMGN",
+     "vol_24h": 95762
+    }
+   ]
   }
  ],
  "withdrawals": {
-  "last_block": 10745430,
+  "last_block": 10753899,
   "by_day": {
    "2026-10-21": {
     "count": 3,
@@ -13150,7 +13206,7 @@
    "2026-11-22": 5405176,
    "2026-11-23": 5772288,
    "2026-11-24": 6898269,
-   "2026-11-25": 6385849
+   "2026-11-25": 6389934
   },
   "llama_app_fees_by_day": {
    "2026-10-24": 760,
@@ -13185,11 +13241,11 @@
    "2026-11-22": 18278.37,
    "2026-11-23": 58445.01,
    "2026-11-24": 36949.30999999999,
-   "2026-11-25": 31531.430000000004
+   "2026-11-25": 32293.190000000002
   }
  },
  "meta": {
-  "updated_ts": 1795626078,
+  "updated_ts": 1795627573,
   "genesis_day": "2026-10-19",
   "public_mainnet_day": "2026-11-09",
   "kntq_unlock": {
