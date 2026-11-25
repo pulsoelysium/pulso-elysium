@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-25 12:01",
+ "actualizado_utc": "2026-11-25 13:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1077,
-  "activos_ahora": 11,
-  "nunca_operados_24h_pct": 42.9,
+  "lanzamientos_24h": 1089,
+  "activos_ahora": 12,
+  "nunca_operados_24h_pct": 41.3,
   "creadores_en_serie_7d": 121,
   "pct_lanzamientos_de_creadores_en_serie_7d": 95.2,
-  "lanzamientos_7d": 5738,
+  "lanzamientos_7d": 5804,
   "ultimo_dia": {
    "dia": "2026-11-23",
    "lanzamientos": 1032,
@@ -121,16 +121,32 @@
    "simbolo": "ORIEL",
    "nombre": "Oriel",
    "launchpad": "Eleos",
-   "edad_h": 3.1,
+   "edad_h": 4.1,
    "transferencias": 3349,
    "transferencias_6h": 3347,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 28,
-   "sin_movimiento_h": 2.6,
+   "lanzamientos_creador_7d": 37,
+   "sin_movimiento_h": 3.4,
    "senales": [
     "serial_creator",
     "inactive"
+   ]
+  },
+  {
+   "token": "0xc7eb0a87a4cbf480d81878cdbcfe2b2e8057178c",
+   "simbolo": "MNTR",
+   "nombre": "Monitor",
+   "launchpad": "Eleos",
+   "edad_h": 0.9,
+   "transferencias": 2880,
+   "transferencias_6h": 2870,
+   "tenedores": 128,
+   "top10_pct": 17.3,
+   "lanzamientos_creador_7d": 114,
+   "sin_movimiento_h": 0.6,
+   "senales": [
+    "serial_creator"
    ]
   },
   {
@@ -138,16 +154,17 @@
    "simbolo": "Mfer",
    "nombre": "Mfer",
    "launchpad": "Eleos",
-   "edad_h": 0.5,
+   "edad_h": 1.5,
    "transferencias": 2781,
    "transferencias_6h": 2760,
    "tenedores": 169,
    "top10_pct": 91.4,
-   "lanzamientos_creador_7d": 26,
-   "sin_movimiento_h": 0.2,
+   "lanzamientos_creador_7d": 32,
+   "sin_movimiento_h": 1.4,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -155,16 +172,33 @@
    "simbolo": "Mfer",
    "nombre": "Mfer",
    "launchpad": "Eleos",
-   "edad_h": 0.9,
+   "edad_h": 1.9,
    "transferencias": 2587,
    "transferencias_6h": 2577,
    "tenedores": 155,
    "top10_pct": 99.5,
-   "lanzamientos_creador_7d": 26,
-   "sin_movimiento_h": 0.6,
+   "lanzamientos_creador_7d": 32,
+   "sin_movimiento_h": 1.8,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xaa1a52c0bd5ae242053582df63ea8a1c2f5b4bd3",
+   "simbolo": "TURBO",
+   "nombre": "Turbo on Robinhood",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 2568,
+   "transferencias_6h": 2563,
+   "tenedores": 147,
+   "top10_pct": 56.7,
+   "lanzamientos_creador_7d": 76,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
    ]
   },
   {
@@ -172,13 +206,13 @@
    "simbolo": "POTATCHI",
    "nombre": "Potatchi",
    "launchpad": "Eleos",
-   "edad_h": 11.1,
+   "edad_h": 12.1,
    "transferencias": 2404,
    "transferencias_6h": 2396,
    "tenedores": 1,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 69,
-   "sin_movimiento_h": 10.1,
+   "lanzamientos_creador_7d": 76,
+   "sin_movimiento_h": 9.8,
    "senales": [
     "serial_creator",
     "inactive"
@@ -189,12 +223,81 @@
    "simbolo": "XL",
    "nombre": "X Link",
    "launchpad": "Eleos",
-   "edad_h": 11.9,
+   "edad_h": 12.9,
    "transferencias": 2319,
    "transferencias_6h": 2293,
    "tenedores": 126,
    "top10_pct": 95.4,
-   "lanzamientos_creador_7d": 69,
+   "lanzamientos_creador_7d": 76,
+   "sin_movimiento_h": 1.5,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x8bf1d0dc73c3ade152fad71dac207728df965196",
+   "simbolo": "Mfer",
+   "nombre": "Mfer",
+   "launchpad": "Eleos",
+   "edad_h": 0.8,
+   "transferencias": 2227,
+   "transferencias_6h": 2221,
+   "tenedores": 99,
+   "top10_pct": 94.6,
+   "lanzamientos_creador_7d": 32,
+   "sin_movimiento_h": 0.7,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x886ce76f1c0b2604f50ce6ff1baf11974dea4855",
+   "simbolo": "Mfer",
+   "nombre": "Mfer",
+   "launchpad": "Eleos",
+   "edad_h": 0.2,
+   "transferencias": 2194,
+   "transferencias_6h": 2192,
+   "tenedores": 103,
+   "top10_pct": 97.1,
+   "lanzamientos_creador_7d": 32,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0xcc61d252a8c03957c979fed888a1adad10c18fb6",
+   "simbolo": "MNTR",
+   "nombre": "Monitor",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 2152,
+   "transferencias_6h": 2144,
+   "tenedores": 97,
+   "top10_pct": 99.9,
+   "lanzamientos_creador_7d": 114,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x93404c3cbd186f8717832448a00fd4b28e7d4b25",
+   "simbolo": "Mfer",
+   "nombre": "Mfer",
+   "launchpad": "Eleos",
+   "edad_h": 0.5,
+   "transferencias": 2134,
+   "transferencias_6h": 2132,
+   "tenedores": 97,
+   "top10_pct": 73.8,
+   "lanzamientos_creador_7d": 32,
    "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator",
@@ -206,13 +309,13 @@
    "simbolo": "MNTR",
    "nombre": "Monitor",
    "launchpad": "Eleos",
-   "edad_h": 1.9,
+   "edad_h": 2.9,
    "transferencias": 2128,
    "transferencias_6h": 2113,
    "tenedores": 110,
    "top10_pct": 99.9,
-   "lanzamientos_creador_7d": 110,
-   "sin_movimiento_h": 1.6,
+   "lanzamientos_creador_7d": 114,
+   "sin_movimiento_h": 2.6,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -220,17 +323,33 @@
    ]
   },
   {
+   "token": "0x3e36b2fa883abd53f3f77669adef3a8779a647f0",
+   "simbolo": "TESTICLES",
+   "nombre": "TESTICLES",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 2069,
+   "transferencias_6h": 2064,
+   "tenedores": 1,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 37,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
    "token": "0xe5e5d5d26d7f86e7217b4af606a47d7a801bafd2",
    "simbolo": "XL",
    "nombre": "X Link",
    "launchpad": "Eleos",
-   "edad_h": 12.3,
+   "edad_h": 13.3,
    "transferencias": 2009,
    "transferencias_6h": 2006,
    "tenedores": 114,
    "top10_pct": 98.5,
-   "lanzamientos_creador_7d": 69,
-   "sin_movimiento_h": 11.1,
+   "lanzamientos_creador_7d": 76,
+   "sin_movimiento_h": 10.7,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -242,136 +361,17 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 0.8,
+   "edad_h": 1.8,
    "transferencias": 1944,
    "transferencias_6h": 1938,
    "tenedores": 125,
    "top10_pct": 97.6,
-   "lanzamientos_creador_7d": 69,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0xa6980078a9e2f5042a4cd23f47f68b8867397ba8",
-   "simbolo": "CHUDJAK",
-   "nombre": "Chudjak",
-   "launchpad": "Eleos",
-   "edad_h": 1.4,
-   "transferencias": 1895,
-   "transferencias_6h": 1887,
-   "tenedores": 151,
-   "top10_pct": 50.5,
-   "lanzamientos_creador_7d": 26,
-   "sin_movimiento_h": 1.2,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xf1d8a45b64e705e1af48d50bdab5d7aea50975f6",
-   "simbolo": "ORIEL",
-   "nombre": "Oriel",
-   "launchpad": "Eleos",
-   "edad_h": 2.5,
-   "transferencias": 1846,
-   "transferencias_6h": 1836,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 28,
-   "sin_movimiento_h": 2.3,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x1c9b0a1d507f64c33bae0c4ddd234d888640878d",
-   "simbolo": "TURBO",
-   "nombre": "Turbo on Robinhood",
-   "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 1690,
-   "transferencias_6h": 1677,
-   "tenedores": 93,
-   "top10_pct": 97.8,
-   "lanzamientos_creador_7d": 69,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x40ee2d241c2ab699a5715551bbe82bb2b62ed545",
-   "simbolo": "MNTR",
-   "nombre": "Monitor",
-   "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 1644,
-   "transferencias_6h": 1624,
-   "tenedores": 68,
-   "top10_pct": 88.6,
-   "lanzamientos_creador_7d": 110,
-   "sin_movimiento_h": 0.1,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0xbf01b4f1f861aa1cbe7a805edbb71ead65924959",
-   "simbolo": "MNTR",
-   "nombre": "Monitor",
-   "launchpad": "Eleos",
-   "edad_h": 2.3,
-   "transferencias": 2277,
-   "transferencias_6h": 1453,
-   "tenedores": 110,
-   "top10_pct": 95.1,
-   "lanzamientos_creador_7d": 110,
-   "sin_movimiento_h": 2.0,
+   "lanzamientos_creador_7d": 76,
+   "sin_movimiento_h": 1.8,
    "senales": [
     "serial_creator",
     "concentrated",
     "inactive"
-   ]
-  },
-  {
-   "token": "0xf2a3fe5b7d1169772733d3be6d96e1b5b91bc005",
-   "simbolo": "Rockstar",
-   "nombre": "Rockstar",
-   "launchpad": "Eleos",
-   "edad_h": 1.1,
-   "transferencias": 1417,
-   "transferencias_6h": 1412,
-   "tenedores": 100,
-   "top10_pct": 22.2,
-   "lanzamientos_creador_7d": 405,
-   "sin_movimiento_h": 1.1,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x8aca1f48ce55ee53ff9bdb6179b233873d5a1bf4",
-   "simbolo": "POTATCHI",
-   "nombre": "Potatchi",
-   "launchpad": "Eleos",
-   "edad_h": 11.4,
-   "transferencias": 1289,
-   "transferencias_6h": 1281,
-   "tenedores": 70,
-   "top10_pct": 98.1,
-   "lanzamientos_creador_7d": 69,
-   "sin_movimiento_h": 0.3,
-   "senales": [
-    "serial_creator",
-    "concentrated"
    ]
   }
  ]
