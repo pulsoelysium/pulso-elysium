@@ -267,11 +267,11 @@
    "whype_supply": 55898.480557074465
   },
   "2026-11-26": {
-   "block": 11188541,
+   "block": 11193872,
    "closed": false,
-   "fees_cum_hype": 62.40682315469842,
-   "usdc_supply": 3444643.150496,
-   "whype_supply": 60685.756280089954
+   "fees_cum_hype": 64.83203246659541,
+   "usdc_supply": 3444943.150496,
+   "whype_supply": 60271.05771535643
   }
  },
  "snapshots": [
@@ -14617,10 +14617,66 @@
      "vol_24h": 298175
     }
    ]
+  },
+  {
+   "ts": 1795724247,
+   "block": 11193872,
+   "fee_account": "0x9b36ec4b5cff5f036f29bba2a493dd9204cc3570",
+   "gas_gwei": 0.5,
+   "block_time_s": 0.182,
+   "bridge_hype": 314797.74351106765,
+   "rollup": {
+    "validators": 1,
+    "whitelist_enabled": true,
+    "confirm_period_blocks": 86400,
+    "paused": false,
+    "batches": 1225,
+    "upgrade_multisig": true,
+    "upgrade_threshold": 4,
+    "upgrade_owners": 10
+   },
+   "hype_usd": 62.529340795,
+   "kntq_usd": 0.18548840808991726,
+   "tvl_usd": 6684998.295751718,
+   "dex_24h_usd": 10725062.53,
+   "dex_by_protocol": [
+    {
+     "name": "Montra",
+     "vol_24h": 6109598
+    },
+    {
+     "name": "Metric V1",
+     "vol_24h": 5948372
+    },
+    {
+     "name": "Uniswap V4",
+     "vol_24h": 4906686
+    },
+    {
+     "name": "Aero Slipstream",
+     "vol_24h": 2559748
+    },
+    {
+     "name": "nest AVR",
+     "vol_24h": 1932334
+    },
+    {
+     "name": "Ramses CL V2",
+     "vol_24h": 1307230
+    },
+    {
+     "name": "ElysPump V2",
+     "vol_24h": 409452
+    },
+    {
+     "name": "Ascend Launchpad",
+     "vol_24h": 298175
+    }
+   ]
   }
  ],
  "withdrawals": {
-  "last_block": 11188541,
+  "last_block": 11193872,
   "by_day": {
    "2026-10-21": {
     "count": 3,
@@ -14883,7 +14939,7 @@
   }
  },
  "meta": {
-  "updated_ts": 1795723278,
+  "updated_ts": 1795724247,
   "genesis_day": "2026-10-19",
   "public_mainnet_day": "2026-11-09",
   "kntq_unlock": {
