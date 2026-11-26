@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-26 01:52",
+ "actualizado_utc": "2026-11-26 02:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1041,
+  "lanzamientos_24h": 1029,
   "activos_ahora": 66,
-  "nunca_operados_24h_pct": 41.7,
+  "nunca_operados_24h_pct": 42.3,
   "creadores_en_serie_7d": 122,
   "pct_lanzamientos_de_creadores_en_serie_7d": 95.0,
-  "lanzamientos_7d": 6286,
+  "lanzamientos_7d": 6290,
   "ultimo_dia": {
    "dia": "2026-11-24",
    "lanzamientos": 1089,
@@ -116,34 +116,33 @@
  ],
  "tokens": [
   {
-   "token": "0xe4a23b7ab464f8a7ef7dbd6dd73672a6a4007f94",
-   "simbolo": "FOMOEGG",
-   "nombre": "fomoegg",
-   "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 1520,
-   "transferencias_6h": 1518,
-   "tenedores": 83,
-   "top10_pct": 98.9,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
    "token": "0x547f5b0680abb59270dac86d41a38309fb7c299b",
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 1184,
-   "transferencias_6h": 1180,
-   "tenedores": 89,
-   "top10_pct": 96.2,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.0,
+   "edad_h": 0.3,
+   "transferencias": 1758,
+   "transferencias_6h": 1754,
+   "tenedores": 96,
+   "top10_pct": 41.7,
+   "lanzamientos_creador_7d": 124,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0xe4a23b7ab464f8a7ef7dbd6dd73672a6a4007f94",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 1520,
+   "transferencias_6h": 1518,
+   "tenedores": 83,
+   "top10_pct": 98.9,
+   "lanzamientos_creador_7d": 124,
+   "sin_movimiento_h": 0.4,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -154,12 +153,44 @@
    "simbolo": "FORGE",
    "nombre": "Forge",
    "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 826,
+   "transferencias_6h": 824,
+   "tenedores": 0,
+   "top10_pct": 0,
+   "lanzamientos_creador_7d": 49,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x701c192a74b61f0a15d73fa03848442c3c6f318f",
+   "simbolo": "FORGE",
+   "nombre": "Forge",
+   "launchpad": "Eleos",
    "edad_h": 0.1,
-   "transferencias": 668,
-   "transferencias_6h": 666,
-   "tenedores": 78,
-   "top10_pct": 91.4,
-   "lanzamientos_creador_7d": 48,
+   "transferencias": 692,
+   "transferencias_6h": 682,
+   "tenedores": 2,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 49,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator"
+   ]
+  },
+  {
+   "token": "0x0b0b099db4483c432bf8070f9f3c61cf9ba8e2c3",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
+   "launchpad": "Eleos",
+   "edad_h": 0.1,
+   "transferencias": 627,
+   "transferencias_6h": 620,
+   "tenedores": 56,
+   "top10_pct": 94.5,
+   "lanzamientos_creador_7d": 124,
    "sin_movimiento_h": 0.0,
    "senales": [
     "serial_creator",
@@ -171,13 +202,13 @@
    "simbolo": "FORGE",
    "nombre": "Forge",
    "launchpad": "Eleos",
-   "edad_h": 0.3,
+   "edad_h": 0.4,
    "transferencias": 393,
    "transferencias_6h": 390,
    "tenedores": 1,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 48,
-   "sin_movimiento_h": 0.2,
+   "lanzamientos_creador_7d": 49,
+   "sin_movimiento_h": 0.4,
    "senales": [
     "serial_creator"
    ]
@@ -187,13 +218,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 0.6,
+   "edad_h": 0.7,
    "transferencias": 360,
    "transferencias_6h": 350,
    "tenedores": 20,
    "top10_pct": 93.1,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.5,
+   "lanzamientos_creador_7d": 124,
+   "sin_movimiento_h": 0.7,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -204,13 +235,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 0.6,
+   "edad_h": 0.8,
    "transferencias": 341,
    "transferencias_6h": 336,
    "tenedores": 20,
    "top10_pct": 99.8,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.6,
+   "lanzamientos_creador_7d": 124,
+   "sin_movimiento_h": 0.7,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -221,13 +252,13 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 0.5,
+   "edad_h": 0.7,
    "transferencias": 290,
    "transferencias_6h": 285,
    "tenedores": 14,
    "top10_pct": 85.1,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.4,
+   "lanzamientos_creador_7d": 124,
+   "sin_movimiento_h": 0.6,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -238,11 +269,11 @@
    "simbolo": "MEDUSA",
    "nombre": "Medusa AI",
    "launchpad": "Montra",
-   "edad_h": 1.0,
-   "transferencias": 339,
-   "transferencias_6h": 258,
-   "tenedores": 40,
-   "top10_pct": 87.3,
+   "edad_h": 1.2,
+   "transferencias": 354,
+   "transferencias_6h": 269,
+   "tenedores": 34,
+   "top10_pct": 96.0,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": [
@@ -254,15 +285,31 @@
    "simbolo": "FOMOEGG",
    "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 0.7,
+   "edad_h": 0.8,
    "transferencias": 179,
    "transferencias_6h": 173,
    "tenedores": 8,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.6,
+   "lanzamientos_creador_7d": 124,
+   "sin_movimiento_h": 0.8,
    "senales": [
     "serial_creator"
+   ]
+  },
+  {
+   "token": "0xfcaa052b6c6823007c8c339f1c7b5c70c1fb075b",
+   "simbolo": "MACC",
+   "nombre": "m/acc",
+   "launchpad": "Uniswap v4 (direct)",
+   "edad_h": 1.0,
+   "transferencias": 104,
+   "transferencias_6h": 97,
+   "tenedores": 15,
+   "top10_pct": 90.6,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "concentrated"
    ]
   },
   {
@@ -270,41 +317,25 @@
    "simbolo": "INTERESTING",
    "nombre": "Interesting coin",
    "launchpad": "Montra",
-   "edad_h": 6.2,
-   "transferencias": 4153,
-   "transferencias_6h": 95,
+   "edad_h": 6.4,
+   "transferencias": 4155,
+   "transferencias_6h": 96,
    "tenedores": 165,
    "top10_pct": 33.9,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 0.2,
    "senales": []
-  },
-  {
-   "token": "0xfcaa052b6c6823007c8c339f1c7b5c70c1fb075b",
-   "simbolo": "MACC",
-   "nombre": "m/acc",
-   "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 0.8,
-   "transferencias": 101,
-   "transferencias_6h": 94,
-   "tenedores": 12,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
-   "senales": [
-    "concentrated"
-   ]
   },
   {
    "token": "0x21c62a3c57dff0ee1964dca2232b5e15610ef912",
    "simbolo": "FAMULUS",
    "nombre": "FAMULUS AI",
    "launchpad": "Montra",
-   "edad_h": 8.4,
-   "transferencias": 1026,
-   "transferencias_6h": 77,
-   "tenedores": 89,
-   "top10_pct": 55.5,
+   "edad_h": 8.6,
+   "transferencias": 1043,
+   "transferencias_6h": 84,
+   "tenedores": 90,
+   "top10_pct": 52.3,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.1,
    "senales": []
@@ -314,47 +345,15 @@
    "simbolo": "FREN",
    "nombre": "FrenGame",
    "launchpad": "Montra",
-   "edad_h": 3.0,
-   "transferencias": 89,
-   "transferencias_6h": 41,
-   "tenedores": 26,
-   "top10_pct": 76.4,
+   "edad_h": 3.2,
+   "transferencias": 100,
+   "transferencias_6h": 48,
+   "tenedores": 30,
+   "top10_pct": 71.8,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 0.1,
    "senales": [
     "concentrated"
-   ]
-  },
-  {
-   "token": "0x76ae9009c56fcd66deeec26390c203f8e84692c5",
-   "simbolo": "FOMOEGG",
-   "nombre": "fomoegg",
-   "launchpad": "Eleos",
-   "edad_h": 0.7,
-   "transferencias": 23,
-   "transferencias_6h": 21,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0xc12404e08b779f66b25d793a49ae3a4288a14562",
-   "simbolo": "FOMOEGG",
-   "nombre": "fomoegg",
-   "launchpad": "Eleos",
-   "edad_h": 0.7,
-   "transferencias": 16,
-   "transferencias_6h": 14,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator"
    ]
   }
  ]
