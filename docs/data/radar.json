@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-26 01:01",
+ "actualizado_utc": "2026-11-26 01:52",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 1069,
-  "activos_ahora": 65,
-  "nunca_operados_24h_pct": 39.0,
+  "lanzamientos_24h": 1041,
+  "activos_ahora": 66,
+  "nunca_operados_24h_pct": 41.7,
   "creadores_en_serie_7d": 122,
   "pct_lanzamientos_de_creadores_en_serie_7d": 95.0,
-  "lanzamientos_7d": 6260,
+  "lanzamientos_7d": 6286,
   "ultimo_dia": {
    "dia": "2026-11-24",
    "lanzamientos": 1089,
@@ -116,263 +116,245 @@
  ],
  "tokens": [
   {
-   "token": "0x7bceb683a389a46e2eb6f0281111c0d980d015f0",
-   "simbolo": "POTATCHI",
-   "nombre": "Potatchi",
+   "token": "0xe4a23b7ab464f8a7ef7dbd6dd73672a6a4007f94",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 23.6,
-   "transferencias": 1182,
-   "transferencias_6h": 1160,
-   "tenedores": 76,
-   "top10_pct": 95.7,
-   "lanzamientos_creador_7d": 112,
-   "sin_movimiento_h": 16.5,
+   "edad_h": 0.4,
+   "transferencias": 1520,
+   "transferencias_6h": 1518,
+   "tenedores": 83,
+   "top10_pct": 98.9,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.2,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   },
   {
-   "token": "0x9011aaca8c3d725ab92c4256c395c7fc02660248",
-   "simbolo": "UP",
-   "nombre": "UP",
+   "token": "0x547f5b0680abb59270dac86d41a38309fb7c299b",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 23.7,
-   "transferencias": 1150,
-   "transferencias_6h": 1142,
+   "edad_h": 0.2,
+   "transferencias": 1184,
+   "transferencias_6h": 1180,
+   "tenedores": 89,
+   "top10_pct": 96.2,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0xf049d6aaff44c9519774f64768de7dee77fe95c8",
+   "simbolo": "FORGE",
+   "nombre": "Forge",
+   "launchpad": "Eleos",
+   "edad_h": 0.1,
+   "transferencias": 668,
+   "transferencias_6h": 666,
+   "tenedores": 78,
+   "top10_pct": 91.4,
+   "lanzamientos_creador_7d": 48,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x49492113b8d8001723943e01c811c4a7f7db5316",
+   "simbolo": "FORGE",
+   "nombre": "Forge",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 393,
+   "transferencias_6h": 390,
    "tenedores": 1,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 76,
-   "sin_movimiento_h": 16.5,
+   "lanzamientos_creador_7d": 48,
+   "sin_movimiento_h": 0.2,
    "senales": [
-    "serial_creator",
-    "inactive"
+    "serial_creator"
    ]
   },
   {
-   "token": "0x5e61bad309ea17edf1698a1350167489dcfaa6bb",
-   "simbolo": "POTATCHI",
-   "nombre": "Potatchi",
+   "token": "0x40bf7081f4752ac59f886877ac716d43243b374f",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 23.4,
-   "transferencias": 917,
-   "transferencias_6h": 904,
-   "tenedores": 52,
-   "top10_pct": 99.0,
-   "lanzamientos_creador_7d": 112,
-   "sin_movimiento_h": 16.5,
+   "edad_h": 0.6,
+   "transferencias": 360,
+   "transferencias_6h": 350,
+   "tenedores": 20,
+   "top10_pct": 93.1,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.5,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   },
   {
-   "token": "0xe123537938f20e779ceb955b767c24698c5c792a",
-   "simbolo": "HBOOK",
-   "nombre": "Hyperbook",
+   "token": "0x7d491fcd5118cb22efe3f76301be6d2d88e87621",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 23.6,
-   "transferencias": 521,
-   "transferencias_6h": 513,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 46,
-   "sin_movimiento_h": 28.4,
+   "edad_h": 0.6,
+   "transferencias": 341,
+   "transferencias_6h": 336,
+   "tenedores": 20,
+   "top10_pct": 99.8,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.6,
    "senales": [
     "serial_creator",
-    "inactive"
+    "concentrated"
    ]
   },
   {
-   "token": "0xee6629fa8da5e4567b5e0f8d26a6bc953dffc95a",
-   "simbolo": "UP",
-   "nombre": "UP",
+   "token": "0x5006d6522133bce2911290e001730c741441ed27",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 23.8,
-   "transferencias": 492,
-   "transferencias_6h": 487,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 76,
-   "sin_movimiento_h": 28.8,
+   "edad_h": 0.5,
+   "transferencias": 290,
+   "transferencias_6h": 285,
+   "tenedores": 14,
+   "top10_pct": 85.1,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.4,
    "senales": [
     "serial_creator",
-    "inactive"
+    "concentrated"
    ]
   },
   {
-   "token": "0xc3fdac39dceeeb2803fec2785276119907d0b99a",
-   "simbolo": "HBOOK",
-   "nombre": "Hyperbook",
-   "launchpad": "Eleos",
-   "edad_h": 23.3,
-   "transferencias": 2100,
-   "transferencias_6h": 354,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 46,
-   "sin_movimiento_h": 27.7,
+   "token": "0x73061bd935db68e3c41b033981e13589513b0e58",
+   "simbolo": "MEDUSA",
+   "nombre": "Medusa AI",
+   "launchpad": "Montra",
+   "edad_h": 1.0,
+   "transferencias": 339,
+   "transferencias_6h": 258,
+   "tenedores": 40,
+   "top10_pct": 87.3,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
    "senales": [
-    "serial_creator",
-    "inactive"
+    "concentrated"
    ]
   },
   {
-   "token": "0xb0fe81f04f445a8de6148659acf4cc942de4857a",
-   "simbolo": "POTATCHI",
-   "nombre": "Potatchi",
+   "token": "0xc8c76c2b38a9c24dc2920787721a7eab35af8c32",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 23.7,
-   "transferencias": 276,
-   "transferencias_6h": 266,
-   "tenedores": 15,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 112,
-   "sin_movimiento_h": 27.0,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xc68b6198a29adca2508d770fabd706d4ab7edf7d",
-   "simbolo": "Rockstar",
-   "nombre": "Rockstar",
-   "launchpad": "Eleos",
-   "edad_h": 24.0,
-   "transferencias": 253,
-   "transferencias_6h": 251,
-   "tenedores": 10,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 445,
-   "sin_movimiento_h": 29.0,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xdcc4cbe5815d149b0b1b9d3f48f9e1c57ce6c8b4",
-   "simbolo": "POTATCHI",
-   "nombre": "Potatchi",
-   "launchpad": "Eleos",
-   "edad_h": 23.3,
-   "transferencias": 1557,
-   "transferencias_6h": 214,
-   "tenedores": 84,
-   "top10_pct": 81.0,
-   "lanzamientos_creador_7d": 112,
-   "sin_movimiento_h": 28.0,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xf98bf0ebcef7d309fe06119104297e8a7ae1ad62",
-   "simbolo": "Rockstar",
-   "nombre": "Rockstar",
-   "launchpad": "Eleos",
-   "edad_h": 23.8,
-   "transferencias": 209,
-   "transferencias_6h": 207,
-   "tenedores": 18,
-   "top10_pct": 67.8,
-   "lanzamientos_creador_7d": 445,
-   "sin_movimiento_h": 28.7,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xcca3aef2e630e1ffa8b1563479eb913667275ce7",
-   "simbolo": "Rockstar",
-   "nombre": "Rockstar",
-   "launchpad": "Eleos",
-   "edad_h": 23.8,
-   "transferencias": 173,
-   "transferencias_6h": 171,
+   "edad_h": 0.7,
+   "transferencias": 179,
+   "transferencias_6h": 173,
    "tenedores": 8,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 445,
-   "sin_movimiento_h": 28.8,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.6,
    "senales": [
-    "serial_creator",
-    "inactive"
+    "serial_creator"
    ]
   },
   {
-   "token": "0xa901248e0dbb4cfc378c246feafa0e117989dcf4",
-   "simbolo": "HBOOK",
-   "nombre": "Hyperbook",
+   "token": "0x476c059333d36b19d8c53d6b83a38abcbe199a50",
+   "simbolo": "INTERESTING",
+   "nombre": "Interesting coin",
+   "launchpad": "Montra",
+   "edad_h": 6.2,
+   "transferencias": 4153,
+   "transferencias_6h": 95,
+   "tenedores": 165,
+   "top10_pct": 33.9,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
+   "senales": []
+  },
+  {
+   "token": "0xfcaa052b6c6823007c8c339f1c7b5c70c1fb075b",
+   "simbolo": "MACC",
+   "nombre": "m/acc",
+   "launchpad": "Uniswap v4 (direct)",
+   "edad_h": 0.8,
+   "transferencias": 101,
+   "transferencias_6h": 94,
+   "tenedores": 12,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x21c62a3c57dff0ee1964dca2232b5e15610ef912",
+   "simbolo": "FAMULUS",
+   "nombre": "FAMULUS AI",
+   "launchpad": "Montra",
+   "edad_h": 8.4,
+   "transferencias": 1026,
+   "transferencias_6h": 77,
+   "tenedores": 89,
+   "top10_pct": 55.5,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.1,
+   "senales": []
+  },
+  {
+   "token": "0xc95970f6ac22a024d4a5e14b5b5f97e379a00156",
+   "simbolo": "FREN",
+   "nombre": "FrenGame",
+   "launchpad": "Montra",
+   "edad_h": 3.0,
+   "transferencias": 89,
+   "transferencias_6h": 41,
+   "tenedores": 26,
+   "top10_pct": 76.4,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x76ae9009c56fcd66deeec26390c203f8e84692c5",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 23.7,
-   "transferencias": 138,
-   "transferencias_6h": 134,
+   "edad_h": 0.7,
+   "transferencias": 23,
+   "transferencias_6h": 21,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 46,
-   "sin_movimiento_h": 28.7,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.7,
    "senales": [
-    "serial_creator",
-    "inactive"
+    "serial_creator"
    ]
   },
   {
-   "token": "0xe894dc191aafef88360aba74ef082c85014d2d35",
-   "simbolo": "UP",
-   "nombre": "UP",
+   "token": "0xc12404e08b779f66b25d793a49ae3a4288a14562",
+   "simbolo": "FOMOEGG",
+   "nombre": "fomoegg",
    "launchpad": "Eleos",
-   "edad_h": 23.9,
-   "transferencias": 102,
-   "transferencias_6h": 99,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 76,
-   "sin_movimiento_h": 28.9,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x7b513839f10b68615718af1fb09e74102e3e026d",
-   "simbolo": "POTATCHI",
-   "nombre": "Potatchi",
-   "launchpad": "Eleos",
-   "edad_h": 23.4,
-   "transferencias": 103,
-   "transferencias_6h": 93,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 112,
-   "sin_movimiento_h": 16.5,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0xb7f75278f2953daa0cc9a8e6dc8a1be473364c58",
-   "simbolo": "UP",
-   "nombre": "UP",
-   "launchpad": "Eleos",
-   "edad_h": 24.0,
-   "transferencias": 76,
-   "transferencias_6h": 74,
+   "edad_h": 0.7,
+   "transferencias": 16,
+   "transferencias_6h": 14,
    "tenedores": 0,
    "top10_pct": 0,
-   "lanzamientos_creador_7d": 76,
-   "sin_movimiento_h": 29.0,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.7,
    "senales": [
-    "serial_creator",
-    "inactive"
+    "serial_creator"
    ]
   }
  ]
