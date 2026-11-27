@@ -274,11 +274,11 @@
    "whype_supply": 64987.41058657634
   },
   "2026-11-27": {
-   "block": 11556434,
+   "block": 11576419,
    "closed": false,
-   "fees_cum_hype": 12.854800969782318,
-   "usdc_supply": 3948679.417668,
-   "whype_supply": 59640.4001946003
+   "fees_cum_hype": 16.718803207653608,
+   "usdc_supply": 3928739.345949,
+   "whype_supply": 61227.801226812815
   }
  },
  "snapshots": [
@@ -15632,10 +15632,66 @@
      "vol_24h": 1268635
     }
    ]
+  },
+  {
+   "ts": 1795783628,
+   "block": 11576419,
+   "fee_account": "0x9b36ec4b5cff5f036f29bba2a493dd9204cc3570",
+   "gas_gwei": 0.50025,
+   "block_time_s": 0.1428,
+   "bridge_hype": 338663.13434679795,
+   "rollup": {
+    "validators": 1,
+    "whitelist_enabled": true,
+    "confirm_period_blocks": 86400,
+    "paused": false,
+    "batches": 1277,
+    "upgrade_multisig": true,
+    "upgrade_threshold": 4,
+    "upgrade_owners": 11
+   },
+   "hype_usd": 65.622,
+   "kntq_usd": 0.22007650354562244,
+   "tvl_usd": 6964242.50667981,
+   "dex_24h_usd": 37976916.04,
+   "dex_by_protocol": [
+    {
+     "name": "Montra",
+     "vol_24h": 20512382
+    },
+    {
+     "name": "Metric V1",
+     "vol_24h": 14285080
+    },
+    {
+     "name": "Uniswap V4",
+     "vol_24h": 14167071
+    },
+    {
+     "name": "nest AVR",
+     "vol_24h": 4780463
+    },
+    {
+     "name": "Aero Slipstream",
+     "vol_24h": 4538666
+    },
+    {
+     "name": "Ramses CL V2",
+     "vol_24h": 3011112
+    },
+    {
+     "name": "GMGN",
+     "vol_24h": 1783464
+    },
+    {
+     "name": "Ascend Launchpad",
+     "vol_24h": 1268635
+    }
+   ]
   }
  ],
  "withdrawals": {
-  "last_block": 11556434,
+  "last_block": 11576419,
   "by_day": {
    "2026-10-21": {
     "count": 3,
@@ -15786,8 +15842,8 @@
     "hype": 363.051912795365
    },
    "2026-11-27": {
-    "count": 55,
-    "hype": 723.7606876268354
+    "count": 58,
+    "hype": 793.7606876268354
    }
   }
  },
@@ -15905,7 +15961,7 @@
   }
  },
  "meta": {
-  "updated_ts": 1795780876,
+  "updated_ts": 1795783628,
   "genesis_day": "2026-10-19",
   "public_mainnet_day": "2026-11-09",
   "kntq_unlock": {
