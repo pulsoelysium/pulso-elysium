@@ -1,17 +1,17 @@
 {
- "actualizado_utc": "2026-11-27 02:57",
+ "actualizado_utc": "2026-11-27 03:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 2082,
+  "lanzamientos_24h": 2089,
   "activos_ahora": 41,
-  "nunca_operados_24h_pct": 46.1,
-  "creadores_en_serie_7d": 152,
+  "nunca_operados_24h_pct": 46.0,
+  "creadores_en_serie_7d": 153,
   "pct_lanzamientos_de_creadores_en_serie_7d": 89.5,
-  "lanzamientos_7d": 7717,
+  "lanzamientos_7d": 7725,
   "ultimo_dia": {
    "dia": "2026-11-25",
-   "lanzamientos": 964,
-   "nunca_operados_pct": 37.9,
+   "lanzamientos": 988,
+   "nunca_operados_pct": 37.8,
    "murieron_2h_pct": 50.5,
    "activos_24h_pct": 0.2
   }
@@ -89,8 +89,8 @@
   },
   {
    "dia": "2026-11-25",
-   "lanzamientos": 964,
-   "nunca_operados_pct": 37.9,
+   "lanzamientos": 988,
+   "nunca_operados_pct": 37.8,
    "murieron_2h_pct": 50.5,
    "activos_24h_pct": 0.2
   }
@@ -99,15 +99,15 @@
   {
    "contrato": "0x38d3ef3a06d18fa3286fb5deafe611be725fcd15",
    "nombre": "Montra",
-   "lanzamientos": 4023,
-   "nunca_operados_pct": 84.2,
+   "lanzamientos": 4042,
+   "nunca_operados_pct": 84.0,
    "activos_24h_pct": 0.2,
    "vida_mediana_min": 1
   },
   {
    "contrato": "0x9c73d179b2911e89a4edc47cfd78765990bc6761",
    "nombre": "Eleos",
-   "lanzamientos": 3808,
+   "lanzamientos": 3813,
    "nunca_operados_pct": 0.1,
    "activos_24h_pct": 0.0,
    "vida_mediana_min": 6
@@ -133,7 +133,7 @@
    "tenedores": 117,
    "top10_pct": 98.1,
    "lanzamientos_creador_7d": 39,
-   "sin_movimiento_h": 19.2,
+   "sin_movimiento_h": 19.5,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -151,7 +151,7 @@
    "tenedores": 132,
    "top10_pct": 60.4,
    "lanzamientos_creador_7d": 209,
-   "sin_movimiento_h": 18.6,
+   "sin_movimiento_h": 18.9,
    "senales": [
     "serial_creator",
     "inactive"
@@ -168,7 +168,7 @@
    "tenedores": 131,
    "top10_pct": 72.9,
    "lanzamientos_creador_7d": 162,
-   "sin_movimiento_h": 18.3,
+   "sin_movimiento_h": 18.6,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -186,7 +186,7 @@
    "tenedores": 102,
    "top10_pct": 96.0,
    "lanzamientos_creador_7d": 39,
-   "sin_movimiento_h": 19.6,
+   "sin_movimiento_h": 20.0,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -198,34 +198,17 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 13.6,
+   "edad_h": 13.7,
    "transferencias": 2135,
    "transferencias_6h": 2126,
    "tenedores": 121,
    "top10_pct": 80.3,
    "lanzamientos_creador_7d": 14,
-   "sin_movimiento_h": 13.5,
+   "sin_movimiento_h": 13.7,
    "senales": [
     "serial_creator",
     "concentrated",
     "inactive"
-   ]
-  },
-  {
-   "token": "0x7fd5fa24bbe88b31eb48fc3045e315c6706b4fd5",
-   "simbolo": "Snowball",
-   "nombre": "Snowball",
-   "launchpad": "Eleos",
-   "edad_h": 0.9,
-   "transferencias": 2122,
-   "transferencias_6h": 2097,
-   "tenedores": 103,
-   "top10_pct": 99.9,
-   "lanzamientos_creador_7d": 552,
-   "sin_movimiento_h": 0.6,
-   "senales": [
-    "serial_creator",
-    "concentrated"
    ]
   },
   {
@@ -239,7 +222,7 @@
    "tenedores": 117,
    "top10_pct": 92.3,
    "lanzamientos_creador_7d": 209,
-   "sin_movimiento_h": 7.0,
+   "sin_movimiento_h": 7.1,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -251,13 +234,13 @@
    "simbolo": "ARCMAN",
    "nombre": "Arc-man",
    "launchpad": "Eleos",
-   "edad_h": 19.6,
+   "edad_h": 19.7,
    "transferencias": 1973,
    "transferencias_6h": 1965,
    "tenedores": 123,
    "top10_pct": 96.6,
    "lanzamientos_creador_7d": 162,
-   "sin_movimiento_h": 7.0,
+   "sin_movimiento_h": 7.1,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -275,7 +258,7 @@
    "tenedores": 100,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 209,
-   "sin_movimiento_h": 13.2,
+   "sin_movimiento_h": 13.5,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -287,13 +270,13 @@
    "simbolo": "HEYOS",
    "nombre": "HeyOS",
    "launchpad": "Eleos",
-   "edad_h": 20.1,
+   "edad_h": 20.2,
    "transferencias": 1926,
    "transferencias_6h": 1918,
    "tenedores": 122,
    "top10_pct": 84.2,
    "lanzamientos_creador_7d": 209,
-   "sin_movimiento_h": 18.9,
+   "sin_movimiento_h": 19.2,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -311,7 +294,7 @@
    "tenedores": 2,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 125,
-   "sin_movimiento_h": 15.2,
+   "sin_movimiento_h": 15.5,
    "senales": [
     "serial_creator",
     "inactive"
@@ -328,7 +311,7 @@
    "tenedores": 113,
    "top10_pct": 97.5,
    "lanzamientos_creador_7d": 14,
-   "sin_movimiento_h": 14.0,
+   "sin_movimiento_h": 14.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -346,7 +329,7 @@
    "tenedores": 103,
    "top10_pct": 74.4,
    "lanzamientos_creador_7d": 209,
-   "sin_movimiento_h": 7.0,
+   "sin_movimiento_h": 7.1,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -358,13 +341,13 @@
    "simbolo": "HEYOS",
    "nombre": "HeyOS",
    "launchpad": "Eleos",
-   "edad_h": 18.3,
+   "edad_h": 18.4,
    "transferencias": 1824,
    "transferencias_6h": 1818,
    "tenedores": 106,
    "top10_pct": 97.2,
    "lanzamientos_creador_7d": 209,
-   "sin_movimiento_h": 17.7,
+   "sin_movimiento_h": 18.0,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -376,16 +359,33 @@
    "simbolo": "BULL",
    "nombre": "The Bull",
    "launchpad": "Eleos",
-   "edad_h": 18.8,
+   "edad_h": 18.9,
    "transferencias": 1807,
    "transferencias_6h": 1804,
    "tenedores": 104,
    "top10_pct": 75.7,
    "lanzamientos_creador_7d": 162,
-   "sin_movimiento_h": 18.1,
+   "sin_movimiento_h": 18.4,
    "senales": [
     "serial_creator",
     "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xadbb19944e57675557d751c65fb1631cd72ab2aa",
+   "simbolo": "HEYOS",
+   "nombre": "HeyOS",
+   "launchpad": "Eleos",
+   "edad_h": 13.1,
+   "transferencias": 1796,
+   "transferencias_6h": 1792,
+   "tenedores": 3,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 209,
+   "sin_movimiento_h": 13.2,
+   "senales": [
+    "serial_creator",
     "inactive"
    ]
   }
