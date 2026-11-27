@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-27 09:01",
+ "actualizado_utc": "2026-11-27 10:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 2983,
+  "lanzamientos_24h": 3223,
   "activos_ahora": 109,
-  "nunca_operados_24h_pct": 40.4,
-  "creadores_en_serie_7d": 174,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 84.8,
-  "lanzamientos_7d": 8868,
+  "nunca_operados_24h_pct": 38.9,
+  "creadores_en_serie_7d": 182,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 83.6,
+  "lanzamientos_7d": 9180,
   "ultimo_dia": {
    "dia": "2026-11-25",
    "lanzamientos": 1104,
@@ -127,13 +127,13 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 1.4,
+   "edad_h": 2.4,
    "transferencias": 3306,
    "transferencias_6h": 3304,
    "tenedores": 185,
    "top10_pct": 97.2,
-   "lanzamientos_creador_7d": 183,
-   "sin_movimiento_h": 1.1,
+   "lanzamientos_creador_7d": 188,
+   "sin_movimiento_h": 2.1,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -145,27 +145,44 @@
    "simbolo": "Bythos",
    "nombre": "Bythos Fi",
    "launchpad": "0x6e23…b7b5",
-   "edad_h": 2.9,
-   "transferencias": 6188,
-   "transferencias_6h": 3095,
-   "tenedores": 400,
+   "edad_h": 3.9,
+   "transferencias": 6486,
+   "transferencias_6h": 3170,
+   "tenedores": 393,
    "top10_pct": 27.0,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
   },
   {
+   "token": "0x8833a5ccb2f80aeb9d1cf4403d08866e66ae5e5b",
+   "simbolo": "GLITCH",
+   "nombre": "GLITCH",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 3066,
+   "transferencias_6h": 3062,
+   "tenedores": 180,
+   "top10_pct": 99.4,
+   "lanzamientos_creador_7d": 188,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
    "token": "0x166c98e16140a60a505ebc781f3a7ef95750293d",
    "simbolo": "HAVEN",
    "nombre": "HelloHaven AI",
    "launchpad": "Montra",
-   "edad_h": 3.3,
-   "transferencias": 5580,
-   "transferencias_6h": 2839,
-   "tenedores": 172,
-   "top10_pct": 47.0,
+   "edad_h": 4.3,
+   "transferencias": 5852,
+   "transferencias_6h": 2993,
+   "tenedores": 167,
+   "top10_pct": 46.6,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 0.1,
    "senales": []
   },
   {
@@ -173,16 +190,17 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 0.7,
+   "edad_h": 1.7,
    "transferencias": 2302,
    "transferencias_6h": 2290,
    "tenedores": 130,
    "top10_pct": 98.9,
-   "lanzamientos_creador_7d": 183,
-   "sin_movimiento_h": 0.5,
+   "lanzamientos_creador_7d": 188,
+   "sin_movimiento_h": 1.5,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -190,16 +208,17 @@
    "simbolo": "LEASH",
    "nombre": "Leash",
    "launchpad": "Eleos",
-   "edad_h": 0.9,
+   "edad_h": 1.9,
    "transferencias": 2231,
-   "transferencias_6h": 2219,
+   "transferencias_6h": 2218,
    "tenedores": 85,
    "top10_pct": 99.0,
    "lanzamientos_creador_7d": 48,
-   "sin_movimiento_h": 0.0,
+   "sin_movimiento_h": 1.0,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -207,16 +226,17 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 0.5,
+   "edad_h": 1.5,
    "transferencias": 2138,
    "transferencias_6h": 2136,
    "tenedores": 121,
    "top10_pct": 97.8,
-   "lanzamientos_creador_7d": 183,
-   "sin_movimiento_h": 0.3,
+   "lanzamientos_creador_7d": 188,
+   "sin_movimiento_h": 1.3,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -224,13 +244,13 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 19.7,
+   "edad_h": 20.7,
    "transferencias": 2135,
    "transferencias_6h": 2126,
    "tenedores": 121,
    "top10_pct": 80.3,
    "lanzamientos_creador_7d": 14,
-   "sin_movimiento_h": 17.1,
+   "sin_movimiento_h": 18.3,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -242,16 +262,17 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 1.0,
+   "edad_h": 2.0,
    "transferencias": 2130,
    "transferencias_6h": 2124,
    "tenedores": 126,
    "top10_pct": 98.2,
-   "lanzamientos_creador_7d": 183,
-   "sin_movimiento_h": 0.9,
+   "lanzamientos_creador_7d": 188,
+   "sin_movimiento_h": 1.8,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -259,13 +280,13 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 2.0,
+   "edad_h": 3.0,
    "transferencias": 1972,
    "transferencias_6h": 1970,
    "tenedores": 112,
    "top10_pct": 98.3,
-   "lanzamientos_creador_7d": 183,
-   "sin_movimiento_h": 2.0,
+   "lanzamientos_creador_7d": 188,
+   "sin_movimiento_h": 3.0,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -277,13 +298,13 @@
    "simbolo": "HEYOS",
    "nombre": "HeyOS",
    "launchpad": "Eleos",
-   "edad_h": 19.3,
+   "edad_h": 20.3,
    "transferencias": 1920,
    "transferencias_6h": 1918,
    "tenedores": 100,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 218,
-   "sin_movimiento_h": 16.9,
+   "lanzamientos_creador_7d": 228,
+   "sin_movimiento_h": 18.0,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -295,30 +316,44 @@
    "simbolo": "NUM",
    "nombre": "Numpay",
    "launchpad": "Eleos",
-   "edad_h": 21.5,
+   "edad_h": 22.5,
    "transferencias": 1883,
    "transferencias_6h": 1879,
    "tenedores": 2,
    "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 153,
-   "sin_movimiento_h": 18.6,
+   "lanzamientos_creador_7d": 158,
+   "sin_movimiento_h": 19.8,
    "senales": [
     "serial_creator",
     "inactive"
    ]
   },
   {
+   "token": "0x5fb38729f0908ae04aab4e98f007217280dbdebd",
+   "simbolo": "CEREBRA",
+   "nombre": "CEREBRA",
+   "launchpad": "Montra",
+   "edad_h": 3.5,
+   "transferencias": 3139,
+   "transferencias_6h": 1873,
+   "tenedores": 186,
+   "top10_pct": 41.9,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
+   "senales": []
+  },
+  {
    "token": "0x0e852cdab514414d4a4596e1d0728f054da56ed7",
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 20.2,
+   "edad_h": 21.2,
    "transferencias": 1856,
    "transferencias_6h": 1850,
    "tenedores": 113,
    "top10_pct": 97.5,
    "lanzamientos_creador_7d": 14,
-   "sin_movimiento_h": 17.5,
+   "sin_movimiento_h": 18.7,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -330,49 +365,17 @@
    "simbolo": "LEASH",
    "nombre": "Leash",
    "launchpad": "Eleos",
-   "edad_h": 1.6,
+   "edad_h": 2.6,
    "transferencias": 1841,
    "transferencias_6h": 1839,
    "tenedores": 68,
    "top10_pct": 26.1,
    "lanzamientos_creador_7d": 48,
-   "sin_movimiento_h": 1.5,
+   "sin_movimiento_h": 2.5,
    "senales": [
     "serial_creator",
     "inactive"
    ]
-  },
-  {
-   "token": "0x1a39c782161a8b9e2eb92ba36ad9d0b6754a7273",
-   "simbolo": "HEYOS",
-   "nombre": "HeyOS",
-   "launchpad": "Eleos",
-   "edad_h": 20.5,
-   "transferencias": 1830,
-   "transferencias_6h": 1823,
-   "tenedores": 103,
-   "top10_pct": 74.4,
-   "lanzamientos_creador_7d": 218,
-   "sin_movimiento_h": 11.4,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x5fb38729f0908ae04aab4e98f007217280dbdebd",
-   "simbolo": "CEREBRA",
-   "nombre": "CEREBRA",
-   "launchpad": "Montra",
-   "edad_h": 2.5,
-   "transferencias": 2879,
-   "transferencias_6h": 1783,
-   "tenedores": 189,
-   "top10_pct": 42.9,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
-   "senales": []
   }
  ]
 }
