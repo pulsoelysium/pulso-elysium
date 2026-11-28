@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-28 12:01",
+ "actualizado_utc": "2026-11-28 13:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 8449,
-  "activos_ahora": 406,
-  "nunca_operados_24h_pct": 66.0,
-  "creadores_en_serie_7d": 268,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 78.7,
-  "lanzamientos_7d": 17341,
+  "lanzamientos_24h": 8378,
+  "activos_ahora": 419,
+  "nunca_operados_24h_pct": 66.2,
+  "creadores_en_serie_7d": 270,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 78.5,
+  "lanzamientos_7d": 17642,
   "ultimo_dia": {
    "dia": "2026-11-26",
    "lanzamientos": 1895,
@@ -117,7 +117,7 @@
    "lanzamientos": 3730,
    "nunca_operados_pct": 0.1,
    "activos_24h_pct": 0.0,
-   "vida_mediana_min": 5
+   "vida_mediana_min": 6
   },
   {
    "contrato": "",
@@ -130,19 +130,67 @@
  ],
  "tokens": [
   {
+   "token": "0xe2d78621fd836b85e480fa46f20d775486a8425f",
+   "simbolo": "KORILA",
+   "nombre": "Korila",
+   "launchpad": "Uniswap v4 (direct)",
+   "edad_h": 10.0,
+   "transferencias": 17551,
+   "transferencias_6h": 2703,
+   "tenedores": 1122,
+   "top10_pct": 11.6,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
+   "senales": []
+  },
+  {
    "token": "0x00e96662dd3c88f8dd47688c52a381aae8ee9043",
    "simbolo": "USD1",
    "nombre": "Useless Shitty Dollar 1",
    "launchpad": "Eleos",
-   "edad_h": 0.5,
+   "edad_h": 1.5,
    "transferencias": 2620,
    "transferencias_6h": 2603,
    "tenedores": 101,
    "top10_pct": 69.9,
-   "lanzamientos_creador_7d": 119,
-   "sin_movimiento_h": 0.3,
+   "lanzamientos_creador_7d": 125,
+   "sin_movimiento_h": 1.3,
    "senales": [
-    "serial_creator"
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x21e7d3828b229c06bb6df9d4d68008c98d0cfc7b",
+   "simbolo": "DESK",
+   "nombre": "Desk",
+   "launchpad": "Montra",
+   "edad_h": 0.6,
+   "transferencias": 2320,
+   "transferencias_6h": 2296,
+   "tenedores": 11,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x288d130ec2592bedf798b7e5cb55af54e50e2b1c",
+   "simbolo": "MoonBoy",
+   "nombre": "MoonBoy",
+   "launchpad": "Eleos",
+   "edad_h": 0.3,
+   "transferencias": 2300,
+   "transferencias_6h": 2278,
+   "tenedores": 90,
+   "top10_pct": 90.4,
+   "lanzamientos_creador_7d": 125,
+   "sin_movimiento_h": 0.1,
+   "senales": [
+    "serial_creator",
+    "concentrated"
    ]
   },
   {
@@ -150,47 +198,102 @@
    "simbolo": "PURRLYSIUM",
    "nombre": "Purrlysium",
    "launchpad": "Eleos",
-   "edad_h": 0.8,
+   "edad_h": 1.8,
    "transferencias": 2016,
    "transferencias_6h": 1993,
    "tenedores": 80,
    "top10_pct": 99.2,
-   "lanzamientos_creador_7d": 112,
-   "sin_movimiento_h": 0.2,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 1.3,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xb2c447ebd17afe3438a3f14f262d0e39693307de",
+   "simbolo": "MoonBoy",
+   "nombre": "MoonBoy",
+   "launchpad": "Eleos",
+   "edad_h": 0.6,
+   "transferencias": 1732,
+   "transferencias_6h": 1695,
+   "tenedores": 74,
+   "top10_pct": 99.9,
+   "lanzamientos_creador_7d": 125,
+   "sin_movimiento_h": 0.4,
    "senales": [
     "serial_creator",
     "concentrated"
    ]
   },
   {
-   "token": "0xc5c9933c424c2bf7f8bd231f2bf9b3592893ee41",
-   "simbolo": "Elyziuma",
-   "nombre": "Elyziuma",
-   "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 23.8,
-   "transferencias": 16211,
-   "transferencias_6h": 1470,
-   "tenedores": 1396,
-   "top10_pct": 3.1,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
-   "senales": []
+   "token": "0x330d31b5c10e5e147d2d639ab6b8cebf3f5fc252",
+   "simbolo": "PURRLYSIUM",
+   "nombre": "Purrlysium",
+   "launchpad": "Eleos",
+   "edad_h": 2.7,
+   "transferencias": 1599,
+   "transferencias_6h": 1583,
+   "tenedores": 59,
+   "top10_pct": 32.8,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 2.4,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0x590f4482bbe21bd0d76175e15db6cf7f960de28e",
+   "simbolo": "MoonBoy",
+   "nombre": "MoonBoy",
+   "launchpad": "Eleos",
+   "edad_h": 0.9,
+   "transferencias": 1424,
+   "transferencias_6h": 1416,
+   "tenedores": 43,
+   "top10_pct": 92.7,
+   "lanzamientos_creador_7d": 125,
+   "sin_movimiento_h": 0.8,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0xaf5bb7c46efc2593ca3cf2c08532c814c4d29ce0",
+   "simbolo": "FROTH",
+   "nombre": "Froth",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 1390,
+   "transferencias_6h": 1378,
+   "tenedores": 65,
+   "top10_pct": 27.2,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator"
+   ]
   },
   {
    "token": "0x06ae70965f9b16a270e4c9ebd2b6c87a4d040ccd",
    "simbolo": "ZetaChain",
    "nombre": "ZetaChain",
    "launchpad": "Eleos",
-   "edad_h": 0.7,
+   "edad_h": 1.7,
    "transferencias": 1334,
    "transferencias_6h": 1326,
    "tenedores": 102,
    "top10_pct": 94.4,
-   "lanzamientos_creador_7d": 821,
-   "sin_movimiento_h": 0.5,
+   "lanzamientos_creador_7d": 825,
+   "sin_movimiento_h": 1.6,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -198,15 +301,49 @@
    "simbolo": "PURRLYSIUM",
    "nombre": "Purrlysium",
    "launchpad": "Eleos",
-   "edad_h": 0.6,
+   "edad_h": 1.6,
    "transferencias": 1317,
    "transferencias_6h": 1298,
    "tenedores": 52,
    "top10_pct": 99.4,
-   "lanzamientos_creador_7d": 112,
-   "sin_movimiento_h": 0.4,
+   "lanzamientos_creador_7d": 123,
+   "sin_movimiento_h": 1.4,
    "senales": [
     "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xc832a3ed2736832e6c033b550b2622151bfb6466",
+   "simbolo": "MoonBoy",
+   "nombre": "MoonBoy",
+   "launchpad": "Eleos",
+   "edad_h": 0.7,
+   "transferencias": 1300,
+   "transferencias_6h": 1288,
+   "tenedores": 56,
+   "top10_pct": 99.7,
+   "lanzamientos_creador_7d": 125,
+   "sin_movimiento_h": 0.6,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x573f682940edee72171451d12f7e1d4ee31c860a",
+   "simbolo": "FEMTOS",
+   "nombre": "Femtos",
+   "launchpad": "Montra",
+   "edad_h": 0.8,
+   "transferencias": 1229,
+   "transferencias_6h": 1165,
+   "tenedores": 15,
+   "top10_pct": 100.0,
+   "lanzamientos_creador_7d": 1,
+   "sin_movimiento_h": 0.4,
+   "senales": [
     "concentrated"
    ]
   },
@@ -215,154 +352,32 @@
    "simbolo": "HAPE",
    "nombre": "Hyper Ape",
    "launchpad": "Montra",
-   "edad_h": 0.7,
+   "edad_h": 1.7,
    "transferencias": 1164,
    "transferencias_6h": 1130,
    "tenedores": 7,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.3,
-   "senales": []
-  },
-  {
-   "token": "0xe409b8ff1a0607eff6a493770aa7959ac35a627f",
-   "simbolo": "AUTONOMO",
-   "nombre": "Autonomopad",
-   "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 1001,
-   "transferencias_6h": 999,
-   "tenedores": 0,
-   "top10_pct": 0,
-   "lanzamientos_creador_7d": 312,
-   "sin_movimiento_h": 0.1,
+   "sin_movimiento_h": 1.4,
    "senales": [
-    "serial_creator"
+    "inactive"
    ]
   },
   {
-   "token": "0x283d85a528b824dc279e52d596a6d6be3d1d4fb6",
-   "simbolo": "ELYSION",
-   "nombre": "Elysion Pad",
+   "token": "0x619f2b157f16f7739a21e82f3641c4bef440ee38",
+   "simbolo": "FROTH",
+   "nombre": "Froth",
    "launchpad": "Eleos",
-   "edad_h": 0.6,
-   "transferencias": 963,
-   "transferencias_6h": 957,
-   "tenedores": 2,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 312,
-   "sin_movimiento_h": 0.4,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x3242b7a937cb57ef48362776f438283f65845412",
-   "simbolo": "MoonBoy",
-   "nombre": "MoonBoy",
-   "launchpad": "Eleos",
-   "edad_h": 0.1,
-   "transferencias": 928,
-   "transferencias_6h": 920,
-   "tenedores": 40,
-   "top10_pct": 99.2,
-   "lanzamientos_creador_7d": 119,
-   "sin_movimiento_h": 0.0,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x90cef029cca3305423b2596c24a42ba471465b7c",
-   "simbolo": "TESTICLES",
-   "nombre": "TESTICLES",
-   "launchpad": "Montra",
-   "edad_h": 1.1,
-   "transferencias": 1047,
-   "transferencias_6h": 792,
-   "tenedores": 5,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 1,
+   "edad_h": 0.9,
+   "transferencias": 1147,
+   "transferencias_6h": 1128,
+   "tenedores": 45,
+   "top10_pct": 98.4,
+   "lanzamientos_creador_7d": 123,
    "sin_movimiento_h": 0.8,
-   "senales": []
-  },
-  {
-   "token": "0x371e35eb3ce03e66c62a00713efc6093d139efcd",
-   "simbolo": "qw",
-   "nombre": "qw",
-   "launchpad": "Eleos",
-   "edad_h": 0.4,
-   "transferencias": 753,
-   "transferencias_6h": 750,
-   "tenedores": 88,
-   "top10_pct": 99.4,
-   "lanzamientos_creador_7d": 821,
-   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator",
     "concentrated"
-   ]
-  },
-  {
-   "token": "0xa560d6ba22d78862668e5019cc6d77ffcc187aa8",
-   "simbolo": "Kuppy",
-   "nombre": "Kuppy",
-   "launchpad": "Eleos",
-   "edad_h": 1.0,
-   "transferencias": 710,
-   "transferencias_6h": 698,
-   "tenedores": 73,
-   "top10_pct": 99.9,
-   "lanzamientos_creador_7d": 821,
-   "sin_movimiento_h": 0.9,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0xe2d78621fd836b85e480fa46f20d775486a8425f",
-   "simbolo": "KORILA",
-   "nombre": "Korila",
-   "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 9.0,
-   "transferencias": 16849,
-   "transferencias_6h": 681,
-   "tenedores": 1132,
-   "top10_pct": 11.7,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
-   "senales": []
-  },
-  {
-   "token": "0xd4aa8e28eba74b11135b0d7f478646221dffc4c6",
-   "simbolo": "HENCE",
-   "nombre": "Hence Markets",
-   "launchpad": "Montra",
-   "edad_h": 0.3,
-   "transferencias": 623,
-   "transferencias_6h": 607,
-   "tenedores": 6,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.1,
-   "senales": []
-  },
-  {
-   "token": "0xce6ce40b310194f1b4e22c7b1f4d3818f997be21",
-   "simbolo": "WIRED",
-   "nombre": "WIRED",
-   "launchpad": "Eleos",
-   "edad_h": 0.8,
-   "transferencias": 470,
-   "transferencias_6h": 468,
-   "tenedores": 52,
-   "top10_pct": 59.9,
-   "lanzamientos_creador_7d": 821,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator"
    ]
   }
  ]
