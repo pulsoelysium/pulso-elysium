@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-28 18:01",
+ "actualizado_utc": "2026-11-28 19:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 8228,
-  "activos_ahora": 444,
-  "nunca_operados_24h_pct": 64.8,
-  "creadores_en_serie_7d": 283,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 76.8,
-  "lanzamientos_7d": 19588,
+  "lanzamientos_24h": 8271,
+  "activos_ahora": 449,
+  "nunca_operados_24h_pct": 63.6,
+  "creadores_en_serie_7d": 290,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 76.7,
+  "lanzamientos_7d": 20044,
   "ultimo_dia": {
    "dia": "2026-11-26",
    "lanzamientos": 1895,
@@ -134,11 +134,11 @@
    "simbolo": "TAPE",
    "nombre": "TapeStocks",
    "launchpad": "0x7647…32c7",
-   "edad_h": 2.8,
-   "transferencias": 13502,
-   "transferencias_6h": 6204,
-   "tenedores": 630,
-   "top10_pct": 24.1,
+   "edad_h": 3.8,
+   "transferencias": 14181,
+   "transferencias_6h": 6565,
+   "tenedores": 568,
+   "top10_pct": 24.9,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
@@ -148,17 +148,16 @@
    "simbolo": "ARCMAN",
    "nombre": "Arc-man",
    "launchpad": "Eleos",
-   "edad_h": 1.8,
-   "transferencias": 3448,
-   "transferencias_6h": 3418,
-   "tenedores": 200,
-   "top10_pct": 91.4,
+   "edad_h": 2.8,
+   "transferencias": 3449,
+   "transferencias_6h": 3419,
+   "tenedores": 199,
+   "top10_pct": 88.2,
    "lanzamientos_creador_7d": 11,
-   "sin_movimiento_h": 1.4,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   },
   {
@@ -166,17 +165,16 @@
    "simbolo": "ARCMAN",
    "nombre": "Arc-man",
    "launchpad": "Eleos",
-   "edad_h": 2.1,
-   "transferencias": 3215,
-   "transferencias_6h": 3209,
-   "tenedores": 184,
+   "edad_h": 3.1,
+   "transferencias": 3216,
+   "transferencias_6h": 3210,
+   "tenedores": 183,
    "top10_pct": 97.1,
    "lanzamientos_creador_7d": 11,
-   "sin_movimiento_h": 1.8,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   },
   {
@@ -184,13 +182,13 @@
    "simbolo": "AD",
    "nombre": "Artificial Doge",
    "launchpad": "Eleos",
-   "edad_h": 2.9,
+   "edad_h": 3.9,
    "transferencias": 3183,
    "transferencias_6h": 3178,
    "tenedores": 178,
    "top10_pct": 60.0,
    "lanzamientos_creador_7d": 11,
-   "sin_movimiento_h": 2.6,
+   "sin_movimiento_h": 3.5,
    "senales": [
     "serial_creator",
     "inactive"
@@ -201,11 +199,11 @@
    "simbolo": "KORILA",
    "nombre": "Korila",
    "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 15.0,
-   "transferencias": 18032,
-   "transferencias_6h": 2791,
-   "tenedores": 1123,
-   "top10_pct": 11.6,
+   "edad_h": 16.0,
+   "transferencias": 18069,
+   "transferencias_6h": 2816,
+   "tenedores": 1121,
+   "top10_pct": 11.5,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
@@ -215,13 +213,13 @@
    "simbolo": "Artcoin",
    "nombre": "Artcoin",
    "launchpad": "Eleos",
-   "edad_h": 1.0,
+   "edad_h": 2.0,
    "transferencias": 2670,
    "transferencias_6h": 2655,
    "tenedores": 89,
    "top10_pct": 80.9,
-   "lanzamientos_creador_7d": 172,
-   "sin_movimiento_h": 1.0,
+   "lanzamientos_creador_7d": 176,
+   "sin_movimiento_h": 1.9,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -233,13 +231,13 @@
    "simbolo": "USD1",
    "nombre": "Useless Shitty Dollar 1",
    "launchpad": "Eleos",
-   "edad_h": 6.5,
+   "edad_h": 7.5,
    "transferencias": 2620,
    "transferencias_6h": 2603,
    "tenedores": 101,
    "top10_pct": 69.9,
-   "lanzamientos_creador_7d": 172,
-   "sin_movimiento_h": 5.9,
+   "lanzamientos_creador_7d": 176,
+   "sin_movimiento_h": 6.8,
    "senales": [
     "serial_creator",
     "inactive"
@@ -250,13 +248,13 @@
    "simbolo": "MoonBoy",
    "nombre": "MoonBoy",
    "launchpad": "Eleos",
-   "edad_h": 2.2,
+   "edad_h": 3.2,
    "transferencias": 2584,
    "transferencias_6h": 2578,
    "tenedores": 100,
    "top10_pct": 77.9,
-   "lanzamientos_creador_7d": 172,
-   "sin_movimiento_h": 2.0,
+   "lanzamientos_creador_7d": 176,
+   "sin_movimiento_h": 2.9,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -268,31 +266,32 @@
    "simbolo": "DESK",
    "nombre": "Desk",
    "launchpad": "Montra",
-   "edad_h": 5.5,
+   "edad_h": 6.6,
    "transferencias": 2325,
    "transferencias_6h": 2299,
    "tenedores": 9,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.2,
-   "senales": []
+   "sin_movimiento_h": 1.2,
+   "senales": [
+    "inactive"
+   ]
   },
   {
    "token": "0x288d130ec2592bedf798b7e5cb55af54e50e2b1c",
    "simbolo": "MoonBoy",
    "nombre": "MoonBoy",
    "launchpad": "Eleos",
-   "edad_h": 5.3,
-   "transferencias": 2300,
-   "transferencias_6h": 2278,
-   "tenedores": 90,
-   "top10_pct": 90.4,
-   "lanzamientos_creador_7d": 172,
-   "sin_movimiento_h": 4.9,
+   "edad_h": 6.3,
+   "transferencias": 2301,
+   "transferencias_6h": 2279,
+   "tenedores": 89,
+   "top10_pct": 90.8,
+   "lanzamientos_creador_7d": 176,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   },
   {
@@ -300,17 +299,16 @@
    "simbolo": "MoonBoy",
    "nombre": "MoonBoy",
    "launchpad": "Eleos",
-   "edad_h": 1.6,
-   "transferencias": 2268,
-   "transferencias_6h": 2247,
-   "tenedores": 102,
-   "top10_pct": 78.0,
-   "lanzamientos_creador_7d": 172,
-   "sin_movimiento_h": 1.5,
+   "edad_h": 2.6,
+   "transferencias": 2269,
+   "transferencias_6h": 2248,
+   "tenedores": 101,
+   "top10_pct": 79.6,
+   "lanzamientos_creador_7d": 176,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   },
   {
@@ -318,13 +316,13 @@
    "simbolo": "MoonBoy",
    "nombre": "MoonBoy",
    "launchpad": "Eleos",
-   "edad_h": 2.4,
+   "edad_h": 3.4,
    "transferencias": 2116,
    "transferencias_6h": 2095,
    "tenedores": 93,
    "top10_pct": 81.2,
-   "lanzamientos_creador_7d": 172,
-   "sin_movimiento_h": 2.3,
+   "lanzamientos_creador_7d": 176,
+   "sin_movimiento_h": 3.2,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -336,16 +334,15 @@
    "simbolo": "SPSC",
    "nombre": "Shit Piss Skin Can",
    "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 2019,
-   "transferencias_6h": 1995,
-   "tenedores": 100,
-   "top10_pct": 86.1,
-   "lanzamientos_creador_7d": 172,
-   "sin_movimiento_h": 0.0,
+   "edad_h": 1.3,
+   "transferencias": 2020,
+   "transferencias_6h": 1996,
+   "tenedores": 99,
+   "top10_pct": 69.7,
+   "lanzamientos_creador_7d": 176,
+   "sin_movimiento_h": 0.3,
    "senales": [
-    "serial_creator",
-    "concentrated"
+    "serial_creator"
    ]
   },
   {
@@ -353,35 +350,33 @@
    "simbolo": "PURRLYSIUM",
    "nombre": "Purrlysium",
    "launchpad": "Eleos",
-   "edad_h": 6.8,
-   "transferencias": 2016,
-   "transferencias_6h": 1993,
-   "tenedores": 80,
-   "top10_pct": 99.2,
+   "edad_h": 7.8,
+   "transferencias": 2017,
+   "transferencias_6h": 1994,
+   "tenedores": 79,
+   "top10_pct": 98.5,
    "lanzamientos_creador_7d": 136,
-   "sin_movimiento_h": 5.9,
+   "sin_movimiento_h": 0.3,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   },
   {
-   "token": "0xb2c447ebd17afe3438a3f14f262d0e39693307de",
-   "simbolo": "MoonBoy",
-   "nombre": "MoonBoy",
+   "token": "0xc77de9e4e83c2ddff4fa16134f423004489ccc54",
+   "simbolo": "SPSC",
+   "nombre": "Shit Piss Skin Can",
    "launchpad": "Eleos",
-   "edad_h": 5.6,
-   "transferencias": 1732,
-   "transferencias_6h": 1695,
-   "tenedores": 74,
-   "top10_pct": 99.9,
-   "lanzamientos_creador_7d": 172,
-   "sin_movimiento_h": 5.2,
+   "edad_h": 0.6,
+   "transferencias": 1733,
+   "transferencias_6h": 1717,
+   "tenedores": 88,
+   "top10_pct": 97.8,
+   "lanzamientos_creador_7d": 176,
+   "sin_movimiento_h": 0.4,
    "senales": [
     "serial_creator",
-    "concentrated",
-    "inactive"
+    "concentrated"
    ]
   }
  ]
