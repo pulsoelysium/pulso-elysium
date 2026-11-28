@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-28 02:01",
+ "actualizado_utc": "2026-11-28 03:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 7768,
-  "activos_ahora": 246,
-  "nunca_operados_24h_pct": 55.4,
-  "creadores_en_serie_7d": 257,
+  "lanzamientos_24h": 7948,
+  "activos_ahora": 254,
+  "nunca_operados_24h_pct": 56.2,
+  "creadores_en_serie_7d": 256,
   "pct_lanzamientos_de_creadores_en_serie_7d": 80.2,
-  "lanzamientos_7d": 14957,
+  "lanzamientos_7d": 15198,
   "ultimo_dia": {
    "dia": "2026-11-26",
    "lanzamientos": 1895,
@@ -125,38 +125,22 @@
    "lanzamientos": 215,
    "nunca_operados_pct": 38.1,
    "activos_24h_pct": 13.0,
-   "vida_mediana_min": 91
+   "vida_mediana_min": 104
   }
  ],
  "tokens": [
-  {
-   "token": "0x47aaefa4b32762536afcf03d9351b36ffbd30ea6",
-   "simbolo": "SPEC",
-   "nombre": "Spectre",
-   "launchpad": "Eleos",
-   "edad_h": 1.1,
-   "transferencias": 3402,
-   "transferencias_6h": 3393,
-   "tenedores": 300,
-   "top10_pct": 64.6,
-   "lanzamientos_creador_7d": 60,
-   "sin_movimiento_h": 0.8,
-   "senales": [
-    "serial_creator"
-   ]
-  },
   {
    "token": "0x7fb1f1f6a6173faa5a48fe09c48c835d8255ae15",
    "simbolo": "Bythos",
    "nombre": "Bythos Fi",
    "launchpad": "0x6e23…b7b5",
-   "edad_h": 19.9,
-   "transferencias": 9575,
-   "transferencias_6h": 2529,
-   "tenedores": 248,
-   "top10_pct": 35.0,
+   "edad_h": 20.9,
+   "transferencias": 9649,
+   "transferencias_6h": 2510,
+   "tenedores": 253,
+   "top10_pct": 34.1,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.1,
+   "sin_movimiento_h": 0.0,
    "senales": []
   },
   {
@@ -164,27 +148,78 @@
    "simbolo": "HAVEN",
    "nombre": "HelloHaven AI",
    "launchpad": "Montra",
-   "edad_h": 20.3,
-   "transferencias": 6413,
+   "edad_h": 21.3,
+   "transferencias": 6420,
    "transferencias_6h": 2510,
-   "tenedores": 106,
-   "top10_pct": 68.1,
+   "tenedores": 103,
+   "top10_pct": 69.2,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.2,
+   "sin_movimiento_h": 0.3,
    "senales": []
+  },
+  {
+   "token": "0x0e6e3077e9fbb438d18138915bb32c62495e2eed",
+   "simbolo": "CI",
+   "nombre": "Christmass Inu",
+   "launchpad": "Eleos",
+   "edad_h": 1.0,
+   "transferencias": 2362,
+   "transferencias_6h": 2359,
+   "tenedores": 182,
+   "top10_pct": 85.6,
+   "lanzamientos_creador_7d": 71,
+   "sin_movimiento_h": 0.8,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x0e477c9160a63041b239fe856c4afc9777ba44f8",
+   "simbolo": "CI",
+   "nombre": "Christmass Inu",
+   "launchpad": "Eleos",
+   "edad_h": 0.8,
+   "transferencias": 2361,
+   "transferencias_6h": 2339,
+   "tenedores": 197,
+   "top10_pct": 81.6,
+   "lanzamientos_creador_7d": 71,
+   "sin_movimiento_h": 0.6,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x47aaefa4b32762536afcf03d9351b36ffbd30ea6",
+   "simbolo": "SPEC",
+   "nombre": "Spectre",
+   "launchpad": "Eleos",
+   "edad_h": 2.1,
+   "transferencias": 3402,
+   "transferencias_6h": 2073,
+   "tenedores": 300,
+   "top10_pct": 64.6,
+   "lanzamientos_creador_7d": 71,
+   "sin_movimiento_h": 1.8,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
   },
   {
    "token": "0x2cf71ec8a5b27be9281c2993fee91aee7a3ae7aa",
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 19.0,
+   "edad_h": 20.0,
    "transferencias": 1972,
    "transferencias_6h": 1970,
    "tenedores": 112,
    "top10_pct": 98.3,
    "lanzamientos_creador_7d": 268,
-   "sin_movimiento_h": 19.7,
+   "sin_movimiento_h": 20.7,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -196,13 +231,30 @@
    "simbolo": "CI",
    "nombre": "Christmass Inu",
    "launchpad": "Eleos",
-   "edad_h": 0.7,
+   "edad_h": 1.7,
    "transferencias": 1935,
    "transferencias_6h": 1933,
    "tenedores": 177,
    "top10_pct": 31.7,
-   "lanzamientos_creador_7d": 60,
-   "sin_movimiento_h": 0.5,
+   "lanzamientos_creador_7d": 71,
+   "sin_movimiento_h": 1.5,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xa9ebb535c006a1939d13d5bd5f6377450d5c74a2",
+   "simbolo": "CI",
+   "nombre": "Christmass Inu",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 1924,
+   "transferencias_6h": 1921,
+   "tenedores": 152,
+   "top10_pct": 56.8,
+   "lanzamientos_creador_7d": 71,
+   "sin_movimiento_h": 0.2,
    "senales": [
     "serial_creator"
    ]
@@ -212,13 +264,13 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 18.4,
+   "edad_h": 19.4,
    "transferencias": 3306,
    "transferencias_6h": 1861,
    "tenedores": 185,
    "top10_pct": 97.2,
    "lanzamientos_creador_7d": 268,
-   "sin_movimiento_h": 18.8,
+   "sin_movimiento_h": 19.9,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -230,34 +282,32 @@
    "simbolo": "LEASH",
    "nombre": "Leash",
    "launchpad": "Eleos",
-   "edad_h": 18.6,
+   "edad_h": 19.6,
    "transferencias": 1841,
    "transferencias_6h": 1839,
    "tenedores": 68,
    "top10_pct": 26.1,
    "lanzamientos_creador_7d": 72,
-   "sin_movimiento_h": 19.2,
+   "sin_movimiento_h": 20.3,
    "senales": [
     "serial_creator",
     "inactive"
    ]
   },
   {
-   "token": "0x76695752e3524728e250da84cd62f09859ccae97",
-   "simbolo": "Snowball",
-   "nombre": "Snowball",
+   "token": "0x188a36e74ab1a5c2100bb5e709f870c8b13b59d7",
+   "simbolo": "DEGENNEWS",
+   "nombre": "DEGENNEWS",
    "launchpad": "Eleos",
-   "edad_h": 2.2,
-   "transferencias": 1712,
-   "transferencias_6h": 1709,
-   "tenedores": 130,
-   "top10_pct": 71.5,
-   "lanzamientos_creador_7d": 60,
-   "sin_movimiento_h": 1.9,
+   "edad_h": 1.0,
+   "transferencias": 1714,
+   "transferencias_6h": 1711,
+   "tenedores": 100,
+   "top10_pct": 20.8,
+   "lanzamientos_creador_7d": 22,
+   "sin_movimiento_h": 0.9,
    "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
+    "serial_creator"
    ]
   },
   {
@@ -265,13 +315,13 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 18.5,
+   "edad_h": 19.5,
    "transferencias": 1662,
    "transferencias_6h": 1649,
    "tenedores": 90,
    "top10_pct": 95.9,
    "lanzamientos_creador_7d": 268,
-   "sin_movimiento_h": 6.8,
+   "sin_movimiento_h": 7.8,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -283,13 +333,13 @@
    "simbolo": "TURBO",
    "nombre": "Turbo on Robinhood",
    "launchpad": "Eleos",
-   "edad_h": 19.2,
+   "edad_h": 20.2,
    "transferencias": 1618,
    "transferencias_6h": 1608,
    "tenedores": 95,
    "top10_pct": 99.7,
    "lanzamientos_creador_7d": 268,
-   "sin_movimiento_h": 6.8,
+   "sin_movimiento_h": 7.8,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -301,13 +351,13 @@
    "simbolo": "CI",
    "nombre": "Christmass Inu",
    "launchpad": "Eleos",
-   "edad_h": 0.2,
-   "transferencias": 1599,
-   "transferencias_6h": 1587,
+   "edad_h": 1.2,
+   "transferencias": 1602,
+   "transferencias_6h": 1588,
    "tenedores": 146,
-   "top10_pct": 94.8,
-   "lanzamientos_creador_7d": 60,
-   "sin_movimiento_h": 0.0,
+   "top10_pct": 74.1,
+   "lanzamientos_creador_7d": 71,
+   "sin_movimiento_h": 0.9,
    "senales": [
     "serial_creator",
     "concentrated"
@@ -318,64 +368,16 @@
    "simbolo": "NVIDIA",
    "nombre": "NVIDIA",
    "launchpad": "Eleos",
-   "edad_h": 19.9,
+   "edad_h": 20.9,
    "transferencias": 1388,
    "transferencias_6h": 1386,
    "tenedores": 100,
    "top10_pct": 29.6,
    "lanzamientos_creador_7d": 760,
-   "sin_movimiento_h": 20.6,
+   "sin_movimiento_h": 21.7,
    "senales": [
     "serial_creator",
     "inactive"
-   ]
-  },
-  {
-   "token": "0xe4f6e717be305deaa8c6dbcab9721c1298c862c9",
-   "simbolo": "MOIRA",
-   "nombre": "Moira",
-   "launchpad": "0x2d5d…9c24",
-   "edad_h": 5.8,
-   "transferencias": 9160,
-   "transferencias_6h": 1377,
-   "tenedores": 270,
-   "top10_pct": 34.9,
-   "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.0,
-   "senales": []
-  },
-  {
-   "token": "0x2319df33b907fbb52bcc92b3208052ffb02208af",
-   "simbolo": "TURBO",
-   "nombre": "Turbo on Robinhood",
-   "launchpad": "Eleos",
-   "edad_h": 19.5,
-   "transferencias": 1357,
-   "transferencias_6h": 1353,
-   "tenedores": 76,
-   "top10_pct": 96.7,
-   "lanzamientos_creador_7d": 268,
-   "sin_movimiento_h": 20.3,
-   "senales": [
-    "serial_creator",
-    "concentrated",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x67eda47f2f95e05fd42dfadcd2b14e5fbe03d8eb",
-   "simbolo": "HI",
-   "nombre": "Hyper Inu",
-   "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 1342,
-   "transferencias_6h": 1336,
-   "tenedores": 1,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 207,
-   "sin_movimiento_h": 0.2,
-   "senales": [
-    "serial_creator"
    ]
   }
  ]
