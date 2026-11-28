@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-28 13:16",
+ "actualizado_utc": "2026-11-28 14:01",
  "seguimiento_desde": "2026-11-15",
  "resumen": {
-  "lanzamientos_24h": 8356,
-  "activos_ahora": 421,
-  "nunca_operados_24h_pct": 66.4,
-  "creadores_en_serie_7d": 270,
-  "pct_lanzamientos_de_creadores_en_serie_7d": 78.4,
-  "lanzamientos_7d": 17703,
+  "lanzamientos_24h": 8343,
+  "activos_ahora": 423,
+  "nunca_operados_24h_pct": 66.5,
+  "creadores_en_serie_7d": 272,
+  "pct_lanzamientos_de_creadores_en_serie_7d": 78.1,
+  "lanzamientos_7d": 17972,
   "ultimo_dia": {
    "dia": "2026-11-26",
    "lanzamientos": 1895,
@@ -134,11 +134,11 @@
    "simbolo": "KORILA",
    "nombre": "Korila",
    "launchpad": "Uniswap v4 (direct)",
-   "edad_h": 10.3,
-   "transferencias": 17624,
-   "transferencias_6h": 2749,
-   "tenedores": 1117,
-   "top10_pct": 11.6,
+   "edad_h": 11.0,
+   "transferencias": 17781,
+   "transferencias_6h": 2805,
+   "tenedores": 1123,
+   "top10_pct": 11.7,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
@@ -148,13 +148,13 @@
    "simbolo": "USD1",
    "nombre": "Useless Shitty Dollar 1",
    "launchpad": "Eleos",
-   "edad_h": 1.8,
+   "edad_h": 2.5,
    "transferencias": 2620,
    "transferencias_6h": 2603,
    "tenedores": 101,
    "top10_pct": 69.9,
-   "lanzamientos_creador_7d": 128,
-   "sin_movimiento_h": 1.6,
+   "lanzamientos_creador_7d": 133,
+   "sin_movimiento_h": 2.3,
    "senales": [
     "serial_creator",
     "inactive"
@@ -165,15 +165,16 @@
    "simbolo": "DESK",
    "nombre": "Desk",
    "launchpad": "Montra",
-   "edad_h": 0.8,
+   "edad_h": 1.6,
    "transferencias": 2320,
    "transferencias_6h": 2296,
    "tenedores": 11,
    "top10_pct": 100.0,
    "lanzamientos_creador_7d": 1,
-   "sin_movimiento_h": 0.3,
+   "sin_movimiento_h": 1.0,
    "senales": [
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -181,32 +182,17 @@
    "simbolo": "MoonBoy",
    "nombre": "MoonBoy",
    "launchpad": "Eleos",
-   "edad_h": 0.5,
+   "edad_h": 1.3,
    "transferencias": 2300,
    "transferencias_6h": 2278,
    "tenedores": 90,
    "top10_pct": 90.4,
-   "lanzamientos_creador_7d": 128,
-   "sin_movimiento_h": 0.4,
+   "lanzamientos_creador_7d": 133,
+   "sin_movimiento_h": 1.1,
    "senales": [
     "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x6b4919f89839a7aa6ffdfe7648bb4aa14977fb62",
-   "simbolo": "FROTH",
-   "nombre": "Froth",
-   "launchpad": "Eleos",
-   "edad_h": 0.3,
-   "transferencias": 2219,
-   "transferencias_6h": 2205,
-   "tenedores": 90,
-   "top10_pct": 22.8,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.0,
-   "senales": [
-    "serial_creator"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -214,13 +200,13 @@
    "simbolo": "PURRLYSIUM",
    "nombre": "Purrlysium",
    "launchpad": "Eleos",
-   "edad_h": 2.1,
+   "edad_h": 2.8,
    "transferencias": 2016,
    "transferencias_6h": 1993,
    "tenedores": 80,
    "top10_pct": 99.2,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 1.5,
+   "lanzamientos_creador_7d": 126,
+   "sin_movimiento_h": 2.2,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -232,47 +218,13 @@
    "simbolo": "MoonBoy",
    "nombre": "MoonBoy",
    "launchpad": "Eleos",
-   "edad_h": 0.8,
+   "edad_h": 1.6,
    "transferencias": 1732,
    "transferencias_6h": 1695,
    "tenedores": 74,
    "top10_pct": 99.9,
-   "lanzamientos_creador_7d": 128,
-   "sin_movimiento_h": 0.7,
-   "senales": [
-    "serial_creator",
-    "concentrated"
-   ]
-  },
-  {
-   "token": "0x330d31b5c10e5e147d2d639ab6b8cebf3f5fc252",
-   "simbolo": "PURRLYSIUM",
-   "nombre": "Purrlysium",
-   "launchpad": "Eleos",
-   "edad_h": 3.0,
-   "transferencias": 1599,
-   "transferencias_6h": 1583,
-   "tenedores": 59,
-   "top10_pct": 32.8,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 2.6,
-   "senales": [
-    "serial_creator",
-    "inactive"
-   ]
-  },
-  {
-   "token": "0x590f4482bbe21bd0d76175e15db6cf7f960de28e",
-   "simbolo": "MoonBoy",
-   "nombre": "MoonBoy",
-   "launchpad": "Eleos",
-   "edad_h": 1.2,
-   "transferencias": 1424,
-   "transferencias_6h": 1416,
-   "tenedores": 43,
-   "top10_pct": 92.7,
-   "lanzamientos_creador_7d": 128,
-   "sin_movimiento_h": 1.1,
+   "lanzamientos_creador_7d": 133,
+   "sin_movimiento_h": 1.4,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -280,36 +232,89 @@
    ]
   },
   {
+   "token": "0x330d31b5c10e5e147d2d639ab6b8cebf3f5fc252",
+   "simbolo": "PURRLYSIUM",
+   "nombre": "Purrlysium",
+   "launchpad": "Eleos",
+   "edad_h": 3.7,
+   "transferencias": 1599,
+   "transferencias_6h": 1583,
+   "tenedores": 59,
+   "top10_pct": 32.8,
+   "lanzamientos_creador_7d": 126,
+   "sin_movimiento_h": 3.3,
+   "senales": [
+    "serial_creator",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xde927e9992459402312792fa37e7cf53bef25073",
+   "simbolo": "FROTH",
+   "nombre": "Froth",
+   "launchpad": "Eleos",
+   "edad_h": 0.2,
+   "transferencias": 1503,
+   "transferencias_6h": 1499,
+   "tenedores": 176,
+   "top10_pct": 85.3,
+   "lanzamientos_creador_7d": 126,
+   "sin_movimiento_h": 0.0,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
+   "token": "0x590f4482bbe21bd0d76175e15db6cf7f960de28e",
+   "simbolo": "MoonBoy",
+   "nombre": "MoonBoy",
+   "launchpad": "Eleos",
+   "edad_h": 1.9,
+   "transferencias": 1424,
+   "transferencias_6h": 1416,
+   "tenedores": 43,
+   "top10_pct": 92.7,
+   "lanzamientos_creador_7d": 133,
+   "sin_movimiento_h": 1.8,
+   "senales": [
+    "serial_creator",
+    "concentrated",
+    "inactive"
+   ]
+  },
+  {
+   "token": "0xc5fe58c25e0cfe5adcc78bde7e9cd1ca473d5c53",
+   "simbolo": "MoonBoy",
+   "nombre": "MoonBoy",
+   "launchpad": "Eleos",
+   "edad_h": 0.4,
+   "transferencias": 1428,
+   "transferencias_6h": 1402,
+   "tenedores": 62,
+   "top10_pct": 99.9,
+   "lanzamientos_creador_7d": 133,
+   "sin_movimiento_h": 0.2,
+   "senales": [
+    "serial_creator",
+    "concentrated"
+   ]
+  },
+  {
    "token": "0xaf5bb7c46efc2593ca3cf2c08532c814c4d29ce0",
    "simbolo": "FROTH",
    "nombre": "Froth",
    "launchpad": "Eleos",
-   "edad_h": 0.7,
+   "edad_h": 1.4,
    "transferencias": 1390,
    "transferencias_6h": 1378,
    "tenedores": 65,
    "top10_pct": 27.2,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 0.5,
-   "senales": [
-    "serial_creator"
-   ]
-  },
-  {
-   "token": "0x88aa963688fa7f485c5c3d6aa63056bfa69a3e84",
-   "simbolo": "MoonBoy",
-   "nombre": "MoonBoy",
-   "launchpad": "Eleos",
-   "edad_h": 0.1,
-   "transferencias": 1382,
-   "transferencias_6h": 1360,
-   "tenedores": 51,
-   "top10_pct": 100.0,
-   "lanzamientos_creador_7d": 128,
-   "sin_movimiento_h": 0.1,
+   "lanzamientos_creador_7d": 126,
+   "sin_movimiento_h": 1.2,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "inactive"
    ]
   },
   {
@@ -317,13 +322,13 @@
    "simbolo": "ZetaChain",
    "nombre": "ZetaChain",
    "launchpad": "Eleos",
-   "edad_h": 2.0,
+   "edad_h": 2.7,
    "transferencias": 1334,
    "transferencias_6h": 1326,
    "tenedores": 102,
    "top10_pct": 94.4,
    "lanzamientos_creador_7d": 825,
-   "sin_movimiento_h": 1.8,
+   "sin_movimiento_h": 2.5,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -335,13 +340,13 @@
    "simbolo": "PURRLYSIUM",
    "nombre": "Purrlysium",
    "launchpad": "Eleos",
-   "edad_h": 1.8,
+   "edad_h": 2.6,
    "transferencias": 1317,
    "transferencias_6h": 1298,
    "tenedores": 52,
    "top10_pct": 99.4,
-   "lanzamientos_creador_7d": 123,
-   "sin_movimiento_h": 1.6,
+   "lanzamientos_creador_7d": 126,
+   "sin_movimiento_h": 2.4,
    "senales": [
     "serial_creator",
     "concentrated",
@@ -353,16 +358,17 @@
    "simbolo": "MoonBoy",
    "nombre": "MoonBoy",
    "launchpad": "Eleos",
-   "edad_h": 1.0,
+   "edad_h": 1.7,
    "transferencias": 1300,
    "transferencias_6h": 1288,
    "tenedores": 56,
    "top10_pct": 99.7,
-   "lanzamientos_creador_7d": 128,
-   "sin_movimiento_h": 0.9,
+   "lanzamientos_creador_7d": 133,
+   "sin_movimiento_h": 1.6,
    "senales": [
     "serial_creator",
-    "concentrated"
+    "concentrated",
+    "inactive"
    ]
   },
   {
@@ -370,11 +376,11 @@
    "simbolo": "HYDUO",
    "nombre": "Hyduo",
    "launchpad": "Montra",
-   "edad_h": 2.2,
-   "transferencias": 1904,
-   "transferencias_6h": 1240,
-   "tenedores": 219,
-   "top10_pct": 29.3,
+   "edad_h": 2.9,
+   "transferencias": 2201,
+   "transferencias_6h": 1258,
+   "tenedores": 210,
+   "top10_pct": 29.8,
    "lanzamientos_creador_7d": 1,
    "sin_movimiento_h": 0.0,
    "senales": []
